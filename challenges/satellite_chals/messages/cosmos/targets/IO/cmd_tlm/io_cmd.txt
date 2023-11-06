@@ -1,0 +1,69 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND IO NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 0, 0) %>
+COMMAND IO RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 1, 0) %>
+COMMAND IO FILE_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 2, 72) %>
+  APPEND_PARAMETER PATH 512 STRING   "default" "TODO: FILL ME IN"
+  APPEND_PARAMETER START 32 UINT  MIN_UINT32 MAX_UINT32 0 "TODO: FILL ME IN"
+  APPEND_PARAMETER N_BYTES 32 UINT  MIN_UINT32 MAX_UINT32 0 "TODO: FILL ME IN"
+COMMAND IO FILTER_MODIFY <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 3, 3) %>
+  APPEND_PARAMETER MSGID 16 UINT  MIN_UINT16 MAX_UINT16 0 "TODO: FILL ME IN"
+  APPEND_PARAMETER ALLOWED 8 UINT  MIN_UINT8 MAX_UINT8 0 "TODO: FILL ME IN"
+COMMAND IO FILTER_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 4, 2) %>
+  APPEND_PARAMETER MSGID 16 UINT  MIN_UINT16 MAX_UINT16 0 "TODO: FILL ME IN"
+COMMAND IO FILTER_DEFAULTS <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 5, 0) %>
+COMMAND IO HOUSE_KEEPING_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 6, 0) %>
+COMMAND IO DEVICE_POWER <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 7, 2) %>
+  APPEND_PARAMETER DEVICE 8 UINT  MIN_UINT8 MAX_UINT8 0 "IMU=3, IMAGER=4, GPS=5, SUN=6, STAR=9 "
+  APPEND_PARAMETER POWER 8 UINT  MIN_UINT8 MAX_UINT8 0 "1=on, 0=off"
+COMMAND IO ACB_POINT <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 8, 16) %>
+  APPEND_ARRAY_PARAMETER Q_AXIS 32 FLOAT 96   "Quaterniom Axis J2000->Body"
+  APPEND_PARAMETER Q_SCALAR 32 FLOAT  MIN_FLOAT32 MAX_FLOAT32 0 "Quaternion scalar"
+COMMAND IO ACB_GET_TLM <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 9, 0) %>
+COMMAND IO NOVATEL_CMD <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 11, 259) %>
+  APPEND_PARAMETER ID 16 INT  MIN_INT16 MAX_INT16 0 "TODO: FILL ME IN"
+  APPEND_PARAMETER TYPE 8 UINT  MIN_UINT8 MAX_UINT8 0 "TODO: FILL ME IN"
+  APPEND_PARAMETER COMMAND 2048 STRING   "default" "TODO: FILL ME IN"
+COMMAND IO IMAGE_SNAP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 13, 32) %>
+  APPEND_PARAMETER IMG 256 STRING   "default" "TODO: FILL ME IN"
+COMMAND IO IMAGE_LIST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 14, 0) %>
+COMMAND IO IMAGE_GET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 15, 64) %>
+  APPEND_PARAMETER IMG 256 STRING   "lolcat.jpg" "image file name on camera"
+  APPEND_PARAMETER DOWNLOAD_DIRECTORY 256 STRING   "/tmp/fsw/images/" "Download image file to this directory. Trailing slash required."
+COMMAND IO IMAGE_DELETE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 16, 32) %>
+  APPEND_PARAMETER IMG 256 STRING   "default" "TODO: FILL ME IN"
+COMMAND IO UPDATE_IO_CONFIG <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 17, 7) %>
+  APPEND_PARAMETER CHUNK_SIZE 16 UINT  256 1024 256 "Downlink chunk size"
+  APPEND_PARAMETER WAIT_NACK_HIGH_DELAY 16 UINT  0 100000 4700 "Number of usec to wait"
+  APPEND_PARAMETER WAIT_NACK_HIGH_FLAG 8 UINT  0 1 0 "1=enabled, 0=disabled"
+  APPEND_PARAMETER MUX_DELAY 16 UINT  0 100000 5000 "Number of usec to wait"
+COMMAND IO SYNC_TIME <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 18, 0) %>
+COMMAND IO TIME_QUERY <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 19, 0) %>
+COMMAND IO SET_TIME <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 20, 8) %>
+  APPEND_PARAMETER SECONDS 32 UINT  MIN_UINT32 MAX_UINT32 0 "Whole number of seconds"
+  APPEND_PARAMETER MICROSECONDS 32 UINT  0 1000000 0 "whole number of micro-seconds"
+COMMAND IO SET_EXPOSURE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("IO", Moonlighter::MsgId::IO_CMD_ID, 21, 4) %>
+  APPEND_PARAMETER MICROSECS 32 UINT  0 1000000 250 "Exposure in useconds"

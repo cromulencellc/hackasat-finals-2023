@@ -1,0 +1,5 @@
+# Containers
+A library of templatized header only containers that can be used in addition to stl
+
+## Exceptions
+- These containers may throw a c++ excpetion but only in exceptional circumstances

@@ -1,0 +1,8 @@
+{
+  "username": "admin",
+  "passwords": {
+    "challenges.dc31.satellitesabove.me/admin/admin.html": "Pr@ctice1s0ver!",
+    "flag": "flag{JRJLUim7NCAcflVj}"
+  },
+  "account_password": "jasmine-outskirts-class"
+}

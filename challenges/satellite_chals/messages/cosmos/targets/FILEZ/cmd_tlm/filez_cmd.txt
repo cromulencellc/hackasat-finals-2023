@@ -1,0 +1,33 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND FILEZ NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("FILEZ", Moonlighter::MsgId::FILEZ_CMD_ID, 0, 0) %>
+COMMAND FILEZ RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("FILEZ", Moonlighter::MsgId::FILEZ_CMD_ID, 1, 0) %>
+COMMAND FILEZ SNIPPET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("FILEZ", Moonlighter::MsgId::FILEZ_CMD_ID, 2, 1069) %>
+  APPEND_PARAMETER FILENAME 256 STRING   "file.txt" "file name for upload"
+  APPEND_PARAMETER TOTAL_FILE_SIZE 32 UINT  0 33554432 0 "total size of file to be uploaded in bytes"
+  APPEND_PARAMETER START_SEEK 32 UINT  0 33554432 0 "The snippet in this packet starts at this byte of the file"
+  APPEND_PARAMETER PACKET_SIZE 32 UINT  0 1024 0 "size in bytes of data in this snippet packet"
+  APPEND_ARRAY_PARAMETER PACKET 8 UINT 8192   "data bytes buffer for this snippet packet"
+  APPEND_PARAMETER PACKET_STATUS 8 UINT  0 2 0 "Snippet status control flag. 0 - None, 1 - Short, 2 - Full"
+COMMAND FILEZ DELETE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("FILEZ", Moonlighter::MsgId::FILEZ_CMD_ID, 3, 64) %>
+  APPEND_PARAMETER PATH 512 STRING   "/tmp/fsw/tlm/final/file.txt" "Absolute path to file to delete"
+COMMAND FILEZ DIR_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("FILEZ", Moonlighter::MsgId::FILEZ_CMD_ID, 4, 96) %>
+  APPEND_PARAMETER PATH 512 STRING   "/tmp/fsw/tlm/final/" "Path for directory request"
+  APPEND_PARAMETER PATTERN 256 STRING   "tlm.*\.final" "Regex pattern for file request inside path directory"
+COMMAND FILEZ COPY <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("FILEZ", Moonlighter::MsgId::FILEZ_CMD_ID, 5, 129) %>
+  APPEND_PARAMETER SRC 512 STRING   "/tmp/fsw/upload/file.txt" "Source path for file copy"
+  APPEND_PARAMETER DST 512 STRING   "/tmp/fsw/upload/file.txt" "Source path for file copy"
+  APPEND_PARAMETER OVERWRITE 8 UINT  0 1 0 "Overwrite dst flag. 0=no, 1=yes"
+COMMAND FILEZ UNPACK <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("FILEZ", Moonlighter::MsgId::FILEZ_CMD_ID, 6, 96) %>
+  APPEND_PARAMETER PATH 512 STRING   "default" "fully qualified path of file folder"
+  APPEND_PARAMETER FILE 256 STRING   "default" "file name"

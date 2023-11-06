@@ -1,0 +1,14 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND GPS NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GPS", Moonlighter::MsgId::GPS_CMD_ID, 0, 0) %>
+COMMAND GPS RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GPS", Moonlighter::MsgId::GPS_CMD_ID, 1, 0) %>
+COMMAND GPS CONFIG <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GPS", Moonlighter::MsgId::GPS_CMD_ID, 2, 3) %>
+  APPEND_PARAMETER HOUSEKEEPING_RATE 8 UINT  10 200 0 "heartbeats per hk tlm"
+  APPEND_PARAMETER POLLING_RATE 8 UINT  10 200 0 "heartbeats per poll"
+  APPEND_PARAMETER POLLING_ENABLED 8 UINT  0 1 0 "Polling enabled = 1"

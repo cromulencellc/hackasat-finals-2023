@@ -1,0 +1,316 @@
+2023-06-29 20:31:41.601000+00:00 - Vito: # Welcome to Hack-A-Sat Finals chat!
+
+1. These guidelines do not supersede the official rules; they’re here to make chatting in Slack useful and productive for all of us.
+2. The goals of these channels are to address hardware, infrastructure, and other gameplay issues.
+3. You should have access to both #finals-2023 and #finals-2023-TEAMNAME . Please let Mission Control know if you don’t! Do that now!
+4. All #finals-2023 and #finals-2023-TEAMNAME conversations will be made public after the game ends. Don’t chat anything you wish to keep private. Don’t chat personally identifiable information.
+5. Please be thoughtful with which team members engage in communication with organizers. While we don’t want your team to miss important details due to someone taking a break or being busy, we also don’t want to spend a bunch of time getting confused or de-conflicting what more people want. 
+6. That said, it’s totally okay to have your whole team in both the #finals-2023 and #finals-2023-TEAMNAME rooms reading.
+7. Sending private or direct messages to a game operator will make it more difficult for operators and other members of your team to know what’s going on. Please don’t. 
+8. Both #finals-2023 and #finals-2023-TEAMNAME can be used for official communication through the end of Hack-A-Sat finals. shout@hackasat.com is also still available for official communication. 
+9. Please review the contest rules and keep an eye out for updates at https://www.hackasat.com/
+2023-06-29 20:33:14.954000+00:00 - Vito: @jmp
+2023-06-29 21:40:40.515000+00:00 - Vito: <@USER-SNOWFLAKE-ID-HERE> will turn into a mention btw
+2023-06-29 21:40:51.713000+00:00 - inukai: It looks like we're missing @​130653190835142656
+2023-06-29 21:40:58.218000+00:00 - Vito: with the angle brackets
+2023-06-29 21:41:06.984000+00:00 - inukai: @rain
+2023-06-29 21:41:07.733000+00:00 - Vito: @rain
+2023-06-29 21:41:19.263000+00:00 - inukai: Ah
+2023-06-29 21:41:26.039000+00:00 - Vito: added @rain
+2023-06-30 02:25:31.186000+00:00 - inukai: @deleted-user
+2023-06-30 03:33:08.448000+00:00 - Vito: i don't know that they're in this guild; can you pass them https://discord.gg/hYRCbUjcuf ?
+2023-07-09 21:42:05.468000+00:00 - inukai: @mission control  can we get @wparks added?
+2023-07-09 22:36:09.083000+00:00 - Vito: done
+2023-07-25 19:16:23.504000+00:00 - Vito: @sheriffsparks wireguard key received, what's your availability like tomorrow?
+2023-07-25 23:13:55.345000+00:00 - sheriffsparks: I'm in AEST are you in EST? I'm up fairly early so something in your after/evening would best. Would this work: <t:1690401600:F>?
+2023-07-25 23:46:47.554000+00:00 - Vito: i'm in us eastern, yeah
+2023-07-25 23:46:51.698000+00:00 - Vito: and that time tomorrow should work 🙂
+2023-07-26 20:01:30.295000+00:00 - Vito: 
+2023-07-26 20:01:55.996000+00:00 - sheriffsparks: I don't have permissions to speak in this channel
+2023-07-26 20:03:12.648000+00:00 - Vito: https://itworks.2023.hackasat.com/
+2023-08-11 07:02:52.736000+00:00 - inukai: @mission control add @Casseus plz
+2023-08-11 15:37:31.116000+00:00 - -MoA- Shaun: @Vito : can you reset the password for "Shaun"
+2023-08-11 15:42:11.257000+00:00 - Vito: @finals-2023 for discord additions, please `<@numeric-id>` them in your team channel, makes it easier to authenticate requests
+2023-08-11 15:42:49.697000+00:00 - jchristman: @Vito , did you mean to post that in #finals-2023 instead of here?
+2023-08-11 16:00:51.409000+00:00 - Cydonia: Good morning your api key is markov-gauss-blind-willow
+2023-08-11 16:52:54.753000+00:00 - inukai: @OHHHHH_KEVIN add plz @mission control
+2023-08-11 16:53:57.803000+00:00 - Vito: added
+2023-08-11 17:11:54.778000+00:00 - jchristman: For regatta, I have username/password but not email. I'm not sure what email I used for the prior competitions
+2023-08-11 17:12:06.100000+00:00 - jchristman: Password reset link doesn't work
+2023-08-11 17:12:48.787000+00:00 - Vito: can you share with someone who has access?
+2023-08-11 17:13:01.750000+00:00 - jchristman: I'll ask
+2023-08-11 17:16:25.907000+00:00 - -MoA- Shaun: Can we get a sign at the end of our table saying this is a competition?
+2023-08-11 17:16:36.837000+00:00 - -MoA- Shaun: everyone trying to take our chairs
+2023-08-11 17:18:22.154000+00:00 - meenmachine: We'll see what we can do
+2023-08-11 17:25:19.215000+00:00 - inukai: @Vito can we make a generic regatta cred for the team? Something like jmp:password so we can just pass that around?
+2023-08-11 17:25:39.271000+00:00 - inukai: @mission control I suppose should probably ping all the admin
+2023-08-11 17:25:56.287000+00:00 - Vito: vito's the only one who can work regatta lol
+2023-08-11 17:31:15.025000+00:00 - Vito: dm'd you an account
+2023-08-11 17:32:57.578000+00:00 - inukai: Thanks!
+2023-08-11 17:52:37.458000+00:00 - -MoA- Shaun: @Vito : with the tylor account
+2023-08-11 17:53:15.482000+00:00 - Vito: refresh? daddy wants a stack trace
+2023-08-11 17:53:30.699000+00:00 - Vito: thx
+2023-08-11 17:53:56.863000+00:00 - -MoA- Shaun: 
+2023-08-11 17:54:49.322000+00:00 - -MoA- Shaun: 
+2023-08-11 17:55:04.381000+00:00 - -MoA- Shaun: 
+2023-08-11 17:56:55.389000+00:00 - -MoA- Shaun: sorry current:
+2023-08-11 18:09:02.239000+00:00 - Vito: try now
+2023-08-11 18:09:07.936000+00:00 - Vito: i forgot to put the new user on a team
+2023-08-11 18:09:11.190000+00:00 - -MoA- Shaun: just did and it works
+2023-08-11 18:09:13.749000+00:00 - -MoA- Shaun: thanks
+2023-08-11 18:09:31.945000+00:00 - Vito: thanks for your patience
+2023-08-11 18:23:15.563000+00:00 - Cydonia: Feedback on your script `jmp_0.lua` this script would have generated an extra gps telemetry packet at the time it was triggered and would have completed running. the print statement would go to the log
+2023-08-11 18:24:01.577000+00:00 - jchristman: so we would have received the feedback from the log?
+2023-08-11 18:24:55.536000+00:00 - Cydonia: on the NEXT contact we would have downloaded the log and you could have seen the print
+2023-08-11 18:25:18.346000+00:00 - -MoA- Shaun: @Cydonia is there a reason our task window is always blank?
+2023-08-11 18:26:34.169000+00:00 - SafeMode: have you tried to submit something?
+2023-08-11 18:26:35.760000+00:00 - -MoA- Shaun: e.g. can you confirm if
+```
+{
+  "time": "2023-08-11 20:10:00",
+  "id": 0
+}
+```
+script applied?
+2023-08-11 18:26:36.932000+00:00 - -MoA- Shaun: yes
+2023-08-11 18:26:41.839000+00:00 - SafeMode: standby
+2023-08-11 18:27:07.775000+00:00 - SafeMode: did you upload 3 mins ago?
+2023-08-11 18:27:19.383000+00:00 - -MoA- Shaun: a couple of times, yes
+2023-08-11 18:27:37.278000+00:00 - SafeMode: i see two scripts upload for you guys
+2023-08-11 18:27:43.891000+00:00 - -MoA- Shaun: 0 and 1 correct?
+2023-08-11 18:27:47.570000+00:00 - SafeMode: correct
+2023-08-11 18:27:54.883000+00:00 - -MoA- Shaun: is there a reason we can't see it on the board?
+2023-08-11 18:29:28.117000+00:00 - SafeMode: standby
+2023-08-11 18:29:52.044000+00:00 - SafeMode: what actions did you take specifically?
+2023-08-11 18:30:11.776000+00:00 - SafeMode: just /tasking/upload_script?
+2023-08-11 18:30:29.890000+00:00 - -MoA- Shaun: upload script 0 and 1, then run_script with these params:
+```
+{
+  "time": "2023-08-11 20:10:00",
+  "id": 0
+}
+```
+2023-08-11 18:30:42.922000+00:00 - -MoA- Shaun: ```
+{
+  "message": "Request submitted successfully"
+}
+```
+2023-08-11 18:30:58.208000+00:00 - SafeMode: ok response incoming on @finals-2023
+2023-08-11 18:33:49.152000+00:00 - SafeMode: do you see my response?
+2023-08-11 18:33:57.134000+00:00 - SafeMode: does this answer you question/issue?
+2023-08-11 18:34:21.397000+00:00 - -MoA- Shaun: No, is our run_script command not applying?
+2023-08-11 18:34:55.204000+00:00 - SafeMode: if its not showing up then yes, let me know another quick check
+2023-08-11 18:35:22.454000+00:00 - -MoA- Shaun: 
+2023-08-11 18:35:34.981000+00:00 - -MoA- Shaun: 
+2023-08-11 18:38:16.844000+00:00 - SafeMode: @Cydonia  is going to come by
+2023-08-11 18:40:02.852000+00:00 - Oneup: regatta shows two challenges that aren't on moonlighter-facts, "Silver Medal" and "Halide Medal". Are these separate challenges from Shutterbug and Unintended Bug?
+2023-08-11 18:51:44.153000+00:00 - Deadwood: No, same challenges. Names evolved sorry for the confusion.
+2023-08-11 18:52:22.611000+00:00 - SafeMode: we will post response in @finals-2023 on yur questons @Oneup
+2023-08-11 18:53:50.145000+00:00 - Oneup: no worries, thanks for clarifying
+2023-08-11 19:10:59.463000+00:00 - Oneup: is there any specific information that we need to include in the telemetry message for Script Kiddie
+2023-08-11 19:12:34.197000+00:00 - Oneup: if it were possible to do such a thing
+2023-08-11 19:14:32.822000+00:00 - Cydonia: As long as it is a script kiddie telemetry message you will get points, any data you may or may not be able to add is not relevant to scoring and just for lols
+2023-08-11 19:19:23.484000+00:00 - -MoA- Shaun: @Cydonia : can you confirm we are downloading picture id: 1?
+2023-08-11 19:19:42.199000+00:00 - -MoA- Shaun: I do not know if when we change from id 0 to 1 at the same time if it keeps
+2023-08-11 19:19:53.398000+00:00 - -MoA- Shaun: or if it throws it out and only uses the origional request
+2023-08-11 19:19:59.280000+00:00 - -MoA- Shaun: 
+2023-08-11 19:22:01.829000+00:00 - Cydonia: i dont really understand the question
+2023-08-11 19:22:21.197000+00:00 - -MoA- Shaun: origionally I requested a download of image 0 at 20:16:00
+2023-08-11 19:22:35.386000+00:00 - -MoA- Shaun: I submitted another quest to change it to image 1 at 20:16:00
+2023-08-11 19:22:42.126000+00:00 - -MoA- Shaun: which one will it pick?
+2023-08-11 19:22:47.877000+00:00 - Cydonia: ahh ok
+2023-08-11 19:22:54.985000+00:00 - Cydonia: the request image also has an id field
+2023-08-11 19:22:58.439000+00:00 - -MoA- Shaun: yes
+2023-08-11 19:23:10.478000+00:00 - -MoA- Shaun: I submitted the request for 0
+2023-08-11 19:23:18.982000+00:00 - -MoA- Shaun: but then submitted another request for 1
+2023-08-11 19:23:36.612000+00:00 - -MoA- Shaun: will it keep the origional, or override the origional request
+2023-08-11 19:23:36.913000+00:00 - Cydonia: were the tasks at the exact same time
+2023-08-11 19:23:40.867000+00:00 - -MoA- Shaun: yes
+2023-08-11 19:23:57.223000+00:00 - Cydonia: then you overwrote your task
+2023-08-11 19:24:04.025000+00:00 - -MoA- Shaun: thanks, thats what I wanted to hear
+2023-08-11 19:24:36.010000+00:00 - Cydonia: also remember that we said in the captains meeting images can take 3-4 minutes to download.
+2023-08-11 19:25:26.444000+00:00 - -MoA- Shaun: just making sure, but is 3-4 minutes inside 5 minutes and 33 seconds?
+2023-08-11 19:25:38.613000+00:00 - -MoA- Shaun: I don't know if this is like a 3-4 minutes late to work type of thing
+2023-08-11 19:26:24.957000+00:00 - -MoA- Shaun: and we should actually give it way more or something lol
+2023-08-11 19:27:02.864000+00:00 - Cydonia: 4 minutes is the longest weve seen in practice
+2023-08-11 20:18:26.807000+00:00 - inukai: @mission control The ACB isn't enabled until overnight, does that mean that we can't rotate the sat at all until then?
+2023-08-11 20:22:51.659000+00:00 - SafeMode: yes
+2023-08-11 20:23:20.324000+00:00 - jchristman: does that mean that shutterbug is scored manually for taking a picture of a correct target based on a pointing maneuver?
+2023-08-11 20:23:21.544000+00:00 - SafeMode: until the windows defined in http://moonlighter-facts.dc31.satellitesabove.me/docs/acs.zip
+2023-08-11 20:23:45.741000+00:00 - SafeMode: we score based on your actual observed pointing
+2023-08-11 20:24:08.117000+00:00 - jchristman: but if we can't rotate, does it not actually point?
+2023-08-11 20:24:16.661000+00:00 - SafeMode: no
+2023-08-11 20:24:28.374000+00:00 - inukai: Ok, so shutterbug and unintended bug are only available overnight?
+2023-08-11 20:24:32.724000+00:00 - SafeMode: the ACS is not enabled, so there will be no pointing
+2023-08-11 20:24:35.476000+00:00 - SafeMode: correct
+2023-08-11 21:01:43.565000+00:00 - Oneup: one more clarifcation: in other a/d ctfs, new flags need to submitted every tick
+there aren't any challenges here that need to be submitted more than once, right?
+2023-08-11 21:55:24.966000+00:00 - jchristman: @Vito - would it be possible for the organizers to provide some manual feedback on the scripts that were submitted so that we can spend the next 4 hours fixing them, rather than missing another round of scoring?
+2023-08-11 21:55:56.315000+00:00 - jchristman: Just a “yeah that looks like it would have scored” or “naw dawg you gotta work on that some more”
+2023-08-11 21:56:17.281000+00:00 - jchristman: Similar to this
+2023-08-11 21:58:37.438000+00:00 - Vito: seen; we have another discussion ongoing
+2023-08-11 21:59:38.277000+00:00 - -MoA- Shaun: @Cydonia : are you sure when we submit something at the same time that it will always override the previous submission? for the 
+```
+Running script: /tmp/fsw/ironbank/run/jmp_1.lua
+Start: 2023-08-11 20:12:01
+Hellos world jmP FS:[RCX]
+Stop: 2023-08-11 20:12:01
+```
+it was supposed to be our script 2, but it ran our script one
+2023-08-11 22:00:08.390000+00:00 - -MoA- Shaun: (by script 2 i mean index 1)
+2023-08-11 22:01:05.964000+00:00 - -MoA- Shaun: ```
+{
+  "time": "2023-08-11 20:12:00.000",
+  "id": 1
+}
+```
+the message for the original assignment
+2023-08-11 22:01:35.280000+00:00 - -MoA- Shaun: and the contents of the lua for that:
+```
+-- example lua script
+
+-- UDP is passed in as an arg
+-- Print is passed in as an arg
+local args = {...}
+local udp = select(1  , ... )
+local print = select(2, ... )
+-- udp settings reccomended to leave these alone
+udp:settimeout( 10 )
+assert(udp:setsockname("*",0))
+-- connect to the flight software port 9000
+assert(udp:setpeername("127.0.0.1", 9000))
+
+print("Hellos world jmP FS:[RCX] Second upload")
+
+
+-- script_kiddies
+local cmd = string.pack( "b", 3)
+local data = "FLAG"
+
+udp:send( cmd ) -- send 1 byte message for command id
+udp:send( data ) -- Send a data message that is a string
+```
+2023-08-11 22:02:54.507000+00:00 - -MoA- Shaun: previously I did upload a different script to slot 1, however
+2023-08-11 22:03:10.031000+00:00 - -MoA- Shaun: so if it never overwrote I could see that being the issue
+2023-08-11 22:04:26.029000+00:00 - -MoA- Shaun: slot 0 should of been:
+2023-08-11 22:30:50.259000+00:00 - Cydonia: Grabbing food rn but I'll double check this when I return. I'm pretty low on sleep right now so when you see me come back feel free to remind me.
+2023-08-11 22:31:31.165000+00:00 - Cydonia: If you're unsure you can always clear your task list and redo it
+2023-08-11 22:33:03.611000+00:00 - -MoA- Shaun: kk, we'll do that for any post upload changes in the future
+2023-08-11 22:42:04.193000+00:00 - inukai: @mission control is Schism in Space a released challenge or is it releasing later?
+2023-08-11 22:49:51.688000+00:00 - AngryPeanut: @Vito Can someone please check the password manager instance? We may have crashed it.
+2023-08-11 22:54:29.687000+00:00 - SafeMode: can you point me to where you see this? see @finals-2023
+2023-08-11 22:57:47.170000+00:00 - AngryPeanut: or @mission control
+2023-08-11 22:58:24.477000+00:00 - Deadwood: Sec and we'll take a look.
+2023-08-11 23:01:58.909000+00:00 - Deadwood: We restarted it. Hit it again
+2023-08-11 23:17:03.305000+00:00 - -MoA- Shaun: @mission control : Just making sure, but are the geofence limations applied for images intended for silver medal also?
+2023-08-11 23:20:55.666000+00:00 - inukai: 
+2023-08-11 23:21:09.070000+00:00 - Oneup: also
+2023-08-11 23:54:32.849000+00:00 - -MoA- Shaun: @mission control Also, is there any chance GPS will work in the 1:40 window time or getting a picture?
+2023-08-11 23:54:53.231000+00:00 - inukai: @mission control Password manager seems to be down
+2023-08-12 00:01:07.045000+00:00 - SafeMode: @inukai we will check
+2023-08-12 00:01:46.867000+00:00 - SafeMode: GPS yes, and feel free to try snapping, though there will be no pointing
+2023-08-12 00:02:33.318000+00:00 - Deadwood: Bounced Password Manager for ya.
+2023-08-12 00:02:52.773000+00:00 - inukai: lol, we good thx
+2023-08-12 00:40:22.648000+00:00 - cashmen: @mission control in regards to the upcoming operation window we have two questions:
+A. Is it worth running request_image at all? Or is the window too small and basically guaranteed to not finish in time
+B. If we run a request_image task and it starts moving the image and then we run a run_script a few seconds later will those two operations collide or run parallel?
+2023-08-12 00:51:29.002000+00:00 - Cydonia: A. request image can take up to 4 minutes. up to you but be sure to fit it in your window. 
+B. answer in main channel
+2023-08-12 01:24:12.399000+00:00 - jchristman: I feel like I'm beating a dead horse here but I just want to be absolutely clear:
+
+1. The message at https://discord.com/channels/1073311445128851496/1121158557321138237/1139609955402534942 seems to indicate that turnstile challenges are scored once (which means other challenges are scored more than once)
+2. The challenges have all been updated _except_ shutterbug to say they are scored once in the description
+2023-08-12 01:24:46.023000+00:00 - jchristman: So is shutterbug scored many times?
+2023-08-12 01:25:08.409000+00:00 - jchristman: @mission control
+2023-08-12 01:25:56.798000+00:00 - inukai: Wait I thought it was specifically said that shutterbug was only scored once?
+2023-08-12 01:26:00.462000+00:00 - SafeMode: just once
+2023-08-12 01:26:15.792000+00:00 - Cydonia: just once
+2023-08-12 01:26:24.535000+00:00 - jchristman: so _all_ challenges are scored once
+2023-08-12 01:26:35.821000+00:00 - cashmen: kek
+2023-08-12 01:29:54.762000+00:00 - -MoA- Shaun: Also are we getting the telemetry results before the 7pm?
+2023-08-12 01:30:36.384000+00:00 - Cydonia: we should get some this pass, we will do our best to get it out to u
+2023-08-12 02:01:01.471000+00:00 - inukai: I'm not seeing some off our uploads on the task list
+2023-08-12 02:01:09.028000+00:00 - inukai: We def uploaded them before the window closed
+2023-08-12 02:01:18.509000+00:00 - inukai: but they aren't on the schedule
+2023-08-12 02:09:34.195000+00:00 - inukai: @mission control
+2023-08-12 02:49:51.708000+00:00 - meenmachine: Here are your script logs
+2023-08-12 02:55:18.794000+00:00 - OHHHHH_KEVIN: Danke
+2023-08-12 04:48:28.618000+00:00 - inukai: @mission control in the case of a tie, will there be a tie breaker? Will all tieing teams get 50k? With the way telemetry comes in we can't use the standard of "first to solve gets priority" since it happens in one block
+2023-08-12 06:41:47.609000+00:00 - meenmachine: Sorry most of Mission Control is off to bed. We’ll make sure we answer this tomorrow morning.
+2023-08-12 16:55:24.247000+00:00 - -MoA- Shaun: @mission control : Just making sure, but we will not be getting back the results of 46 before 47's deadline correct? So we should expect to hear nothing untill the awards ceremony?
+2023-08-12 17:08:39.557000+00:00 - -MoA- Shaun: @mission control : the quaternion plan csv has the form q1 - x, q2 -y, q3-z, q4 - scalar, is that still correct?
+2023-08-12 17:16:47.650000+00:00 - SafeMode: that is correct
+2023-08-12 17:52:47.226000+00:00 - inukai: Is Christmas in August's point value correct? Was there some indicator I missed for higher point challenges?
+2023-08-12 17:52:57.062000+00:00 - inukai: @mission control ^
+2023-08-12 17:56:48.179000+00:00 - -MoA- Shaun: Follow on question, we submitted a gps message in: 
+```
+Running script: /tmp/fsw/ironbank/run/jmp_1.lua
+Start: 2023-08-12 01:45:59
+Hellos world jmP FS:[RCX] Second upload
+Hellos world jmP FS:[RCX] Second upload finished
+Stop: 2023-08-12 01:45:59
+```
+If it worked, would we have gotten a gps state recording after:
+2023-08-12 17:56:49.890000+00:00 - -MoA- Shaun: 
+2023-08-12 17:57:39.205000+00:00 - -MoA- Shaun: or, if the request was too close to the end of the window would the GPS state recording not apply?
+2023-08-12 18:08:18.744000+00:00 - inukai: @mission control I just want to verify because some people are confused. Will there be another window where we have ACB access overnight tonight? Or are Shutterbug+Unintended bug unsolvable at this point?
+2023-08-12 18:11:47.220000+00:00 - SafeMode: unfortuantely due operational and orbital constraints we were only able to get one window for all teams with full ACB pointing fit into the contest period.
+2023-08-12 18:47:21.259000+00:00 - -MoA- Shaun: Just making a note for your recorded history that we relealised we are dumb asses that don't know how to new line
+2023-08-12 19:07:30.884000+00:00 - Oneup: for "christmas in august", does the GPS have to report SOL_COMPUTED?
+2023-08-12 19:08:38.283000+00:00 - inukai: @mission control ^
+2023-08-12 19:10:50.420000+00:00 - Cydonia: the challenge is working as intended, no more information will be given.
+2023-08-12 19:11:59.989000+00:00 - inukai: @mission control What's the point value for iron bank?
+2023-08-12 20:13:34.701000+00:00 - -MoA- Shaun: @mission control : Just 100% triple checking, but turning on the camera, and taking pictures with the API, does not stop scripts?
+2023-08-12 20:14:05.805000+00:00 - -MoA- Shaun: thank you
+2023-08-12 21:02:14.626000+00:00 - cashmen: Just to confirm in regards to the recent fix, is the sat still in a tumble and will it remain that way on the final op window?
+2023-08-12 21:02:22.732000+00:00 - cashmen: @mission control
+2023-08-12 21:03:03.744000+00:00 - meenmachine: Yes that is correct. The changes made were solely related to operation windows.
+2023-08-12 21:03:08.644000+00:00 - cashmen: Great thanks
+2023-08-12 21:04:32.710000+00:00 - meenmachine: Sorry this should say “operation windows” not contact windows
+2023-08-12 21:14:51.740000+00:00 - inukai: @mission control has last night's operation been scored?
+2023-08-12 21:17:09.726000+00:00 - spaceymcspaceface40: last pass was pretty bad, only able to complete team uploads and not downlink much telemetry
+2023-08-12 21:17:37.361000+00:00 - spaceymcspaceface40: so dont have the data down to score yet
+2023-08-12 21:27:15.546000+00:00 - rain: yeah it was pretty bad
+2023-08-12 21:27:18.905000+00:00 - rain: thats why i use 1password
+2023-08-12 22:10:44.865000+00:00 - cashmen: @mission control Can we take more than 25 pictures in a single operations window? In this case we would be uploading image commands with the same ID, will that cause telemetry for the overwritten ID's to be lost and non-scoreable (even though we're not downloading them)
+2023-08-12 22:36:46.029000+00:00 - Cydonia: answering in main chat
+2023-08-12 22:50:49.712000+00:00 - -MoA- Shaun: @mission control : just making sure we don't cause any issues before we do it, we are going to take a picture every 7 seconds durring our window, will that count as DoSing?
+2023-08-12 22:53:03.563000+00:00 - SafeMode: per previous messages that should be fine
+2023-08-12 22:53:32.726000+00:00 - -MoA- Shaun: thanks just wanted to be compleatly clear incase we make someone mad lol
+2023-08-12 22:57:17.977000+00:00 - cashmen: We figured we'd be nice to the scheduler and even give it an extra 2 second leeway ;P
+2023-08-12 22:57:43.842000+00:00 - SafeMode: 😄
+2023-08-12 22:59:34.621000+00:00 - rain: even if it seems like you guys did build in a cutoff for pic intervals below 5 seconds so DoSing was probably useless...
+2023-08-12 22:59:38.202000+00:00 - rain: 🙂
+2023-08-13 00:34:05.251000+00:00 - -MoA- Shaun: @mission control : we are missing images at the end of our giant upload, are they not there or did we hit a display limit or something else?
+2023-08-13 00:34:33.538000+00:00 - meenmachine: Can you check the source of the website
+2023-08-13 00:34:51.558000+00:00 - meenmachine: Aka is it in there when you inspect the page lol
+2023-08-13 00:35:18.863000+00:00 - rain: No it's not
+2023-08-13 00:35:22.942000+00:00 - rain: our last task is at 2:54:23
+2023-08-13 00:35:26.407000+00:00 - -MoA- Shaun: I do not see it
+2023-08-13 00:35:37.866000+00:00 - cashmen: 
+2023-08-13 00:35:38.908000+00:00 - cashmen: No.
+2023-08-13 00:36:11.775000+00:00 - meenmachine: Okay bet. we're looking into it rn
+2023-08-13 00:36:30.910000+00:00 - meenmachine: How many tasks are you trying to upload?
+2023-08-13 00:36:38.957000+00:00 - meenmachine: And how many do you currently see?
+2023-08-13 00:36:51.049000+00:00 - rain: we currently see 50
+2023-08-13 00:36:55.901000+00:00 - rain: we're trying to upload um
+2023-08-13 00:36:57.972000+00:00 - rain: a couple more...
+2023-08-13 00:37:30.195000+00:00 - -MoA- Shaun: @mission control : ah is the limit just 50 commands?
+2023-08-13 00:37:48.252000+00:00 - rain: trying to do approx 25 more
+2023-08-13 00:37:57.948000+00:00 - Cydonia: it should tell you when u hit the limit
+2023-08-13 00:38:09.018000+00:00 - -MoA- Shaun: on submission it said its good
+2023-08-13 00:38:13.929000+00:00 - cashmen: Could you just tell us the limit?
+2023-08-13 00:38:22.710000+00:00 - cashmen: Or should I start counting lol
+2023-08-13 00:38:30.321000+00:00 - cashmen: Makes sense it's 50
+2023-08-13 00:38:35.581000+00:00 - -MoA- Shaun: but it also did that when we didn't have .000 in the timestamps lol
+2023-08-13 00:39:21.325000+00:00 - Cydonia: let me check and ill post it - it should send an error to the log on the sched viewer...but i dont see it
+2023-08-13 15:42:05.465000+00:00 - jchristman: ....';[p=- mnjhuy87
+2023-08-13 15:54:48.851000+00:00 - lockbox: u ok homie?
+2023-08-13 17:51:42.990000+00:00 - jchristman: Lmao, I’m thinking kid….
+2023-08-13 17:51:54.229000+00:00 - jchristman: But I may have had a stroke and not realized it
+2023-08-13 18:42:44.809000+00:00 - inukai: As long as it wasn't a password p:
+2023-08-13 18:55:16.888000+00:00 - -MoA- Shaun: @mission control after the awards can we get the scripts that we executed on the last couple of runs? Just want to make sure the clear command actually cleared the script lol
+2023-08-13 18:55:38.468000+00:00 - SafeMode: yes just come find us
+2023-08-13 18:57:24.887000+00:00 - -MoA- Shaun: Can you guys give a general debrief too?
+2023-08-13 19:26:07.189000+00:00 - cashmen: If you guys have a hash of the scripts pushed up that would be cool too
+2023-08-13 19:56:35.130000+00:00 - SafeMode: 

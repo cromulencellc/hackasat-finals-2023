@@ -1,0 +1,13 @@
+# Binaries
+static/build
+static/password
+
+# Cache/Saved
+.gdb_history
+*.db
+__pycache__
+log
+static/.venv
+
+# Random
+connection.c

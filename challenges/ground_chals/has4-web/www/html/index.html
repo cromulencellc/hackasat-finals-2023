@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="Hack-A-Sat-4-Web-Ideas-v5-2023-01-30-CL_bug.svg" class="logo"></img>
+    <title>Hack-A-Sat 4 Finals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Hack-A-Sat 4 Finals!</h1>
+        <p>Use this page for info about challenges, binaries, the tasking interface, etc.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#satellite">Our Satellite</a></li>
+            <li><a href="#ground-systems">Ground Systems</a></li>
+            <li><a href="#tasking-interface">Tasking Interface</a></li>
+            <li><a href="#challenges">Challenges</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Other Sections in a Row -->
+        <div class="other-sections">
+        <!-- Our Satellite Section -->
+            <section id="satellite">
+                <h2>Moonlighter Satellite</h2>
+                <img src="/images/satellite-mini.jpg" alt="Satellite Image" class="satellite-image">
+                <p>Moonlighter is equipped with a camera and attitude control system for capturing imagery
+                    of the Earth's surface. With provided pointing commands, we can capture imagery of 
+                    specific areas of interest. </p>
+                <a href="/docs/fsw.zip" class="button secondary" target="_blank">FSW</a>
+                <a href="/docs/acs.zip" class="button secondary" target="_blank">ACS</a>
+                <a href="/docs/gps.zip" class="button secondary" target="_blank">GPS</a>
+                <a href="/docs/lua.zip" class="button secondary" target="_blank">LUA</a>
+                <a href="/docs/qemu_docker.tar" class="button secondary" target="_blank">QEMU</a>
+            </section>
+
+            <!-- Ground Systems Section -->
+            <section id="ground-systems">
+                <h2>Ground Systems</h2>
+                <img src="/images/architecture.jpg" alt="Architecture" class="satellite-image">
+                <p>Suporting Moonlighter's on-orit operations is a network of ground systems. 
+                    From task ingestion, satellite communications, and data processing, our ground systems 
+                    handle tasking across multiple users.</p>
+            </section>
+
+            <!-- Tasking Interface Section -->
+            <section id="tasking-interface">
+                <h2>Tasking Interface</h2>
+                <img src="/images/tasking-api.png" alt="Tasking Interface" class="satellite-image">
+                <p>Our tasking interface allows users to reserve orbital operations windows and schedule thier mission-specific tasking.
+                    Users are able to upload scripts, point the spacecraft, and capture images for downlink. Window Viewer also provides
+                    real-time info on currently reserved windows and scheduled tasking.</p>
+                <a href="https://userapi.dc31.satellitesabove.me/docs" class="button primary" target="_blank">Explore Tasking Interface</a>
+                <a href="https://winviewer.dc31.satellitesabove.me" class="button primary" target="_blank">Explore Window Viewer</a>
+                <a href="/docs/windows.md" class="button secondary" target="_blank">Docs</a>
+            </section>
+        </div>
+
+        <!-- Challenges Section -->
+        <div class="challenges-container">
+            <section id="challenges">
+                <h2>Challenges</h2>
+                <p>Solve the challenges!</p>
+            </section>
+        </div>
+        <div class="other-sections">
+            <!-- Script Kiddie Section -->
+            <section id="tasking-interface">
+                <h2>Script Kiddie</h2>
+                <img src="/images/lua.png" alt="Lua" class="satellite-image">
+                <p>Moonlighter is running a scripting engine that allows users to run custom Lua scripts. 
+                    These scripts can communicate with the flight software and are used to complete complex 
+                    operations and challenges. As an introductory challenge, teams must show that they can 
+                    upload a basic script and schedule it to be run.</p>
+            </section>
+
+            <!-- Shutterbug Section -->
+            <section id="tasking-interface">
+                <h2>Shutterbug</h2>
+                <img src="/images/valencia.png" alt="Satellite Image" class="satellite-image">
+                <p>Moonlighter is equipped with a camera. Teams are tasked to take a picture of any target 
+                    from a set of targets spaced around the globe using the Tasking Interface. 
+                    Points are awarded for successfully aiming the camera, snapping a picture, and downlinking the image.</p>
+                <a href="/docs/targets.yml" class="button secondary" target="_blank">Target Deck</a>
+            </section>
+
+            <!-- Unintended Bug Section -->
+            <section id="tasking-interface">
+                <h2>Unintended Bug</h2>
+                <img src="/images/spacetug-web.jpg" alt="Space Tug" class="satellite-image">
+                <p>Moonlighter implements a geofence that prevents players from taking pictures of certain locations. 
+                    Teams must figure out how to circumvent the geofence in order to take a picture of a protected location. 
+                    Points are awarded for taking the picture and also for downlinking the image.
+                </p>
+                <a href="/docs/restricted.json" class="button secondary" target="_blank">Geofence</a>
+            </section>
+
+            <!-- Iron Bank Section -->
+            <section id="tasking-interface">
+                <h2>Iron Bank</h2>
+                <p>Teams get access to a binary for a script security service running on Moonligher called Iron Bank. 
+                    Players can hack the service and trigger it download the flag.</p>
+            </section>
+
+             <!-- Christmas In August Section -->
+             <section id="tasking-interface">
+                <h2>Christmas In August</h2>
+                <img src="/images/northpole.png" alt="North Pole" class="satellite-image">
+                <p>Moonlighter is in a known orbit with an inclination of 51.6 degrees. That means its latitude will always be between +/- 51.6 degrees.
+                    If teams are able to get Moonlighter above 80 degrees they will get a flag.</p>
+            </section>
+
+            <!-- Password Manager Section -->
+            <section id="tasking-interface">
+                <h2>Password Manager</h2>
+                <p>We take satellite security very seriously.
+                    Introducing our new password manager at challenges.dc31.satellitesabove.me! (BETA)
+                </p>
+            </section>
+
+            <!-- Web Server Section -->
+            <section id="tasking-interface">
+                <h2>Web Server</h2>
+                <p>Check out our web admin interface</p>
+                <a href="/admin/admin.html" class="button primary" target="_blank">Explore the Admin Interface</a>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Hack-A-Sat 4 Finals. Good Luck!!</p>
+    </footer>
+</div>
+</body>
+</html>

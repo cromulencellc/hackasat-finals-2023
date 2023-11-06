@@ -1,0 +1,141 @@
+2023-06-29 20:31:49.093000+00:00 - Vito: # Welcome to Hack-A-Sat Finals chat!
+
+1. These guidelines do not supersede the official rules; they’re here to make chatting in Slack useful and productive for all of us.
+2. The goals of these channels are to address hardware, infrastructure, and other gameplay issues.
+3. You should have access to both #finals-2023 and #finals-2023-TEAMNAME . Please let Mission Control know if you don’t! Do that now!
+4. All #finals-2023 and #finals-2023-TEAMNAME conversations will be made public after the game ends. Don’t chat anything you wish to keep private. Don’t chat personally identifiable information.
+5. Please be thoughtful with which team members engage in communication with organizers. While we don’t want your team to miss important details due to someone taking a break or being busy, we also don’t want to spend a bunch of time getting confused or de-conflicting what more people want. 
+6. That said, it’s totally okay to have your whole team in both the #finals-2023 and #finals-2023-TEAMNAME rooms reading.
+7. Sending private or direct messages to a game operator will make it more difficult for operators and other members of your team to know what’s going on. Please don’t. 
+8. Both #finals-2023 and #finals-2023-TEAMNAME can be used for official communication through the end of Hack-A-Sat finals. shout@hackasat.com is also still available for official communication. 
+9. Please review the contest rules and keep an eye out for updates at https://www.hackasat.com/
+2023-06-29 20:33:28.391000+00:00 - Vito: @mhackeroni
+2023-07-29 17:36:04.934000+00:00 - Vito: @mhackeroni hey, when you get a chance, can you check for a networking email from shout@hackasat.com
+2023-07-29 21:53:18.049000+00:00 - JinBlack: I just sent you the key.  😄 Sorry for the delay
+2023-07-29 21:54:14.919000+00:00 - Vito: cool! have time monday to test it out?
+2023-07-29 21:54:42.900000+00:00 - JinBlack: this is a question for sysadmin @matpro @mpogliani  😄
+2023-07-29 21:55:00.061000+00:00 - Vito: is @Untrue supposed to be in here too?
+2023-07-29 21:55:50.280000+00:00 - JinBlack: yeah i think so. There are many missing 😄
+2023-07-29 21:58:36.803000+00:00 - dp_1: @chq.matteo and @rop2bash should be in here as well
+2023-07-29 21:59:31.461000+00:00 - Vito: added @Untrue @chq.matteo and @rop2bash
+2023-07-29 21:59:49.431000+00:00 - Vito: working on a saturday 🥹
+2023-07-30 09:06:06.197000+00:00 - JinBlack: @Vito we can have @wert310 testing the VPN on Monday. Can you add him to this chat? He should be on the server .
+2023-07-30 22:01:55.162000+00:00 - Vito: done
+2023-07-31 09:41:40.394000+00:00 - wert310: Hi! 👋 
+I'm here for testing the VPN: let me know at what time you prefer to do it.
+I will be in the office until around 7.00 PM CEST (10.00 AM PDT) so I would prefer before then, but if it is not possible, also until 12.00 PDT works.
+2023-07-31 16:05:14.954000+00:00 - Vito: have you sent us a public key?
+2023-07-31 16:05:31.856000+00:00 - Vito: ah found it
+2023-07-31 16:06:22.635000+00:00 - wert310: yes, should be this one `8izXOMYLRMN/FNrSQZNQLE+Dq7mNEfhcb0UwnqWeUBk=`
+2023-07-31 16:11:16.874000+00:00 - Vito: yup, looks right
+2023-07-31 16:11:45.228000+00:00 - Vito: spinning the vm now; i'll dm you the config, and throw some general testing info in #finals-2023
+2023-07-31 16:20:12.087000+00:00 - wert310: 👍 Thanks!
+2023-07-31 17:04:55.567000+00:00 - wert310: @Vito Will we need ipv6 during the competition? (if you can disclose this info 😄)
+2023-08-10 22:01:25.451000+00:00 - SallySatellite: Hey mkaceroni members, is anyone coming as representation for the captains meeting happening right now in 209?
+2023-08-10 22:03:05.402000+00:00 - SallySatellite: @​everyone
+2023-08-10 22:04:21.205000+00:00 - JinBlack: 10 min we will be there
+2023-08-10 22:06:44.295000+00:00 - SallySatellite: Thank you
+2023-08-10 22:18:42.134000+00:00 - SallySatellite: ETA?
+2023-08-10 22:20:04.969000+00:00 - SallySatellite: @JinBlack
+2023-08-11 15:35:49.833000+00:00 - marcof: @Vito Vito can we have @Law and @ice_cream added to the finals channel ? Team mhackeroni. Thanks !
+2023-08-11 15:36:34.041000+00:00 - Capo80: looks like the mention does not work
+2023-08-11 15:36:51.290000+00:00 - Capo80: ill copy the names anyway: @!Stranck , @cristianrichie , @Harachili , @MrIndeciso
+2023-08-11 15:38:50.218000+00:00 - Vito: @!Stranck test
+2023-08-11 15:39:01.200000+00:00 - Vito: `<@numeric-id>` should work
+2023-08-11 15:51:47.720000+00:00 - MrIndeciso: @Vito hi Vito can you add these teammates too:@MarcoBalo @peter_ @bertados @Dema? Thanks
+2023-08-11 15:54:20.460000+00:00 - dipusone: @Vito could you pleas also add @Escrimamenchi ?
+2023-08-11 16:01:08.473000+00:00 - Cydonia: Good morning, your api key is: warthog-trigger-indi-lentz
+2023-08-11 16:05:32.990000+00:00 - JinBlack: Can we have @TheNodi here ?
+2023-08-11 16:20:50.652000+00:00 - JinBlack: Can we also have @law and @icecream
+2023-08-11 16:20:55.787000+00:00 - JinBlack: ?
+2023-08-11 16:21:00.777000+00:00 - JinBlack: @Law
+2023-08-11 16:21:19.752000+00:00 - JinBlack: @ice_cream
+2023-08-11 16:23:05.806000+00:00 - JinBlack: @carlomara
+2023-08-11 16:23:29.305000+00:00 - JinBlack: @law
+2023-08-11 16:24:23.779000+00:00 - MrIndeciso: @Law and @ice_cream
+2023-08-11 16:30:28.815000+00:00 - carlomara: @drw0if and @Matte23 should be here
+2023-08-11 16:30:46.051000+00:00 - carlomara: Thanks again and sorry that we got several fragmented requests
+2023-08-11 16:36:23.015000+00:00 - Deadwood: added
+2023-08-11 16:36:44.895000+00:00 - carlomara: appreciated
+2023-08-11 18:03:30.798000+00:00 - drw0if: Can @lorenz join this channel?
+2023-08-11 18:08:14.751000+00:00 - Deadwood: that user has the correct roles to be in this channel.
+2023-08-11 18:09:20.845000+00:00 - Vito: i did it
+2023-08-11 18:09:23.150000+00:00 - Vito: it was me
+2023-08-11 18:25:53.010000+00:00 - Cydonia: Feedback on your scripts this script would have generated an extra gps telemetry packet at the time it was triggered and would have completed running. the print statement would go to the log that we would have provided to you after the next contact
+2023-08-11 18:33:03.237000+00:00 - carlomara: Hey orga, we have some questions on schatterburg
+1. Can we run the AOCS and the camera in parallel? I assume they are on separate bus. We are aware it might not be a good idea/we have to do it carefully,
+2. Do you have some more accurate AOCS lock and Camera lock times than the one provided on the pdf/presentation form yesterday?
+2023-08-11 18:33:17.047000+00:00 - carlomara: I forwarded, we are looking into it
+2023-08-11 18:34:25.332000+00:00 - drw0if: thanks
+2023-08-11 18:53:01.111000+00:00 - carlomara: Hey orga, we are trying to run the simulator to test/debug iron-bank
+2023-08-11 18:53:48.728000+00:00 - carlomara: The image you provided seems to be missing some stuff:
+1. the bios
+2. Could not find 32MB SPI-NOR flash image: /images/nor_ztex213_has_cib.img
+can you confirm?
+2023-08-11 18:54:09.132000+00:00 - SafeMode: yes see @finals-2023
+2023-08-11 18:54:25.502000+00:00 - SafeMode: the emulation is not intended for full system emulation
+2023-08-11 18:54:39.190000+00:00 - SafeMode: that file was intentionally not provided as it is not needed
+2023-08-11 18:55:13.022000+00:00 - carlomara: ack, thanks for the fast reply
+2023-08-11 18:55:28.797000+00:00 - SafeMode: thanks let us know if you have more questions, sorry for confusion
+2023-08-11 18:55:49.791000+00:00 - carlomara: We still have the one from 11:33
+2023-08-11 18:56:02.867000+00:00 - carlomara: That's related to scatterbug
+2023-08-11 18:56:29.912000+00:00 - SafeMode: you can run then at the same time
+2023-08-11 18:57:03.620000+00:00 - SafeMode: but your points are valid on how you need to handle your execution
+2023-08-11 18:58:17.804000+00:00 - carlomara: Yes we understand execution is key, we just had some questions on the hw capabilities. Do you have some figures for point two? If not we can base everything off the docs
+2023-08-11 18:59:24.246000+00:00 - SafeMode: working on point two
+2023-08-11 18:59:38.221000+00:00 - SafeMode: what are your hw quetions?
+2023-08-11 19:00:11.875000+00:00 - carlomara: One that you answered and two
+2023-08-11 19:00:21.828000+00:00 - carlomara: K, let me know when you can about 2
+2023-08-11 19:01:27.495000+00:00 - SafeMode: see this link. http://moonlighter-facts.dc31.satellitesabove.me/docs/acs.zip
+2023-08-11 19:01:51.923000+00:00 - SafeMode: there are quaternion profiles in that drop. the time periods in those files are the valid time periods for commanding the ADCS. There is one file for each available window
+2023-08-11 19:02:33.453000+00:00 - SafeMode: this is the answer for point 2, btw
+2023-08-11 19:03:15.310000+00:00 - carlomara: amazing, thanks a lot
+2023-08-11 22:06:34.249000+00:00 - pietroborrello: We have a working lua script locally for Iron Bank but we are confused how we should deal with the initial part for `udp` and `print`
+```
+-- UDP is passed in as an arg
+-- Print is passed in as an arg
+local args = {...}
+local udp = select(1  , ... )
+local print = select(2, ... )
+```
+Do we have to keep it verbatim at the beginning of the script? Or do we have to fill the three dots? @SafeMode @Vito
+2023-08-11 22:27:55.419000+00:00 - SafeMode: if you want this to work keep it as is
+2023-08-12 02:50:43.649000+00:00 - meenmachine: Hey we got no script logs from you. Other teams received theirs.
+2023-08-12 03:02:51.694000+00:00 - Capo80: how do we have no logs? we run several scripts
+2023-08-12 03:06:24.783000+00:00 - meenmachine: We're investigating.
+2023-08-12 03:15:03.026000+00:00 - meenmachine: What scripts do you guys believe you uploaded?
+2023-08-12 03:15:14.258000+00:00 - meenmachine: Could you dump those scripts in chat please.
+2023-08-12 03:20:38.692000+00:00 - dp_1: We sent some manual commands for the camera, and some scripts for script kiddie
+2023-08-12 03:20:45.035000+00:00 - dp_1: we're looking for the scripts
+2023-08-12 03:21:26.439000+00:00 - meenmachine: Okay awesome. Please send us what you have when you find it. Thank you
+2023-08-12 03:22:45.771000+00:00 - Capo80: here
+2023-08-12 03:23:03.660000+00:00 - Capo80: this are probably wrong, but we would like to understand why we don't see the output
+2023-08-12 03:23:15.922000+00:00 - Capo80: as we have more important scripts in the following windows
+2023-08-12 03:32:42.356000+00:00 - Cydonia: we've got copies of them. still investigating
+2023-08-12 03:44:09.397000+00:00 - meenmachine: Hey. Do you need the logs for pass 42?
+2023-08-12 03:44:20.253000+00:00 - meenmachine: So the first pass?
+2023-08-12 03:44:53.751000+00:00 - meenmachine: https://finals.2023.hackasat.com/telemetry/42/42.zip
+2023-08-12 03:44:58.011000+00:00 - meenmachine: If you do need it this is the link to that
+2023-08-12 03:52:43.843000+00:00 - meenmachine: We see script execution in pass 44 for you all.
+2023-08-12 03:53:20.754000+00:00 - meenmachine: There were still no scripts that ran in pass 42 and 43
+2023-08-12 04:28:48.443000+00:00 - Cydonia: you scored script kiddie on one of your script executions. looking into why its not on scoreboard
+2023-08-12 04:38:54.297000+00:00 - dp_1: Thank you for the update!
+2023-08-12 13:07:57.622000+00:00 - pietroborrello: Hey @Cydonia we just realised the Iron Bank script we submitted does not put "mhackeroni" in the issue_challenge command, so in the log you will only see "User got the flag" in our timeframe and not "User mhackeroni got the flag". If this is the case would we still have the flag granted for the challenge?
+2023-08-12 15:29:36.231000+00:00 - SafeMode: @pietroborrello we will check once we have data for that window what we can observe
+2023-08-12 15:30:47.434000+00:00 - Cydonia: I'm on my way to the game floor, will have an answer soon
+2023-08-12 15:31:25.032000+00:00 - Cydonia: Thanks for your patience
+2023-08-12 16:01:47.821000+00:00 - meenmachine: The challenge is working as intended.
+2023-08-12 16:17:21.350000+00:00 - drw0if: Can @orsobruno96 join this channel?
+2023-08-12 16:17:53.999000+00:00 - meenmachine: done
+2023-08-12 16:20:35.545000+00:00 - dp_1: so we should send a new try where the script sends "mhackeroni", or is the one we sent enough? assuming the rest of it is correct of course
+2023-08-12 16:49:19.535000+00:00 - dp_1: Just had a look at the logs, we sent 3 script in window 44, but only see the output of 2. Are there any other logs we can use to double check, like submission logs?
+2023-08-12 17:37:33.673000+00:00 - pietroborrello: @SafeMode @Cydonia @meenmachine is there any way to understand why our third script did not get upload on window 44? It was supposed to be a test run for iron bank and it would have been very useful to size the side channel iterations
+2023-08-12 17:52:39.524000+00:00 - meenmachine: Looking into this
+2023-08-12 18:07:41.713000+00:00 - carlomara: Answered in person, team is aware
+2023-08-12 21:03:10.343000+00:00 - SafeMode: @mhackeroni You all asked us about images taken during window 43. The behavior we observed in TLM shows the game and challenges are working as expected. We can explain in more detail what happened after game.
+2023-08-12 22:33:25.047000+00:00 - Cydonia: @Deadwood asked me to verify for u, 1 script submitted as part of your final plan
+2023-08-12 22:45:39.598000+00:00 - dp_1: that is correct
+2023-08-12 22:45:48.096000+00:00 - dp_1: and some camera commands
+2023-08-13 22:09:39.837000+00:00 - dp_1: @Cydonia can we please get @daniele in here as well
+2023-08-13 22:10:45.698000+00:00 - Cydonia: @meenmachine can you do this
+2023-08-13 22:11:11.530000+00:00 - meenmachine: Done

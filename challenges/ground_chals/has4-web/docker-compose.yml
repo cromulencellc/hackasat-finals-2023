@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  has4-web:
+    image: finals/challenges/has4-web/has4-web:latest
+    volumes:
+      - ./www:/server/www/:ro
+    ports:
+      - 80:80

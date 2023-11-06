@@ -1,0 +1,7 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND SBN NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SBN", Moonlighter::MsgId::SBN_CMD_ID, 0, 0) %>

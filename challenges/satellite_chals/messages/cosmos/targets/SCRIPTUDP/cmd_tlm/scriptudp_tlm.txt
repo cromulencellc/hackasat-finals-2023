@@ -1,0 +1,14 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY SCRIPT_UDP HOUSE_KEEPING <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "SCRIPTUDP" ,  Moonlighter::MsgId::SCRIPTUDP_HOUSE_KEEPING_TLM_ID) %>
+  APPEND_ITEM GPS_COUNT 32 UINT  "TODO: FILL ME IN"
+  APPEND_ITEM IMAGE_COUNT 32 UINT  "TODO: FILL ME IN"
+  APPEND_ITEM STAGE_COUNT 32 UINT  "TODO: FILL ME IN"
+TELEMETRY SCRIPT_UDP KIDDIE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "SCRIPTUDP" ,  Moonlighter::MsgId::SCRIPTUDP_KIDDIE_TLM_ID) %>
+  APPEND_ITEM TEAM 128 STRING  "TODO: FILL ME IN"
+  APPEND_ITEM MESSAGE 512 STRING  "TODO: FILL ME IN"

@@ -1,0 +1,184 @@
+2023-06-29 20:31:39.402000+00:00 - Vito: # Welcome to Hack-A-Sat Finals chat!
+
+1. These guidelines do not supersede the official rules; they’re here to make chatting in Slack useful and productive for all of us.
+2. The goals of these channels are to address hardware, infrastructure, and other gameplay issues.
+3. You should have access to both #finals-2023 and #finals-2023-TEAMNAME . Please let Mission Control know if you don’t! Do that now!
+4. All #finals-2023 and #finals-2023-TEAMNAME conversations will be made public after the game ends. Don’t chat anything you wish to keep private. Don’t chat personally identifiable information.
+5. Please be thoughtful with which team members engage in communication with organizers. While we don’t want your team to miss important details due to someone taking a break or being busy, we also don’t want to spend a bunch of time getting confused or de-conflicting what more people want. 
+6. That said, it’s totally okay to have your whole team in both the #finals-2023 and #finals-2023-TEAMNAME rooms reading.
+7. Sending private or direct messages to a game operator will make it more difficult for operators and other members of your team to know what’s going on. Please don’t. 
+8. Both #finals-2023 and #finals-2023-TEAMNAME can be used for official communication through the end of Hack-A-Sat finals. shout@hackasat.com is also still available for official communication. 
+9. Please review the contest rules and keep an eye out for updates at https://www.hackasat.com/
+2023-06-29 20:33:11.417000+00:00 - Vito: @spacebitsrus
+2023-07-16 14:43:39.228000+00:00 - wyattearp: @mission control - low priority ask - assuming you're the correct place to ask - but if we'd like to 1) designate our official discord points of contact and 2) pull them into this channel, what information do you need information beyond a username?
+2023-07-17 02:00:15.705000+00:00 - Vito: i'm not sure we've thought particularly hard about "official points of contact"
+2023-07-17 02:00:38.408000+00:00 - Vito: but to pull people into this channel, they first need to be in this guild, and then @-mention them and i can add them
+2023-07-20 22:45:28.894000+00:00 - wyattearp: one is @Clif
+2023-07-20 22:45:38.402000+00:00 - wyattearp: (let me go snag the others)
+2023-07-20 22:47:39.314000+00:00 - wyattearp: @douglett 
+@[ 🛰👾] lethargicwookie 
+should be the others
+2023-07-27 20:11:27.245000+00:00 - wyattearp: @Vito - will you be available tomorrow or this weekend to perform a wire guard test?
+2023-07-27 20:11:39.740000+00:00 - Vito: I will tomorrow for sure
+2023-07-27 20:12:17.350000+00:00 - wyattearp: Excellent - I'll drop you the pubkey this evening
+2023-07-27 20:12:20.304000+00:00 - Vito: cool!
+2023-07-29 21:54:26.631000+00:00 - Vito: received a pubkey; have time monday to test it out?
+2023-07-29 22:41:39.329000+00:00 - wyattearp: Yes! Sorry, kids got in the way
+2023-08-10 22:00:49.233000+00:00 - SallySatellite: Hey SpaceBits  is anyone coming for the captains meeting happening now in 209?
+2023-08-10 22:02:56.206000+00:00 - SallySatellite: @​everyone
+2023-08-10 22:03:57.829000+00:00 - Clif: Yes we’re on our way now
+2023-08-10 22:05:34.896000+00:00 - SallySatellite: Thank you!
+2023-08-11 16:00:32.665000+00:00 - Cydonia: Good morning your api key is ubuntu-ebron-wow-alaska
+2023-08-11 16:15:44.853000+00:00 - douglett: are you planning to create an announcements channel similar to quals that we can cross-link into our private team channels?
+2023-08-11 16:33:09.972000+00:00 - wyattearp: @vito is it expected that http://challenges.dc31.satellitesabove.me/tasking/pointing will return a 404 without an API key?
+2023-08-11 16:41:35.074000+00:00 - Deadwood: @wyattearp the host for tasking is userapi.dc31.satellitesabove.me
+2023-08-11 17:24:02.924000+00:00 - douglett: @Deadwood @meenmachine
+2023-08-11 17:26:02.857000+00:00 - wyattearp: @mission control   - can you check on your end and see if we're uploading a script correctly? We're getting a 200 reponse for both upload and then run the script, but we're still not seeing it show up on the tasking window
+2023-08-11 17:28:40.750000+00:00 - Cydonia: come up to me at the front and ill make sure you are usng the api corectly
+2023-08-11 17:29:14.197000+00:00 - wyattearp: Hold on - i think we might notice our issue
+2023-08-11 17:29:42.724000+00:00 - wyattearp: wait - we found it - formatting is challenging some times 🙂
+2023-08-11 18:29:21.092000+00:00 - Cydonia: Feedback on the scripts you uploaded for the dropped contact. THe logs would have shown that the script with the os calls were killed for running unallowed commands. The print from your other script would have shown up in a telemetry log
+2023-08-11 19:19:29.385000+00:00 - wyattearp: @Cydonia  - camera api question true= power_on, false=power_off ?
+2023-08-11 19:20:37.014000+00:00 - Cydonia: yep
+2023-08-11 20:00:42.366000+00:00 - douglett: Clarification: `Quick api clarification if you schedule  a task at the same time as another task it should overwrite that task
+Also please remember that we said during the captains meeting that image download can take between 1-4 minutes`
+
+Slides from yesterday said ~5 minutes - should we stick with 5 or can we go with 4?
+
+Can multiple images be downlinked at a time, or does it need to be sequentially?
+@mission control
+2023-08-11 20:05:30.254000+00:00 - wyattearp: @mission control we have a question on the admin password database - we believe we can overwrite it - is that within scope?
+2023-08-11 20:07:06.025000+00:00 - wyattearp: or @Vito ?
+2023-08-11 20:22:29.078000+00:00 - wyattearp: Question - are turnstyle flags collected at the end of the scoring round?
+2023-08-11 21:30:41.898000+00:00 - wyattearp: @mission control - we've submitted a flag previously for the fws-freebie and we verified it was submitted by trying to redeam it again - but it doesn't seem like we got scored on it for the last round?
+2023-08-11 21:35:32.908000+00:00 - Vito: is it the one on https://regatta.2023.hackasat.com/journal/19 ?
+2023-08-11 21:37:40.692000+00:00 - douglett: it was
+2023-08-11 21:41:00.708000+00:00 - wyattearp: yep - thanks - it was throwning an internal server error for me when I clicked on journal 😐
+2023-08-11 21:41:47.865000+00:00 - Vito: oof ok, i'll try and drill down that case on my end
+2023-08-11 21:48:58.018000+00:00 - wyattearp: low priority, no worries
+2023-08-11 21:53:20.130000+00:00 - wyattearp: @Vito - are we supposed to ask for the log from the admins or are we supposed to be doing something else to get the data out?
+2023-08-11 21:53:46.920000+00:00 - Vito: the scoring log? we process that once a complete one is available
+2023-08-11 21:55:00.865000+00:00 - wyattearp: Apologies - miscommunication between what we sent and what someone else (me) thought we sent 🙂
+2023-08-11 22:29:06.184000+00:00 - wyattearp: It seems like the `poke` command always echos back null instead of the string. we assume that's a bug but figured we'd report it
+2023-08-11 23:35:01.698000+00:00 - wyattearp: @mission control  - we're planning out next access window and trying to understand if we've managed to get any pictures of ours successfully capture but maybe not downloaded (due to access - not because we didn't send the download command)
+2023-08-11 23:44:46.956000+00:00 - wyattearp: @tech team also another question related to overnight processing. the csv files in acs.zip are only 30 minutes long, but I believe there was discussion that the overnight block was evenly divided slices. does each team get a contingious block of operational time OR does each team get multiple 30 min blocks of time based on the last reservation?
+2023-08-11 23:50:35.476000+00:00 - Cydonia: ill clarify in main chat
+2023-08-12 00:30:39.273000+00:00 - wyattearp: @Cydonia - we know there were some challenges with the initial runs, but we're curious if we can understand the following:
+* should we have seen points for camera pictures on these passes:
+```
+camera power 2023-08-12 00:41:30.000
+run_script 0 2023-08-12 00:43:30.000
+image 1 2023-08-12 00:44:30.000
+request_image 1 2023-08-12 00:45:30.000
+run_script 2 2023-08-12 2023-08-12 00:53:30.000
+run_script 1 2023-08-12 2023-08-12 00:54:30.000
+```
+
+```camera power 2023-08-11 20:40:45.000
+run_script 2023-08-11 20:41:00.000  0 
+image 2023-08-11 20:42:15.000 0
+request_image 2023-08-11 20:42:30.000 0
+point 2023-08-11 20:42:45.000 qx=0.401313245010429 qy=-0.598457157440677 qz=0.202153305738159 qw=0.663272757669391
+run_script 2023-08-11 20:43:00.000 1
+```
+* can we confirm for the script kiddie command that we need to do more than run a script (since we believe we've done that but also we've not seen really any of the TLM data except the one pass)?
+
+Thanks!
+2023-08-12 00:39:57.927000+00:00 - Cydonia: we made  an annoucement in chat that we only got partial telmetry from the last contact. So if you scored we'll release it once we get all the tlm for that challenge down. We have several passes  built in to catch up before the really long operation window
+2023-08-12 00:40:24.313000+00:00 - Cydonia: We also made an annoucment in chat about script kiddies earlier i think
+2023-08-12 01:11:18.511000+00:00 - Cydonia: @wyattearp u had another question right?
+2023-08-12 01:17:35.945000+00:00 - wyattearp: yes - can you confirm that the geofence applies to a target’s location, not moonlighter’s?
+2023-08-12 01:23:45.833000+00:00 - Cydonia: we gave the geofence code and some documentation on this - please check them. We've talked in finals about image grading too. 🙂
+2023-08-12 01:23:56.533000+00:00 - wyattearp: got it!
+2023-08-12 02:09:38.436000+00:00 - wyattearp: @Cydonia -- correction - they got a 200 OK from uploading the following command but it didn't take.
+
+Orginal command:
+```
+task: pointing
+  data:
+    time: "2023-01-30 17:33:30.000"
+    qx: 0.81939834
+    qy: 0.41312229
+    qz: -0.39550724
+    qS: -0.03860509
+```
+```
+task: pointing
+  data:
+    time: "2023-08-12 17:33:30.000"
+    qx: 0.81939834
+    qy: 0.41312229
+    qz: -0.39550724
+    qS: -0.03860509
+```
+2023-08-12 02:10:01.726000+00:00 - wyattearp: I misheard them on the call when I was trying to come up, they had scripts they wanted to do but weren't ready
+2023-08-12 02:14:02.345000+00:00 - wyattearp: 
+2023-08-12 02:49:29.954000+00:00 - meenmachine: Here are your script logs
+2023-08-12 06:28:07.100000+00:00 - wyattearp: Copy that. We got clarification on the last set of commands (one with an unfortunate typo)
+```yml
+commands:
+  - task: camera_power
+    data:
+      time: "2023-08-12 17:15:15.000"
+      state: "on" # if this is on then the API should send true otherwise false
+
+// @TODO spoof the GPS - Wait 60->75 Seconds
+  - task: pointing
+    data:
+      time: "2023-01-30 17:33:30.000"
+      qx: 0.81939834
+      qy: 0.41312229
+      qz: -0.39550724
+      qS: -0.03860509
+
+// Take an Image - Wait 60->75 seconds if no GPS
+  - task: image
+    data:
+      time: "2023-08-12 17:36:37.569"
+      imageId: 4 # desired file ID on the camera/satellite
+```
+
+While it looks like we won't have a good pointing command, we'll be interested to see what happens - it's CTF after all 😀
+2023-08-12 17:59:10.622000+00:00 - wyattearp: @mission control - do we know if we send a command to slew and attitude control is disabled will it ignore it?
+2023-08-12 18:04:49.496000+00:00 - SafeMode: yes for future out of view windows
+2023-08-12 18:06:43.981000+00:00 - wyattearp: does that imply that we can do pointing now?
+2023-08-12 18:07:17.872000+00:00 - SafeMode: during the overnight window where we provided quaternion profiles, yes
+2023-08-12 18:07:25.453000+00:00 - SafeMode: for any other window, no
+2023-08-12 18:07:30.531000+00:00 - wyattearp: Got it
+2023-08-12 18:17:21.380000+00:00 - douglett: @mission control regarding the clarification of unintended-bug not being solvable without ACS enabled, is Halide Metal solvable without ACS?
+2023-08-12 18:23:09.654000+00:00 - SafeMode: Halide Medal is the download portion of Unintended-Bug, so for Halide Medal to succeed you need an image to download from camera
+2023-08-12 18:25:10.741000+00:00 - douglett: Roger
+2023-08-12 18:29:03.881000+00:00 - Cydonia: Hey guys we noticed you have stuff in the window viewer right now - please see our announcement in the main chat about the current "open" window
+2023-08-12 18:29:53.783000+00:00 - douglett: I'm pretty confident the team is tracking  this - we're testing things. But will pass along. Do you want us to take it all down?
+2023-08-12 18:32:56.844000+00:00 - SafeMode: no just wanted to clarify that the tasks will not be uploaded
+2023-08-12 18:33:10.602000+00:00 - douglett: roger
+2023-08-12 19:38:41.449000+00:00 - wyattearp: @Cydonia - remembering about not locking up the camera, is it ok to issue click the shutter (`image`) ~4 sec apart?
+2023-08-12 20:10:59.187000+00:00 - wyattearp: acknowledged this was answered in the #finals-2023
+2023-08-12 20:26:43.626000+00:00 - wyattearp: @mission control  another question. We are unclear what happened during contact windows 43 / 44 where we believe we should have snagged silvermedal. Out logs indicate we tried to take the pictures during Round 43
+-- image 1 2023-08-12 00:44:30.000
+-- download image 1 2023-08-12 00:45:30.000
+and then Round 44 at 01:55:00 take image 3, and 01:55:05 download image 3 we put in a "just in case." We think it should have at least shown up in the tlm logs? Can you tell us if you see them or what we did wrong?
+2023-08-12 21:02:20.218000+00:00 - SafeMode: We just discussed. The behaviour we observed in TLM shows the game and challenges are working as expected. We can explain in more detail what happened after game.
+2023-08-12 21:04:17.697000+00:00 - douglett: thanks!
+2023-08-12 21:29:32.590000+00:00 - wyattearp: will we get attitude and body rates in any of the TLM for planning the next window?
+2023-08-12 21:42:56.885000+00:00 - SafeMode: There is not pointing in the next window. The satellite is tumbling
+2023-08-12 21:44:05.373000+00:00 - Cydonia: Also the last contact was pretty bad.  We got 0 tlm
+2023-08-12 21:44:19.543000+00:00 - Cydonia: Just managed the uplink
+2023-08-12 21:46:17.757000+00:00 - wyattearp: copy that - hope you snag it on the next go!
+2023-08-12 22:22:11.926000+00:00 - wyattearp: Clarifying from SirGoon — Today at 12:40 PM
+@finals-2023 All, to get the flag for IronBank you must generate a .ib_flag file with your user
+
+if we generate it, do we have to then downlink it in TLM to get the flag or just gen it?
+2023-08-12 22:36:40.955000+00:00 - SafeMode: thas is something we do
+2023-08-12 22:46:51.569000+00:00 - wyattearp: can we clarify on this? will we be able to download it later or is it lost forever? (e.g. if we were keeping track of things could we request them)
+2023-08-12 22:52:01.437000+00:00 - SafeMode: We will download in the upcoming contacts. This has been happening the whole game. With our link and comms constraints this was expected
+2023-08-12 22:57:52.309000+00:00 - wyattearp: @SafeMode - we would like to verify that we have **NOT** solved the following:
+* Iron Bank - planning to submit a solution
+* Shutter Bug - planning to submit (but we hope we got it last time?
+* ~~Unintended - planning to submit (but we hope we got it last time?)~~ no ACS?
+* Silver Medal - planning to submit (but we hope we got it last time?)
+* ~~Halide Medal - planning to submit (but we hope we got it last time?)~~ no ACS / no Unintended?
+
+Could you please confirm so we can prioritize?
+2023-08-12 23:01:23.916000+00:00 - SafeMode: Have you solved Script Kiddie?
+2023-08-12 23:01:45.158000+00:00 - wyattearp: we tried to solve that on the last pass - so ... we think? 🙂

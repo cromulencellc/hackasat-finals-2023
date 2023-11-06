@@ -1,0 +1,501 @@
+targets:
+  SantaMonica:
+    location:
+      latitude: 34.008445897191585
+      longitude: -118.49851591006502
+      altitude: 83
+  MountFuji:
+    location:
+      latitude: 35.363602
+      longitude: 138.726379
+      altitude: 3735
+  Melbourne:
+    location:
+      latitude: 28.079147967083237
+      longitude: -80.60926797385281
+      altitude: 0
+  GrandCanyon:
+    location:
+      latitude: 36.87911175595933
+      longitude: -111.51039601037603
+      altitude: 1263
+  Chicago:
+    location:
+      latitude: 41.87786696767347
+      longitude: -87.61820082962625
+      altitude: 147
+  LaGoleta:
+    location:
+      latitude: 8.43548525361439
+      longitude: -77.16456142972261
+      altitude: 0
+  BocaChica:
+    location:
+      latitude: 25.99755748979175
+      longitude: -97.15212673312745
+      altitude: 22
+  IslaSocorro:
+    location:
+      latitude: 18.79365079945593
+      longitude: -110.97523562534269
+      altitude: 35
+  Barbados:
+    location:
+      latitude: 13.114574690660742
+      longitude: -59.617221887331105
+      altitude: 34
+  AmazonRiver:
+    location:
+      latitude: 0.6990877718658519
+      longitude: -50.18446761059357
+      altitude: 26
+  BuenosAires:
+    location:
+      latitude: -34.60918049106959
+      longitude: -58.376468067215114
+      altitude: 57
+  Lima:
+    location:
+      latitude: -12.057106038699327
+      longitude: -77.12364707462757
+      altitude: 40
+  RioDeJaneiro:
+    location:
+      latitude: -22.90755506317436
+      longitude: -43.1764419217498
+      altitude: 54
+  MtRainier:
+    location:
+      latitude: 46.85169719927595
+      longitude: -121.7581251648083
+      altitude: 4320
+  Anchorage:
+    location:
+      latitude: 61.21572523525937
+      longitude: -149.9060838861084
+      altitude: 37
+  CapeTown:
+    location:
+      latitude: -33.910102303412955
+      longitude: 18.409898854543133
+      altitude: 70
+  SaintHelena:
+    location:
+      latitude: -15.980749019518532
+      longitude: -5.735072209792626
+      altitude: 735
+  TristanDaCunha:
+    location:
+      latitude: -37.11156963528902
+      longitude: -12.28725460396211
+      altitude: 2017
+  AlfredFaure:
+    location:
+      latitude: -46.43223498052881
+      longitude: 51.85800673201873
+      altitude: 185
+  Mauritius:
+    location:
+      latitude: -20.28818168044648
+      longitude: 57.587275270846504
+      altitude: 443
+  CocosIslands:
+    location:
+      latitude: -12.157398010496907
+      longitude: 96.87052958667284
+      altitude: 40
+  Cairo:
+    location:
+      latitude: 29.979178479795483
+      longitude: 31.134134858930874
+      altitude: 50
+  Djibouti:
+    location:
+      latitude: 11.572381342886551
+      longitude: 43.14485038076762
+      altitude: 7
+  Mombasa:
+    location:
+      latitude: -4.041063444394274
+      longitude: 39.657444555577115
+      altitude: 1
+  Lagos:
+    location:
+      latitude: 6.5206294960938225
+      longitude: 3.366464829151511
+      altitude: 39
+  StJohns:
+    location:
+      latitude: 47.55324210852044
+      longitude: -52.750977702144134
+      altitude: 140
+  Bermuda:
+    location:
+      latitude: 32.37729194600993
+      longitude: -64.68924881474824
+      altitude: 25
+  CorvoIsland:
+    location:
+      latitude: 39.7095763064749
+      longitude: -31.110159315404264
+      altitude: 459
+  SantoAntao:
+    location:
+      latitude: 17.03021103953238
+      longitude: -25.295749177285245
+      altitude: 1911
+  Maspalomas:
+    location:
+      latitude: 27.75364627729055
+      longitude: -15.57005513304407
+      altitude: 63
+  Paris:
+    location:
+      latitude: 48.858232208663246
+      longitude: 2.294421667101492
+      altitude: 86
+  Lisbon:
+    location:
+      latitude: 38.71391471581956
+      longitude: -9.133485128815124
+      altitude: 141
+  Reykjavik:
+    location:
+      latitude: 64.07465749044643
+      longitude: -21.91916887462416
+      altitude: 80
+  Ghat:
+    location:
+      latitude: 24.96700913251941
+      longitude: 10.180525375603018
+      altitude: 725
+  NordenschildGlacier:
+    location:
+      latitude: -54.398694789638945
+      longitude: -36.376410865389445
+      altitude: 208
+  StPetersburg:
+    location:
+      latitude: 59.97291481099011
+      longitude: 30.21963495849612
+      altitude: 24
+  Baku:
+    location:
+      latitude: 40.295669467025334
+      longitude: 49.922675669491774
+      altitude: 0
+  PikTalgar:
+    location:
+      latitude: 43.11922640621325
+      longitude: 77.3407533572205
+      altitude: 4869
+  Dubai:
+    location:
+      latitude: 25.000322957276325
+      longitude: 54.99172775337989
+      altitude: 0
+  PortMorseby:
+    location:
+      latitude: -9.479762352638941
+      longitude: 147.1562174731587
+      altitude: 86
+  Adak:
+    location:
+      latitude: 51.87347849860576
+      longitude: -176.63541967748137
+      altitude: 15
+  Maldives:
+    location:
+      latitude: 0.1928530360986773
+      longitude: 73.19573154047156
+      altitude: 0
+  GoraCherskogo:
+    location:
+      latitude: 55.05967654745737
+      longitude: 108.68503823467131
+      altitude: 2245
+  BhagirathiRiver:
+    location:
+      latitude: 21.714965467481772
+      longitude: 87.94985544571041
+      altitude: 0
+  Maui:
+    location:
+      latitude: 20.74974286178354
+      longitude: -156.43788294704606
+      altitude: 78
+  Alamagan:
+    location:
+      latitude: 17.600341258881638
+      longitude: 145.83347932502912
+      altitude: 601
+  Brisbane:
+    location:
+      latitude: -27.403772370537595
+      longitude: 153.10963815827222
+      altitude: 52
+  Galapagos:
+    location:
+      latitude: -0.18967802647825072
+      longitude: -91.29016611337359
+      altitude: 1102
+  Tahiti:
+    location:
+      latitude: -17.64574661465676
+      longitude: -149.44704927422387
+      altitude: 363
+  Fiji:
+    location:
+      latitude: -17.75657290440706
+      longitude: 177.44298070670777
+      altitude: 71
+  BilbunyaDunes:
+    location:
+      latitude: -31.699178962897886
+      longitude: 128.93231498725208
+      altitude: 0
+  GamayBay:
+    location:
+      latitude: 12.359269645232182
+      longitude: 125.3124429005295
+      altitude: 53
+  HendersonIsland:
+    location:
+      latitude: -24.375194739570684
+      longitude: -128.3261143323821
+      altitude: 16
+  JuanFernandezIsland:
+    location:
+      latitude: -33.63788897677668
+      longitude: -78.83118755137527
+      altitude: 26
+  FussPeak:
+    location:
+      latitude: 50.26901178978161
+      longitude: 155.24705682504288
+      altitude: 1658
+  HeavenLake:
+    location:
+      latitude: 42.00736841630313
+      longitude: 128.05628578208047
+      altitude: 2213
+  BikiniAtoll:
+    location:
+      latitude: 11.606852538279401
+      longitude: 165.37372112250765
+      altitude: 0
+  Rapa:
+    location:
+      latitude: -27.587369104991442
+      longitude: -144.33617679403702
+      altitude: 341
+  Rapa:
+    location:
+      latitude: -27.587369104991442
+      longitude: -144.33617679403702
+      altitude: 341
+  NothinToSea:
+    location:
+      latitude: -49.9086
+      longitude: -157.146
+      altitude: 0
+  NoLandInSight:
+    location:
+      latitude: -43.6202
+      longitude: 97.0052
+      altitude: 0
+  Tonga:
+    location:
+      latitude: -21.131067447724412
+      longitude: -175.20057910807412
+      altitude: 58
+  BabyDontHurtMe:
+    location:
+      latitude: -8.08358491941255
+      longitude: -141.9535748077677
+      altitude: 0
+  OnlyOcean:
+    location:
+      latitude: 11.4047
+      longitude: -131.072
+      altitude: 300
+  KureAtoll:
+    location:
+      latitude: 28.414309909524775
+      longitude: -178.3267074602224
+      altitude: 0
+  ColdWater:
+    location:
+      latitude: 40.8591
+      longitude: -141.932
+      altitude: 0
+  EasterIsland:
+    location:
+      latitude: -27.122005894358775
+      longitude: -109.28898866627844
+      altitude: 0
+  MiddleOfTheOcean:
+    location:
+      latitude: -48.8767
+      longitude: -123.393
+      altitude: 0
+  JustAFarm:
+    location:
+      latitude: 38
+      longitude: -97
+      altitude: 381
+  PortoDeGalinhas:
+    location:
+      latitude: -8.50630
+      longitude: -35.00706
+      altitude: 0
+  LakeTiticaca:
+    location:
+      latitude: -15.84636
+      longitude: -69.41928
+      altitude: 3860
+  Brasilia:
+    location:
+      latitude: -15.79284
+      longitude: -47.88249
+      altitude: 1076
+  Chengdu:
+    location:
+      latitude: 30.66080
+      longitude: 104.06496
+      altitude: 458
+  ZiegeleiparkMildenberg:
+    location:
+      latitude: 53.030158
+      longitude: 13.311827
+      altitude: 85
+  ItsLonelyOutHere:
+    location:
+      latitude: 16.3034
+      longitude: -171.309
+      altitude: 0
+  SiwashMountain:
+    location:
+      latitude: 49.35434237518446
+      longitude: -117.45133815608821
+      altitude: 2207
+  Pasta:
+    location:
+      latitude: 11.841145085427042
+      longitude: -15.768948951752643
+      altitude: 59
+  PrinceEdwardIslands:
+    location:
+      latitude: -46.89972003976638
+      longitude: 37.71610519866688
+      altitude: 1667
+  MoonlighterIsland:
+    location:
+      latitude: -54.42023040056274
+      longitude: 3.3593833078360964
+      altitude: 641
+  SimeonofWildlifeRefuge:
+    location:
+      latitude: 54.893095136493216
+      longitude: -159.28016895523672
+      altitude: 381
+  LostAtSea:
+    location:
+      latitude: -14.9774
+      longitude: -98.5382
+      altitude: 0
+  MoreOcean:
+    location:
+      latitude: 18.4118
+      longitude: -139.258
+      altitude: 0
+  AnotherOceanTarget:
+    location:
+      latitude: -50.7895
+      longitude: -89.7594
+      altitude: 0
+  SharNuurLake:
+    location:
+      latitude: 50.22979942110041
+      longitude: 94.56990611200203
+      altitude: 848
+  MountOssa:
+    location:
+      latitude: -41.86997681845921
+      longitude: 146.0299729029753
+      altitude: 1521
+  NintokuSeamount:
+    location:
+      latitude: 41.00303329649165
+      longitude: 170.66772696204129
+      altitude: 0
+  ForbiddenWaters:
+    location:
+      latitude: -17.6918
+      longitude: -104.343
+      altitude: 0
+  GomalZamLake:
+    location:
+      latitude: 32.06608795012258
+      longitude: 69.84681937199835
+      altitude: 643
+  WaterWaterWater:
+    location:
+      latitude: -0.890605 
+      longitude: -172.328
+      altitude: 0
+  SoMuchWater:
+    location:
+      latitude: -47.2167
+      longitude: 110.28
+      altitude: 0
+  Kiribati:
+    location:
+      latitude: 1.9251041349689038
+      longitude: -157.43204256359925
+      altitude: 0
+  Seychelles:
+    location:
+      latitude: -4.663891443678612
+      longitude: 55.46641085366932
+      altitude: 402
+  DontDoIt:
+    location:
+      latitude: -38.1373
+      longitude: -30.0664
+      altitude: 0
+  Mumbai:
+    location:
+      latitude: 19.04974012792847 
+      longitude: 72.82138182377474
+      altitude: 0
+  PhanThiet:
+    location:
+      latitude: 10.919681666158239
+      longitude: 108.10782549727944
+      altitude: 13
+  CambridgeGulf:
+    location:
+      latitude: -14.875310855717881
+      longitude: 128.29803903200784
+      altitude: 38
+  NeverGonna:
+    location:
+      latitude: 26.8253
+      longitude: -50.7189
+      altitude: 0
+  GiveYouUp:
+    location:
+      latitude: -40.0835
+      longitude: 70.1252
+      altitude: 0
+  OldWivesLake:
+    location:
+      latitude: 50.097240840699314
+      longitude: -105.9808550696967
+      altitude: 0
+  LaCroix:
+    location:
+      latitude: 47.6227503515528
+      longitude: -61.40712411158643
+      altitude: 0

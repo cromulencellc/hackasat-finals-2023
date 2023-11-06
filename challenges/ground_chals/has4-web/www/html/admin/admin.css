@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+body {
+  /* background-image: url('/hasback-1-scaled.jpeg'); */
+  background-color: black;
+  color: white;
+  background: urL("/hasback-1-scaled.jpeg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  min-height: 1000px;
+}
+

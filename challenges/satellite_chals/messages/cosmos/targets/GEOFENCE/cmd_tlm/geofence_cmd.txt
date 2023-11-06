@@ -1,0 +1,27 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND GEOFENCE NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 0, 0) %>
+COMMAND GEOFENCE RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 1, 0) %>
+COMMAND GEOFENCE GET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 2, 0) %>
+COMMAND GEOFENCE TIME_OFFSETS <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 3, 16) %>
+  APPEND_PARAMETER LEAPSECONDS 64 FLOAT  0 MAX_FLOAT64 37 "leap seconds"
+  APPEND_PARAMETER DELTA_U_T1 64 FLOAT  MIN_FLOAT64 MAX_FLOAT64 0 "delta UT1 time offset"
+COMMAND GEOFENCE LOAD_GEOFENCE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 4, 64) %>
+  APPEND_PARAMETER PATHNAME 512 STRING   "default" "geofence configuration file path"
+COMMAND GEOFENCE SNAP_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 5, 1) %>
+  APPEND_PARAMETER IMAGE_ID 8 UINT  MIN_UINT8 MAX_UINT8 0 "TODO: FILL ME IN"
+COMMAND GEOFENCE TEAM_CHANGE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 6, 16) %>
+  APPEND_PARAMETER NAME 128 STRING   "default" "TODO: FILL ME IN"
+COMMAND GEOFENCE DOWNLOAD_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("GEOFENCE", Moonlighter::MsgId::GEOFENCE_CMD_ID, 7, 1) %>
+  APPEND_PARAMETER IMAGE_ID 8 UINT  MIN_UINT8 MAX_UINT8 0 "TODO: FILL ME IN"

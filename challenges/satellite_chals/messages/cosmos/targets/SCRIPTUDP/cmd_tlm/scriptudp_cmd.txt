@@ -1,0 +1,15 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND SCRIPT_UDP NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT_UDP", Moonlighter::MsgId::SCRIPT_UDP_CMD_ID, 0, 0) %>
+COMMAND SCRIPT_UDP RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT_UDP", Moonlighter::MsgId::SCRIPT_UDP_CMD_ID, 1, 0) %>
+COMMAND SCRIPT_UDP CONFIGURE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT_UDP", Moonlighter::MsgId::SCRIPT_UDP_CMD_ID, 2, 2) %>
+  APPEND_PARAMETER SERVER_PORT 16 UINT  MIN_UINT16 MAX_UINT16 0 "TODO: FILL ME IN"
+COMMAND SCRIPT_UDP TEAM <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT_UDP", Moonlighter::MsgId::SCRIPT_UDP_CMD_ID, 3, 16) %>
+  APPEND_PARAMETER NAME 128 STRING   "default" "TODO: FILL ME IN"

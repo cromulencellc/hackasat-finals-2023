@@ -1,0 +1,14 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY CFE_EVS EVENT <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "CFEEVS" ,  Moonlighter::MsgId::CFEEVS_EVENT_TLM_ID) %>
+  APPEND_ITEM APP_NAME 160 STRING  "TODO: FILL ME IN"
+  APPEND_ITEM EVENT_ID 16 UINT  "Numeric event id"
+  APPEND_ITEM EVENT_TYPE 16 UINT  "Numeric event type id"
+  APPEND_ITEM SPACECRAFT_ID 32 UINT  "Spacecraft identifier"
+  APPEND_ITEM PROCESSOR_ID 32 UINT  "Processor identifier"
+  APPEND_ITEM MESSAGE 7808 STRING  "TODO: FILL ME IN"
+  APPEND_ITEM SPARE 16 UINT  "padding"

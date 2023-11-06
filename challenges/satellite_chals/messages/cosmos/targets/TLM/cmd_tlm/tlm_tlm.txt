@@ -1,0 +1,19 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY TLM FILTER_INFO <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "TLM" ,  Moonlighter::MsgId::TLM_FILTER_INFO_TLM_ID) %>
+  APPEND_ITEM APID 16 UINT  "filter message apid"
+  APPEND_ITEM DEPTH 16 UINT  "filter message depth"
+  APPEND_ITEM DECIMATION 8 UINT  "filter message decimation"
+  APPEND_ITEM ALLOWED 8 UINT  "filter message allowed"
+  APPEND_ITEM QUEUE 8 UINT  "filter message destination queue"
+  APPEND_ITEM DECIMATION_CTR 32 UINT  "filter message decimation counter"
+TELEMETRY TLM BUFFER_DETAILS <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "TLM" ,  Moonlighter::MsgId::TLM_BUFFER_DETAILS_TLM_ID) %>
+  APPEND_ITEM PATH 256 STRING  "buffer filename"
+  APPEND_ITEM LAST_STORE 256 STRING  "timestamp when buffer last stored to file"
+  APPEND_ITEM BUFFER_ID 8 UINT  "buffer id"
+  APPEND_ITEM SIZE 32 UINT  "buffer size in bytes"

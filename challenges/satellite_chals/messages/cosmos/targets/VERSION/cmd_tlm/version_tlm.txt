@@ -1,0 +1,32 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY VERSION VERSION_INFO <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "VERSION" ,  Moonlighter::MsgId::VERSION_VERSION_INFO_TLM_ID) %>
+  APPEND_ITEM SW_BUILD_DATE 128 STRING  "software build date string"
+  APPEND_ITEM SW_BUILD_TIME 80 STRING  "software build time string"
+  APPEND_ITEM FPGA_VERSION 320 STRING  "fpga version from identification register"
+TELEMETRY VERSION APP_INFO <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "VERSION" ,  Moonlighter::MsgId::VERSION_APP_INFO_TLM_ID) %>
+  APPEND_ITEM APP_0 256 STRING  "application so file name"
+  APPEND_ITEM APP_1 256 STRING  "application so file name"
+  APPEND_ITEM APP_2 256 STRING  "application so file name"
+  APPEND_ITEM APP_3 256 STRING  "application so file name"
+  APPEND_ITEM APP_4 256 STRING  "application so file name"
+  APPEND_ITEM APP_5 256 STRING  "application so file name"
+  APPEND_ITEM APP_6 256 STRING  "application so file name"
+  APPEND_ITEM APP_7 256 STRING  "application so file name"
+  APPEND_ITEM APP_8 256 STRING  "application so file name"
+  APPEND_ITEM APP_9 256 STRING  "application so file name"
+  APPEND_ITEM SHA_0 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_1 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_2 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_3 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_4 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_5 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_6 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_7 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_8 256 STRING  "application so file sha256"
+  APPEND_ITEM SHA_9 256 STRING  "application so file sha256"

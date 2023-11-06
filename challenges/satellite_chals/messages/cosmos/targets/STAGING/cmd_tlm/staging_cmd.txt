@@ -1,0 +1,38 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND STAGING NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 0, 0) %>
+COMMAND STAGING RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 1, 0) %>
+COMMAND STAGING RECOVER <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 2, 64) %>
+  APPEND_PARAMETER NAME 512 STRING   "default" "TODO: FILL ME IN"
+COMMAND STAGING STATUS_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 3, 32) %>
+  APPEND_PARAMETER NAME 256 STRING   "default" "TODO: FILL ME IN"
+COMMAND STAGING QUEUE_SIZE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 4, 33) %>
+  APPEND_PARAMETER QUEUE 256 STRING   "default" "TODO: FILL ME IN"
+  APPEND_PARAMETER MAX_ENTRIES 8 UINT  MIN_UINT8 MAX_UINT8 0 "TODO: FILL ME IN"
+COMMAND STAGING QUEUE_EMPTY <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 5, 32) %>
+  APPEND_PARAMETER QUEUE 256 STRING   "default" "TODO: FILL ME IN"
+COMMAND STAGING STAGING_SIZE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 6, 1) %>
+  APPEND_PARAMETER MAX_IMAGES 8 UINT  MIN_UINT8 MAX_UINT8 0 "TODO: FILL ME IN"
+COMMAND STAGING CONFIRM_DOWNLOAD <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 7, 32) %>
+  APPEND_PARAMETER IMG 256 STRING   "default" "TODO: FILL ME IN"
+COMMAND STAGING ADD_IMAGE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 8, 64) %>
+  APPEND_PARAMETER TEAM 256 STRING   "default" "Team name"
+  APPEND_PARAMETER IMG 256 STRING   "default" "TODO: FILL ME IN"
+COMMAND STAGING STAGE_IMAGES <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 9, 0) %>
+COMMAND STAGING REMOVE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("STAGING", Moonlighter::MsgId::STAGING_CMD_ID, 10, 64) %>
+  APPEND_PARAMETER TEAM 256 STRING   "default" "Team name"
+  APPEND_PARAMETER IMG 256 STRING   "default" "TODO: FILL ME IN"

@@ -1,0 +1,20 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND SCRIPT NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT", Moonlighter::MsgId::SCRIPT_CMD_ID, 0, 0) %>
+COMMAND SCRIPT RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT", Moonlighter::MsgId::SCRIPT_CMD_ID, 1, 0) %>
+COMMAND SCRIPT RUN <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT", Moonlighter::MsgId::SCRIPT_CMD_ID, 2, 1) %>
+  APPEND_PARAMETER SCRIPT 8 UINT  MIN_UINT8 MAX_UINT8 0 "Script ID"
+COMMAND SCRIPT KILL <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT", Moonlighter::MsgId::SCRIPT_CMD_ID, 3, 0) %>
+COMMAND SCRIPT LOAD <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT", Moonlighter::MsgId::SCRIPT_CMD_ID, 4, 1) %>
+  APPEND_PARAMETER SCRIPT 8 UINT  MIN_UINT8 MAX_UINT8 0 "Script ID"
+COMMAND SCRIPT SET_USER <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("SCRIPT", Moonlighter::MsgId::SCRIPT_CMD_ID, 5, 16) %>
+  APPEND_PARAMETER USER 128 STRING   "default" "TODO: FILL ME IN"

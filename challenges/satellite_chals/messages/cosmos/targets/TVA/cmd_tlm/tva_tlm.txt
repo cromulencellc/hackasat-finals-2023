@@ -1,0 +1,17 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY TVA STATUS <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "TVA" ,  Moonlighter::MsgId::TVA_STATUS_TLM_ID) %>
+  APPEND_ITEM NUM_LOADED 32 UINT  "number of messages in this command load"
+  APPEND_ITEM CURRENT_POSITION 32 UINT  "how many commands from this load have already been sent"
+  APPEND_ITEM LOAD_STATUS 8 UINT  "Load status of the current cmd file"
+  APPEND_ITEM FILENAME 256 STRING  "command load file name"
+TELEMETRY TVA EMITTED <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "TVA" ,  Moonlighter::MsgId::TVA_EMITTED_TLM_ID) %>
+  APPEND_ITEM UTC_SEC 64 FLOAT  "seconds since utc epoch"
+  APPEND_ITEM COMMAND_ID 16 UINT  "command id"
+  APPEND_ITEM FUNCTION 8 UINT  "TODO: FILL ME IN"
+  APPEND_ITEM T_GO_MILLI_SEC 64 INT  "TODO: FILL ME IN"

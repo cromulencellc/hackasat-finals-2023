@@ -1,0 +1,7 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY HEARTBEAT PPS <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "HEARTBEAT" ,  Moonlighter::MsgId::HEARTBEAT_PPS_TLM_ID) %>

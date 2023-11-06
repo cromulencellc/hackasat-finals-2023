@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  challenge_5000:
+    image: finals/challenges/finalpass/challenge:latest
+    environment:
+      CHAL_PORT: "5000"
+    ports:
+      - "5000-5001:5000-5001"
+    restart: always
+
+  challenge_6000:
+    image: finals/challenges/finalpass/challenge:latest
+    environment:
+      CHAL_PORT: "6000"
+    ports:
+      - "6000-6001:6000-6001"
+    restart: always
+
+  challenge_7000:
+    image: finals/challenges/finalpass/challenge:latest
+    environment:
+      CHAL_PORT: "7000"
+    ports:
+      - "7000-7001:7000-7001"
+    restart: always
+
+  challenge_8000:
+    image: finals/challenges/finalpass/challenge:latest
+    environment:
+      CHAL_PORT: "8000"
+    ports:
+      - "8000-8001:8000-8001"
+    restart: always
+
+  challenge_9000:
+    image: finals/challenges/finalpass/challenge:latest
+    environment:
+      CHAL_PORT: "9000"
+    ports:
+      - "9000-9001:9000-9001"
+    restart: always

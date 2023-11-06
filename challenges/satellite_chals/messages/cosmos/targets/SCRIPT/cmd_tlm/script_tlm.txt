@@ -1,0 +1,10 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY SCRIPT STATUS <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "SCRIPT" ,  Moonlighter::MsgId::SCRIPT_STATUS_TLM_ID) %>
+  APPEND_ITEM SCRIPT 2048 STRING  "TODO: FILL ME IN"
+  APPEND_ITEM ALIVE 8 UINT  "1 = alive, 0 = dead"
+  APPEND_ITEM STATUS 8 UINT  "TODO: FILL ME IN"

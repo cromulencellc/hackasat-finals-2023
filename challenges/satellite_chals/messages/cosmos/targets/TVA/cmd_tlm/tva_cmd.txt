@@ -1,0 +1,24 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND TVA NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TVA", Moonlighter::MsgId::TVA_CMD_ID, 0, 0) %>
+COMMAND TVA RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TVA", Moonlighter::MsgId::TVA_CMD_ID, 0, 0) %>
+COMMAND TVA TIME_MARK <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TVA", Moonlighter::MsgId::TVA_CMD_ID, 1, 6) %>
+  APPEND_PARAMETER YR 8 UINT  0 255 0 "load command year"
+  APPEND_PARAMETER MO 8 UINT  0 12 0 "load command month"
+  APPEND_PARAMETER DAY 8 UINT  0 31 0 "load command day"
+  APPEND_PARAMETER HR 8 UINT  0 23 0 "load command hour"
+  APPEND_PARAMETER MIN 8 UINT  0 59 0 "load command minute"
+  APPEND_PARAMETER SEC 8 UINT  0 59 0 "load command second"
+COMMAND TVA DISCARD <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TVA", Moonlighter::MsgId::TVA_CMD_ID, 2, 0) %>
+COMMAND TVA LOAD_FILE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TVA", Moonlighter::MsgId::TVA_CMD_ID, 3, 32) %>
+  APPEND_PARAMETER NAME 256 STRING   "commands.bin" "load file name"
+COMMAND TVA STATUS_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TVA", Moonlighter::MsgId::TVA_CMD_ID, 4, 0) %>

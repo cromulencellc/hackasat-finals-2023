@@ -1,0 +1,7 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND CFE_EVS_HK CFE_EVS_SEND_HK <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("CFE_EVS_HK", Moonlighter::MsgId::CFE_EVS_HK_CMD_ID, 0, 0) %>

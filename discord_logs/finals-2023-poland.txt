@@ -1,0 +1,250 @@
+2023-06-29 20:31:45.736000+00:00 - Vito: # Welcome to Hack-A-Sat Finals chat!
+
+1. These guidelines do not supersede the official rules; they’re here to make chatting in Slack useful and productive for all of us.
+2. The goals of these channels are to address hardware, infrastructure, and other gameplay issues.
+3. You should have access to both #finals-2023 and #finals-2023-TEAMNAME . Please let Mission Control know if you don’t! Do that now!
+4. All #finals-2023 and #finals-2023-TEAMNAME conversations will be made public after the game ends. Don’t chat anything you wish to keep private. Don’t chat personally identifiable information.
+5. Please be thoughtful with which team members engage in communication with organizers. While we don’t want your team to miss important details due to someone taking a break or being busy, we also don’t want to spend a bunch of time getting confused or de-conflicting what more people want. 
+6. That said, it’s totally okay to have your whole team in both the #finals-2023 and #finals-2023-TEAMNAME rooms reading.
+7. Sending private or direct messages to a game operator will make it more difficult for operators and other members of your team to know what’s going on. Please don’t. 
+8. Both #finals-2023 and #finals-2023-TEAMNAME can be used for official communication through the end of Hack-A-Sat finals. shout@hackasat.com is also still available for official communication. 
+9. Please review the contest rules and keep an eye out for updates at https://www.hackasat.com/
+2023-06-29 20:33:23.559000+00:00 - Vito: @poland
+2023-06-29 20:33:30.725000+00:00 - Patrycja: 👋
+2023-06-29 20:33:41.107000+00:00 - Szkalom: 🤔
+2023-06-29 20:34:27.100000+00:00 - keidii🕱: Why u cant gif!!???
+2023-06-29 20:34:45.223000+00:00 - Szkalom: Link needs to point to actual gif file
+2023-06-29 20:35:33.984000+00:00 - Vito: i'm guessing some a guild owner disabled gifs
+2023-06-29 20:35:49.264000+00:00 - keidii🕱: 🙂
+2023-06-29 20:48:08.189000+00:00 - nsty: https://giphy.com/gifs/callofduty-HrgDiQbHvappjZJLL0
+2023-06-29 21:04:04.904000+00:00 - mkow: sounds like a bug!
+2023-06-29 21:04:38.993000+00:00 - mkow: what about allowing non-animated images at least? 🙃
+2023-06-29 21:13:37.811000+00:00 - Vito: try now
+2023-06-29 21:14:23.342000+00:00 - Szkalom: I still think you just need to link to actual gif and not some weird page full of ads
+2023-06-29 21:14:27.808000+00:00 - Szkalom: https://i.imgur.com/NoRnGUX.gif
+2023-06-29 21:26:10.424000+00:00 - Bonus: 
+2023-06-29 22:17:51.842000+00:00 - mkow: 
+2023-06-29 22:18:16.051000+00:00 - mkow: thank you 😍
+2023-07-26 19:28:00.923000+00:00 - Vito: @mkow wireguard key received, what's a good time for you tomorrow to validate that it works?
+2023-07-26 21:02:48.494000+00:00 - mkow: @implr ^
+2023-07-26 21:03:58.803000+00:00 - implr: About this time is ok
+2023-07-26 21:04:15.527000+00:00 - implr: Or in other words, 22-25h from now
+2023-07-26 21:58:04.494000+00:00 - Vito: so maybe <:1690488000>
+2023-07-26 21:58:11.875000+00:00 - Vito: how do i do timestamp
+2023-07-26 21:58:23.842000+00:00 - Vito: <t:1690488000>
+2023-07-27 09:31:39.545000+00:00 - implr: That works
+2023-07-27 18:29:48.790000+00:00 - Szkalom: @mission control can we add here @chivay
+2023-07-27 18:36:32.385000+00:00 - Vito: done
+2023-07-27 18:58:48.953000+00:00 - chivay: 🙏 thanks
+2023-07-27 19:52:30.361000+00:00 - Szkalom: @mission control and also @[🇵🇱🐉🚀] c7f please 🙂
+2023-07-27 19:53:01.666000+00:00 - Vito: done
+2023-07-27 20:30:25.956000+00:00 - implr: @Vito hey, so I'm around
+2023-07-27 20:30:34.548000+00:00 - Vito: oh cool!
+2023-07-27 20:30:37.419000+00:00 - Vito: check your dms
+2023-07-31 10:51:34.724000+00:00 - implr: did you take down the vpn endpoint? it doesn't ping
+2023-07-31 21:41:53.103000+00:00 - Bonus: @Vito 2 questions about VPN:
+1) can subnets change? (asking if the finals VPN config will change)
+2) will IPv6 be required or IPv4 is sufficient?
+2023-08-11 15:59:54.579000+00:00 - Cydonia: Good morning.
+Your api key is: panda-cyborg-keto-lorentz
+2023-08-11 16:06:05.783000+00:00 - mkow: FYI: https://moonlighter-facts.dc31.satellitesabove.me/ gives 404, works only on HTTP
+2023-08-11 16:06:23.010000+00:00 - mkow: which is quite annoying, because browsers nowadays forcefully redirect to your 404 page
+2023-08-11 16:11:23.806000+00:00 - Vito: seen
+2023-08-11 16:21:10.305000+00:00 - nsty: What's happening with dates and times on https://winviewer.dc31.satellitesabove.me/ ?
+2023-08-11 16:21:32.295000+00:00 - nsty: 
+2023-08-11 16:24:29.055000+00:00 - Cydonia: sorry- we're having issues with this. just a min please
+2023-08-11 16:24:53.097000+00:00 - Cydonia: will announce in main chat when this is resolved
+2023-08-11 16:25:40.601000+00:00 - Patrycja: ```
+# nc challenges.dc31.satellitesabove.me 9040 -vv
+nc: connect to challenges.dc31.satellitesabove.me (10.28.168.232) port 9040 (tcp) failed: Connection refused
+```
+😕
+2023-08-11 16:27:52.802000+00:00 - Deadwood: seen. stand by while we fight a couple of other fires.
+2023-08-11 16:28:19.267000+00:00 - Vito: fixed
+2023-08-11 16:29:34.783000+00:00 - Szkalom: I'm not convinced 🙂
+2023-08-11 16:50:47.988000+00:00 - Bonus: 
+2023-08-11 16:53:45.825000+00:00 - Vito: awesome, what's the falg
+2023-08-11 16:54:20.407000+00:00 - Vito: give flag
+2023-08-11 16:54:27.653000+00:00 - Bonus: `flag{kcGJpMczuYWjmwN1}`
+2023-08-11 16:54:39.912000+00:00 - Bonus: from webserver
+2023-08-11 16:56:34.354000+00:00 - Vito: try now?
+2023-08-11 16:56:55.998000+00:00 - gynvael: https://regatta.2023.hackasat.com/ seems down
+2023-08-11 16:57:01.110000+00:00 - Bonus: +1
+2023-08-11 16:58:09.001000+00:00 - Vito: i am seeing the problem
+2023-08-11 16:59:41.848000+00:00 - Vito: try again
+2023-08-11 16:59:53.706000+00:00 - Vito: otherwise i'll hand crank it
+2023-08-11 17:00:08.497000+00:00 - Patrycja: still down
+2023-08-11 17:00:10.732000+00:00 - gynvael: regatta seems still down for me
+2023-08-11 17:05:08.651000+00:00 - gynvael: ok, flag got in
+2023-08-11 17:05:40.024000+00:00 - gynvael: scoreboard didn't update though
+2023-08-11 17:06:11.339000+00:00 - Vito: 0320d6fc-221f-422a-a946-d1e27ef82ca7
+2023-08-11 17:06:37.372000+00:00 - Vito: that came in during round 7 which is going on for another 2000s
+2023-08-11 17:07:21.148000+00:00 - gynvael: 👍
+2023-08-11 17:07:48.291000+00:00 - mkow: ah, so the scoreboard updates every half an hour?
+2023-08-11 17:08:13.489000+00:00 - mkow: for all the challs?
+2023-08-11 17:11:51.597000+00:00 - yukine: can someone set up a regatta account for me at "patryk.sondej@gmail.com"
+2023-08-11 17:12:11.134000+00:00 - yukine: anyway reset password not working 😅
+2023-08-11 17:12:28.219000+00:00 - Vito: in the meantime, can you share with someone else? drilling down another issue
+2023-08-11 17:17:37.387000+00:00 - Bonus: not an issue
+2023-08-11 17:17:39.779000+00:00 - Bonus: we're sharing an account
+2023-08-11 17:21:06.856000+00:00 - Rev: is there only one flag to be discovered in the web server challenge or more?
+2023-08-11 17:23:22.402000+00:00 - meenmachine: answered check finals chat pls
+2023-08-11 17:23:50.748000+00:00 - Rev: I see, thanks!
+2023-08-11 17:23:51.954000+00:00 - Patrycja: thank 👍
+2023-08-11 17:39:42.362000+00:00 - mkow: more than 2000s passed and we're still without points, why?
+2023-08-11 17:40:06.608000+00:00 - Patrycja: 
+2023-08-11 17:40:06.684000+00:00 - Vito: https://discord.com/channels/1073311445128851496/1121158557321138237/1139607017674248353
+2023-08-11 17:41:25.577000+00:00 - meenmachine: We're working on registering it for yall rn. Sorry for the delay
+2023-08-11 17:41:46.415000+00:00 - mkow: ACK
+2023-08-11 17:49:31.108000+00:00 - meenmachine: web chal solve?
+2023-08-11 17:49:45.797000+00:00 - meenmachine: We're curious if you have time to let us know what you did
+2023-08-11 17:51:45.337000+00:00 - gynvael: @meenmachine `../../../` into proc/self, get the exec, analyze, use api to list files / read flag
+2023-08-11 17:53:03.864000+00:00 - mkow: how should we get the mapping of IDs to services? (e.g. that ID==0 is GPS) is guessing / reversing this part of the CTF?
+2023-08-11 17:53:38.828000+00:00 - meenmachine: Give us a few minutes please and we'll get to you about this. We're dealing with contact stuff
+2023-08-11 17:54:53.783000+00:00 - Bonus: we're trying to get into admin panel but the creds don't seem to be working
+2023-08-11 17:55:38.275000+00:00 - meenmachine: If that's regatta I think it just started having issues
+2023-08-11 17:55:47.985000+00:00 - Bonus: nah, the webserver
+2023-08-11 17:57:03.441000+00:00 - meenmachine: What creds?
+2023-08-11 17:57:32.148000+00:00 - Bonus: `admin:i7E3clxQidNxE`
+2023-08-11 17:57:40.230000+00:00 - gynvael: for /admin/admin.html there
+2023-08-11 17:58:07.339000+00:00 - meenmachine: Working as intended 🙂
+2023-08-11 17:58:32.722000+00:00 - Bonus: ack
+2023-08-11 18:06:11.222000+00:00 - meenmachine: answered
+2023-08-11 18:24:30.265000+00:00 - Cydonia: feedback on script running for the dropped contact. It looks like you didnt give us a script to upload for the contact. If you think you should have please let me know and we can verify that you are using script upload correctly.
+2023-08-11 18:25:40.758000+00:00 - Szkalom: ee we did?
+2023-08-11 18:26:15.776000+00:00 - Szkalom: we uploaded script number 0 with a slightly modified example script
+2023-08-11 18:26:31.783000+00:00 - Szkalom: (before the previous contact)
+2023-08-11 18:26:39.038000+00:00 - Cydonia: i dont see it, let me come over to the table and we can do a quick test ok
+2023-08-11 18:26:47.426000+00:00 - Cydonia: i just need to give everyone their feedback first
+2023-08-11 18:26:51.813000+00:00 - Cydonia: im the guy in the hat
+2023-08-11 18:26:51.877000+00:00 - Szkalom: sure 🙂
+2023-08-11 18:28:28.112000+00:00 - SafeMode: yeah i see it for next contact
+2023-08-11 18:29:39.817000+00:00 - Szkalom: that's a new script 😉
+2023-08-11 18:29:43.683000+00:00 - Szkalom: hopefully a better one
+2023-08-11 18:34:50.999000+00:00 - mkow: just for the record, what we discussed with @Cydonia in person: we submitted a script also for the previous round and the API succeeded, but it seems it disappeared on your side
+2023-08-11 18:36:27.015000+00:00 - Cydonia: thanks for capturing this here
+2023-08-11 18:45:47.484000+00:00 - mkow: > It gives you the flight software for free
+is this different than `fsw.zip`? i.e. should we spend time attacking the web interface further?
+2023-08-11 18:47:11.980000+00:00 - Cydonia: confirming i  saw a second script upload come through for you
+2023-08-11 20:11:47.806000+00:00 - mkow: will we receive (and how) telemetry/logs/anything from the last round?
+2023-08-11 20:16:53.325000+00:00 - Cydonia: @mkow ill answer this in just a sec, helping someone really quick
+2023-08-11 20:24:17.596000+00:00 - Cydonia: @mkow since we just got the command loads up we will be releasing telemetry after the next contact (assuming of course that the link is good). We'll have the info on how to access that soon
+2023-08-11 20:26:50.634000+00:00 - mkow: did any other team receive any telemetry so far?
+2023-08-11 20:37:00.705000+00:00 - meenmachine: Answered in finals
+2023-08-11 22:28:41.662000+00:00 - mkow: we extracted credentials for webserver from the password manager, but webserver was solvable via LFI
+2023-08-11 22:28:45.371000+00:00 - mkow: we're confused
+2023-08-11 22:31:33.959000+00:00 - SafeMode: There were multiple paths to solving the webserver. Originally it was meant to gate some of the space challenges but we decided to not do that given the contact schedule with Moonlighter.
+2023-08-11 23:58:42.491000+00:00 - gregg: hey, is there a limit on the length of the LUA script?
+2023-08-12 00:01:07.030000+00:00 - Cydonia: yes - the api should issue an error to you if you send a script over the max length. The reason for this is becuase we need to make sure the number of total bytes we have to upload will make it up during a single contact
+2023-08-12 00:01:26.986000+00:00 - Cydonia: it shouldnt respond with 200 if you are within the max length
+2023-08-12 00:01:42.614000+00:00 - Cydonia: if you think it is please lmk and ill come over, you can show me
+2023-08-12 00:02:06.735000+00:00 - Cydonia: im in the hat
+2023-08-12 00:02:40.225000+00:00 - gregg: thanks, we'll try and let you know
+2023-08-12 00:03:19.164000+00:00 - Cydonia: if you want i can also just validate if we got the script on our end or not
+2023-08-12 00:24:12.642000+00:00 - gregg: we've uploaded the scripts (3 of them), we'll have one more probably
+2023-08-12 00:24:21.130000+00:00 - gregg: if you could please check if they are there
+2023-08-12 00:38:40.616000+00:00 - Cydonia: gotem
+2023-08-12 01:23:15.102000+00:00 - mkow: what is the exact condition to score a flag in Script Kiddie? the description says that just running anything is enough, but we found that there's also a command (id=3) named script_kiddie we can execute, which doesn't really do anything, but we guess we should just execute it with an arbitrary argument?
+2023-08-12 01:24:51.800000+00:00 - SafeMode: we believe we clarified this earlier. the script kiddie message must be sent in tlm to get flag
+2023-08-12 01:25:08.462000+00:00 - Cydonia: also we should have scoring info on this contact for this
+2023-08-12 01:27:54.721000+00:00 - mkow: where/when was this clarified exactly?
+2023-08-12 01:28:38.385000+00:00 - Cydonia: i can look if u want. but ill probably do that after the upcoming contact. want to make sure we get tlm down
+2023-08-12 01:30:00.799000+00:00 - Cydonia: just lmk
+2023-08-12 01:30:31.688000+00:00 - mkow: please do, we're still confused what are we supposed to do exactly in the challenge
+2023-08-12 01:30:44.767000+00:00 - Cydonia: np
+2023-08-12 01:30:51.681000+00:00 - mkow: there is no precise condition for scoring the flag anywhere
+2023-08-12 01:30:58.356000+00:00 - Cydonia: right after we deal with moonlighter
+2023-08-12 01:31:03.033000+00:00 - mkow: feel quite guessy :/
+2023-08-12 01:31:03.709000+00:00 - mkow: sure
+2023-08-12 01:31:23.744000+00:00 - mkow: especially that testing a single solution and getting feedback seem to take a day
+2023-08-12 01:31:39.199000+00:00 - Cydonia: the 4 hr comms blackout is killer
+2023-08-12 01:31:41.798000+00:00 - Cydonia: 😦
+2023-08-12 01:31:55.531000+00:00 - Cydonia: frustrating for us too
+2023-08-12 01:32:08.074000+00:00 - mkow: yeah, but here you could just say exactly what's the scoring condition
+2023-08-12 01:32:21.790000+00:00 - mkow: the task description suggests something else than the code
+2023-08-12 01:32:34.631000+00:00 - mkow: and we won't have too many tries for it
+2023-08-12 01:32:43.466000+00:00 - Cydonia: brb contact starting
+2023-08-12 01:32:48.874000+00:00 - mkow: so we really have to rely on your textual description of the goal
+2023-08-12 01:41:28.796000+00:00 - gregg: In 20 minutes we do have a deadline for overnight submission. when window reservations will be open?
+2023-08-12 01:42:02.068000+00:00 - Cydonia: i see them as open
+2023-08-12 01:42:22.328000+00:00 - Cydonia: please confirm
+2023-08-12 01:42:29.640000+00:00 - Szkalom: because it's broken 😄
+2023-08-12 01:42:41.181000+00:00 - Szkalom: I mean doesn't respond
+2023-08-12 01:42:54.529000+00:00 - Cydonia: ?? can u show me if i come over ??
+2023-08-12 02:35:02.853000+00:00 - Cydonia: @mkow bear with me im tired 🙂  im pretty sure what im referring to finals-2023 from meenmachine at 10:44pdt 11:05 pdt. We have a few contacts before we let moonlighter do the really long run and should have scoring updates for folks soon. Thanks for beng patient with my response
+2023-08-12 02:36:01.293000+00:00 - Cydonia: sorry again on the delay getting back to you
+2023-08-12 02:47:45.127000+00:00 - mkow: > The intent of script kiddies is to reverse engineer
+2023-08-12 02:49:06.273000+00:00 - mkow: dunno, there's no clear condition for scoring the flag in the code
+2023-08-12 02:50:29.821000+00:00 - meenmachine: Here are your script logs
+2023-08-12 02:50:37.566000+00:00 - Cydonia: understood - ill talk to the rest of the team about clarifying. we've got a few contacts we have to prioritize so we can get scoring tlm. thanks for again for waiting.
+2023-08-12 02:52:04.135000+00:00 - gregg: just to clarify, which operation window is that? rest of the windows will come later?
+2023-08-12 02:57:17.579000+00:00 - meenmachine: These are all the windows up until the latest ACB upload. So windows 42 and 43.
+2023-08-12 04:23:21.141000+00:00 - Cydonia: your score for this is up 🙂
+2023-08-12 04:25:18.224000+00:00 - mkow: thx!
+2023-08-12 15:08:44.518000+00:00 - Szkalom: Can we get a confirmation: the limitations on the pointing were in place only for the night window? Can we issue pointing commands today and they will be executed?
+2023-08-12 15:28:37.680000+00:00 - SafeMode: @Szkalom  no pointing commands were only executed during the overnight window. All other pointing commands will have no effect/ this is die to spacecraft limitations due to issue with one of the reaction wheels
+2023-08-12 15:31:01.284000+00:00 - Vito: clarifying: pointing commands were only executed during the overnight window
+2023-08-12 15:31:21.338000+00:00 - Vito: future pointing commands will not be executed
+2023-08-12 15:31:58.198000+00:00 - Szkalom: Thanks!
+2023-08-12 15:37:13.287000+00:00 - Szkalom: Yes, this is what we wanted to confirm 🙂 so that there is no point trying to take photos any more
+2023-08-12 16:01:14.223000+00:00 - SafeMode: @Szkalom if your has already scored points for silver medal and halide medal then yes that is true.
+2023-08-12 16:06:18.397000+00:00 - Szkalom: Well no, because without pointing were can't target anything
+2023-08-12 16:06:31.019000+00:00 - Szkalom: So you can only score silver, which we have
+2023-08-12 16:07:08.742000+00:00 - Szkalom: Unless halide is for any photo inside geofence, but description was that it has to be a valid target
+2023-08-12 16:09:32.354000+00:00 - Szkalom: So are there points for any photo inside geofence even if it is not a target?
+2023-08-12 16:11:31.813000+00:00 - Cydonia: your initial read was correct. Halide medal is a picture of **specifically** a geofenced target.
+2023-08-12 16:30:11.220000+00:00 - Szkalom: thanks for clarification 🙂
+2023-08-12 17:15:32.895000+00:00 - gregg: question regarding GPS and its API: are we able to download any logs from GPS? we've tried using udp.receive() bo no data was received there
+2023-08-12 17:59:39.484000+00:00 - mkow: what are the exact scoring rules for Unintended Bug? should we just take _any_ photo of the forbidden area?
+2023-08-12 18:00:22.752000+00:00 - gregg: or any photo inside geofenced area but not pointing to the target?
+2023-08-12 18:01:04.850000+00:00 - gregg: the question is if we take a picture without pointing (which we can't do today) inside geofenced area, we would get points or not
+2023-08-12 18:01:16.598000+00:00 - Cydonia: I understand the question 🙂 answering in the finals-2023 now
+2023-08-12 18:03:38.377000+00:00 - Cydonia: @mkow lmk if that clarifies?
+2023-08-12 18:04:23.690000+00:00 - gynvael: one more question is whether that task is achievable in the remaining windows, as the sat can't be rotated?
+2023-08-12 18:04:54.762000+00:00 - gregg: I thinkg it is clear, that means that it is not possible to score them at all today
+2023-08-12 18:05:24.792000+00:00 - mkow: yes 🙂 so, it means that these tasks can't be scored anymore?
+2023-08-12 18:05:33.147000+00:00 - gregg: clarification why we are asking: we are trying to understand which tasks could possibly be solved today so we know what we can do today
+2023-08-12 18:06:05.327000+00:00 - mkow: <searching for a vodka bottle in my backpack>
+2023-08-12 18:10:51.410000+00:00 - Cydonia: plz share lol jk
+2023-08-12 18:12:22.111000+00:00 - mkow: joking, but will smuggle a bottle in the afternoon
+2023-08-12 18:12:27.009000+00:00 - mkow: or after we score iron ;P
+2023-08-12 18:15:07.360000+00:00 - msm: happy to share a vodka (or beer) after the ctf today 😅 (but i guess for you work continues overnight again)
+2023-08-12 18:15:41.161000+00:00 - msm: we just need some iron now and we're set
+2023-08-12 18:16:48.226000+00:00 - Cydonia: we will have a short break to chat with you all after the game ends and before the post game moonlighter contacts
+2023-08-12 18:17:02.494000+00:00 - Cydonia: stop by and say hi
+2023-08-12 18:28:50.022000+00:00 - mkow: and drink a shot
+2023-08-12 18:31:08.692000+00:00 - gregg: do we know when slot reservations for round 46 will open? we want a specific slot and not want spam the "reserve" API all the time 🙂
+2023-08-12 18:36:55.472000+00:00 - Rodbert: Hey @Cydonia can you add user `mak_._` to the finals channel and to this chanel, pls 🙂
+2023-08-12 18:37:24.251000+00:00 - Cydonia: ummm ill ask someone else 🙂
+2023-08-12 18:37:59.628000+00:00 - meenmachine: Could you @ the username in this channel please
+2023-08-12 18:38:30.762000+00:00 - Bonus: @<915682734138073158>
+2023-08-12 18:38:39.940000+00:00 - Bonus: @<915682734138073158>
+2023-08-12 18:38:48.293000+00:00 - Rodbert: :trudne:
+2023-08-12 18:38:48.759000+00:00 - Bonus: close
+2023-08-12 18:38:54.486000+00:00 - meenmachine: Almost there
+2023-08-12 18:38:57.081000+00:00 - meenmachine: You get two more tries
+2023-08-12 18:39:10.838000+00:00 - Bonus: @mak
+2023-08-12 18:39:15.298000+00:00 - Bonus: there we go
+2023-08-12 18:39:19.142000+00:00 - meenmachine: Added haha
+2023-08-12 18:39:31.162000+00:00 - mak: ahoy ;]
+2023-08-12 18:39:47.530000+00:00 - meenmachine: 👋
+2023-08-12 19:20:02.388000+00:00 - Vito: 🥺
+2023-08-12 19:34:25.449000+00:00 - Szkalom: Is there some estimation on "how long taking picture takes"?
+2023-08-12 19:34:41.081000+00:00 - Szkalom: If we want to snap few in sequence what should be the delay between them?
+2023-08-12 19:41:19.794000+00:00 - Cydonia: give me a minute - discussing
+2023-08-12 19:43:38.030000+00:00 - Szkalom: And also to confirm what was said on the meeting before the CTF: the satellite is pointing downwards (nadir) all the time? 🙂
+2023-08-12 19:48:17.291000+00:00 - Cydonia: both answers in finals-2023
+2023-08-12 19:49:18.678000+00:00 - Szkalom: rip, we had an idea to snap a photo when satellite is flying almost perfectly overhead (it's possible in current slot 0 and 2)
+2023-08-12 19:49:34.481000+00:00 - Szkalom: which *could* work if it was pointing down 🙂
+2023-08-12 19:50:06.482000+00:00 - Cydonia: yeah i figured thats what you wanted to try
+2023-08-12 19:50:21.940000+00:00 - Szkalom: there is a 89 elevation pass in slot 0 and 2 😉
+2023-08-12 19:50:30.759000+00:00 - Cydonia: nice
+2023-08-12 20:23:16.398000+00:00 - Szkalom: actually this would have been a really good challenge -> snap foto of  target but you can't control attitude, maybe an idea for future 😉
+2023-08-12 20:25:47.741000+00:00 - Cydonia: agreed
+2023-08-12 20:26:15.519000+00:00 - Cydonia: the zwheel stickiness really made running our imaging challenges way harder than they were suppsoed to be
+2023-08-12 20:27:31.447000+00:00 - Szkalom: but it would be cool astrodynamics chall to take photo without it 😉 just compute precise time for 90 degree overhead flight 😉
+2023-08-12 20:27:51.004000+00:00 - Bonus: just FYI, on the laser thingy above you there's a typo in our team name `Polanda Can Into Space`
+2023-08-12 20:28:41.134000+00:00 - Cydonia: our bad
+2023-08-12 20:28:47.470000+00:00 - meenmachine: Working as intended
+2023-08-12 20:29:26.056000+00:00 - meenmachine: thats a joke. We'll tell the right people
+2023-08-12 20:30:07.803000+00:00 - Cydonia: i didnt even notice there were lasers above us

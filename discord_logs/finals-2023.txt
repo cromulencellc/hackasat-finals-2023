@@ -1,0 +1,567 @@
+2023-06-29 20:31:36.664000+00:00 - Vito: # Welcome to Hack-A-Sat Finals chat!
+
+1. These guidelines do not supersede the official rules; they’re here to make chatting useful and productive for all of us.
+2. The goals of these channels are to address hardware, infrastructure, and other gameplay issues.
+3. You should have access to both #finals-2023 and #finals-2023-TEAMNAME . Please let Mission Control know if you don’t! Do that now!
+4. All #finals-2023 and #finals-2023-TEAMNAME conversations will be made public after the game ends. Don’t chat anything you wish to keep private. Don’t chat personally identifiable information.
+5. Please be thoughtful with which team members engage in communication with organizers. While we don’t want your team to miss important details due to someone taking a break or being busy, we also don’t want to spend a bunch of time getting confused or de-conflicting what more people want. 
+6. That said, it’s totally okay to have your whole team in both the #finals-2023 and #finals-2023-TEAMNAME rooms reading. Please @-mention any missing players so Mission Control can add them. 
+7. Sending private or direct messages to a game operator will make it more difficult for operators and other members of your team to know what’s going on. Please don’t. 
+8. Both #finals-2023 and #finals-2023-TEAMNAME can be used for official communication through the end of Hack-A-Sat finals. shout@hackasat.com is also still available for official communication. 
+9. Please review the contest rules and keep an eye out for updates at https://www.hackasat.com/
+2023-06-29 20:33:06.499000+00:00 - Vito: @spacebitsrus @jmp @krautsat @poland @mhackeroni
+2023-06-29 21:42:33.918000+00:00 - Vito: if you're missing players, please mention them in your team channel and a @mission control  person will add them at some point
+2023-06-29 22:24:11.690000+00:00 - Vito: gifs and link unfurling are enabled for finals-2023 people, please behave
+2023-07-24 21:34:50.293000+00:00 - Vito: @finals-2023 your team should have an email about getting on the VPN we'll be running the contest from. It's really important to get it done, and coordinate with me about getting it working. @-me in your per-team channel if you have any issues
+2023-07-27 20:09:58.086000+00:00 - Vito: @finals-2023 if you've successfully connected to the VPN, i've added iperf3 to the "it works" machine, so you can test tcp and udp speeds
+2023-07-31 16:34:45.104000+00:00 - Vito: @finals-2023 attention teams: all wireguard instances should be up and configured, and each team should have everything you need to connect. To test, you should be able to visit https://itworks.2023.hackasat.com from the wireguard connection (it has a 10. ipv4 address so it won't work outside the vpn), or run iperf3 with tcp or udp against itworks.2023.hackasat.com too
+2023-07-31 16:35:17.047000+00:00 - Vito: The https site will remain up for the duration of the contest, and unless there's a specific reason to disable them, the iperf3 endpoints should also stay up.
+2023-07-31 17:09:56.841000+00:00 - implr: did you firewall off icmp on the vpn endpoint recently? it used to respond to pings, now it doesn't (but wg works)
+2023-07-31 17:16:16.861000+00:00 - Vito: hmm, i'm not totally sure it's ever been allowed, but i can probably change that
+2023-07-31 19:08:06.862000+00:00 - Vito: vpn endpoints should be pingable from the public internet, and itworks is pingable on ipv4 from vpn endpoints
+2023-08-01 13:47:04.319000+00:00 - (HAS4) OB1: @finals-2023 Your team lead & entrant official should have received a zoom invite for a finals info meeting on 8/2 at 11 am ET.  Please ensure someone from your team can attend if possible.  Thx
+2023-08-09 00:16:59.339000+00:00 - (HAS4) OB1: @finals-2023 here is an updated FAQ that was just sent to team leads.  Of note we are modifying the Friday game hours to 9 am PDT - 7 pm PDT.
+2023-08-09 00:21:58.647000+00:00 - wyattearp: Given the previous report time for setup of game was approximately 1 hour in advance, do we assume that to still be true, thus ~8am PDT for any setup?
+2023-08-09 01:27:52.119000+00:00 - Vito: > We are still confirming with DEF CON on the timing of early access for competitors to the contest area on Friday and Saturday mornings.
+2023-08-09 01:28:25.191000+00:00 - Vito: i think an hour in advance is what we're trying for
+2023-08-09 19:39:50.250000+00:00 - implr: Are we expected to NAT the v6 vpn ranges as well? The configs we got don't specify a subnet for our side, just the fc00 point-to-point link
+2023-08-09 19:42:33.870000+00:00 - mkow: NAT on IPv6 is quite PITA
+2023-08-10 21:21:01.883000+00:00 - (HAS4) OB1: For today's captains meeting, come to room 209/210 (Aerospace Village Theater).  You will not need a badge to get in.
+2023-08-10 21:45:32.448000+00:00 - SallySatellite: Please meet in the hallway outside of 209. There is a hackasat game member with a hackasat sign
+2023-08-10 21:55:32.722000+00:00 - SallySatellite: Right next to the info booth !
+2023-08-10 22:34:32.394000+00:00 - (HAS4) OB1: 
+2023-08-11 00:47:38.808000+00:00 - (HAS4) OB1: Recording of captains meeting here:   https://drive.google.com/file/d/15uTD3uFQrfUqaRAtoIDN1zAUw4tRf3hK/view?usp=sharing
+2023-08-11 00:57:17.063000+00:00 - mkow: did you really have to publish the worst photo with everyone having mouths open? 😬
+2023-08-11 03:56:22.448000+00:00 - SallySatellite: 
+2023-08-11 14:10:12.868000+00:00 - Vito: two of us in dasharez0ne shirts, unless i missed one
+2023-08-11 15:42:57.853000+00:00 - Vito: @finals-2023 for discord additions, please <@numeric-id> them in your team channel, makes it easier to authenticate requests
+2023-08-11 16:00:04.868000+00:00 - spaceymcspaceface40: CHECK OUT THE  LANDING PAGE http://moonlighter-facts.dc31.satellitesabove.me/
+2023-08-11 16:00:44.005000+00:00 - Vito: @finals-2023 for regatta login questions, please ask in your channel
+2023-08-11 16:00:51.981000+00:00 - Vito: https://regatta.2023.hackasat.com
+2023-08-11 16:11:16.083000+00:00 - spaceymcspaceface40: CLARIFICATION: Your API keys are only intended for the Tasking Interface https://userapi.dc31.satellitesabove.me/docs
+2023-08-11 16:13:32.234000+00:00 - Vito: @finals-2023 regatta should be up for everyone on the public internet
+2023-08-11 16:13:53.378000+00:00 - spaceymcspaceface40: The admin interface login is a challenge.
+2023-08-11 16:14:41.263000+00:00 - Vito: regatta logins are quals logins, if you have problems i can reset your password (need your confirmation number), but the easiest way is to use someone else's password on your team
+2023-08-11 16:15:00.544000+00:00 - SirGoon: @finals-2023 The example.lua script is just an example of how to use UDP and print in Lua, it will not solve any challenges for you
+2023-08-11 16:15:24.271000+00:00 - Vito: it's script kiddie, not milw0rm
+2023-08-11 16:15:38.302000+00:00 - Szkalom: then why "As an introductory challenge, teams must show that they can upload a basic script and schedule it to be run"? 😛
+2023-08-11 16:19:52.525000+00:00 - Patrycja: is moonlighter-facts.dc31 just an alias for challenges.dc31?
+2023-08-11 16:21:21.482000+00:00 - Cydonia: having an issue with the windows right now. give us just a second please
+2023-08-11 16:23:53.619000+00:00 - lockbox: scheduling errors says
+```
+[2023-08-11 16:16:21Z] Fail: jmp asked to reserve 2: but the window id is not available
+```
+but it reported success for api call
+2023-08-11 16:24:12.582000+00:00 - Cydonia: give us just a  second please - having issues with window reservations
+2023-08-11 16:24:42.373000+00:00 - Deadwood: moonligher-facts.dc31 = challenges.dc31 and it is http only.
+2023-08-11 16:35:16.091000+00:00 - -MoA- Shaun: 
+2023-08-11 16:35:49.482000+00:00 - -MoA- Shaun: is reservation still  broken?
+2023-08-11 16:41:42.979000+00:00 - Patrycja: hey guys
+2023-08-11 16:41:52.108000+00:00 - Bonus: it's a classic
+2023-08-11 16:43:48.257000+00:00 - -MoA- Shaun: Are we good to register yet?
+2023-08-11 16:43:50.445000+00:00 - Patrycja: i don't suppose it's another challenge, is it? :p
+2023-08-11 16:44:01.820000+00:00 - Bonus: we wanted to submit a flag
+2023-08-11 16:44:38.199000+00:00 - SirGoon: @finals-2023 We lost the last contact window due to an infrastructure issue. The next contact is now available in the reservation system -- you should all windows available in window viewer.
+2023-08-11 16:47:28.295000+00:00 - Deadwood: Also if you recheck the landing page, there is a download button for the Password Manager challenge.
+2023-08-11 16:54:21.915000+00:00 - Patrycja: aaand regatta is down?
+2023-08-11 17:02:15.412000+00:00 - spaceymcspaceface40: CLARIFICATION: There is no order to solving the challenges. Remember, the attitude control system (ACS) will not be available until the overnight operation window which are submitted at the end of the day today (7:00PM PDT) so save your solve attempts that require ACS for then.
+2023-08-11 17:02:47.122000+00:00 - Deadwood: There was a question about network scanning. No reason you can't do it, but it really isn't necessary.
+2023-08-11 17:04:24.277000+00:00 - mkow: how do you get password manager port then?
+2023-08-11 17:04:57.488000+00:00 - Vito: the routing issue to regatta has been fixed
+2023-08-11 17:05:14.187000+00:00 - Vito: @finals-2023 the regatta routing issue has been fixed
+2023-08-11 17:05:29.755000+00:00 - Deadwood: I'm sorry but you are correct. Passman ports weren't given to you. Fog of war...
+2023-08-11 17:05:41.001000+00:00 - Patrycja: it's still incredibly slow from clearnet
+2023-08-11 17:05:50.497000+00:00 - Patrycja: and times out 😔
+2023-08-11 17:07:43.958000+00:00 - Patrycja: nevermind
+2023-08-11 17:07:56.466000+00:00 - meenmachine: @finals-2023 The riscv docker container is what was used in building and testing. It does not provide the base roots or emulation images. You should overwrite the entrypoint with bash to use.
+2023-08-11 17:08:38.842000+00:00 - Vito: can you hit refresh? looking for a stack trace
+2023-08-11 17:08:48.726000+00:00 - Vito: thx
+2023-08-11 17:08:51.493000+00:00 - Patrycja: just did, twice by accident
+2023-08-11 17:11:03.034000+00:00 - Cydonia: @finals-2023 quick clarification. In the api the 'upload script' will stage a script to be uploaded to the vehicle. To run that script you need to use 'run script' with the same script id. lmk if you have any questions aabout this
+2023-08-11 17:11:25.888000+00:00 - Vito: the scoreboard basically updates by hand on a per challenge basis since the majority of challenges are dependent on telemetry on orbit
+2023-08-11 17:14:01.684000+00:00 - jchristman: Is there an API endpoint or location where we can download telemetry when it's available? I'm not finding any documentaiton on it
+2023-08-11 17:17:48.732000+00:00 - meenmachine: @finals-2023 Once we downlink telemetry, we'll be providing it to teams through some type of fileshare. It will be a manual process and we'll let you know beforehand (no api endpoint to hit).
+2023-08-11 17:18:52.976000+00:00 - meenmachine: @finals-2023 Sorry, things have been a bit hectic. If you asked a question and it hasn't been answered, please ping your teams chat with either me or @Deadwood
+2023-08-11 17:20:34.067000+00:00 - Cydonia: @finals-2023 a few people have reported seeing issues with the api website in firefox. I am using firefox version 110.0 (64-bit) and not having problems. Chrome seems to be working as well. Please message me if you have any issues like this. Thanks
+2023-08-11 17:23:06.297000+00:00 - meenmachine: @finals-2023 The web challenge is a turnstyle challenge (just one flag)
+2023-08-11 17:32:05.935000+00:00 - Vito: "turnstile" like one of these <https://duckduckgo.com/?t=ffab&q=mta+turnstile&iax=images&ia=images> , you go through and then you're on your way
+2023-08-11 17:38:51.231000+00:00 - meenmachine: @finals-2023  `run_qemu.sh`  was meant as an example script to proivde a list of all the peripherals used (the exact setup used) in qemu during testing. We won't be providing a bios or any other image.
+2023-08-11 17:44:05.028000+00:00 - meenmachine: @finals-2023 There has been a clarifying update to the script kiddie and Christmas in August description on the website.
+2023-08-11 17:44:23.323000+00:00 - Peace-Maker: were they given somewhere?
+2023-08-11 17:44:45.753000+00:00 - -MoA- Shaun: Are the deadline times still correct or are they different?
+2023-08-11 17:45:07.977000+00:00 - meenmachine: You can/should port scan but only the challenges subdomain please
+2023-08-11 17:46:08.091000+00:00 - meenmachine: On a contact atm. We'll answer this once the contact is done.
+2023-08-11 18:03:47.431000+00:00 - meenmachine: @finals-2023 They should still be correct
+2023-08-11 18:05:53.795000+00:00 - meenmachine: @finals-2023  The intent of script kiddies is to reverse engineer
+2023-08-11 18:08:10.034000+00:00 - mkow: FYI: https://regatta.2023.hackasat.com/journal/1 gives `Internal Server Error`
+2023-08-11 18:08:27.527000+00:00 - -MoA- Shaun: any ETA on telemetry?
+2023-08-11 18:12:13.123000+00:00 - Deadwood: Technical difficulties with the ground antenna on the last pass therefore we did not receive telemetry. We were not able to upload the queued commands but we manually reviewed the scripts and no one would have scored. We will give you private feedback on what you would have seen on the script log.
+2023-08-11 18:13:21.743000+00:00 - Deadwood: Cydonia will start posting in your channels, but please be patient as he will do this one by one.
+2023-08-11 18:16:31.124000+00:00 - meenmachine: Welcome to space ops yall 🙂
+2023-08-11 18:16:57.830000+00:00 - Deadwood: How do you like the digital twin now?
+2023-08-11 18:24:19.722000+00:00 - mkow: does everyone have like 1 Mb/s downlink right now?
+2023-08-11 18:24:29.908000+00:00 - SafeMode: yes its hot garbage
+2023-08-11 18:25:03.704000+00:00 - meenmachine: I know the hardwire was provided to help but I’ve been getting much better download on wifi although the upload is much worse
+2023-08-11 18:33:30.643000+00:00 - SafeMode: @finals-2023 when you upload a script to the tasking interface with the /tasking/upload_script endpoint it will not show up in the tasking interface. This endpoint is purely to upload the script into the tasking system, NOT upload to the spacecraft, you must also use /tasking/run_script enpoint to trigger upload and run on the spacecraft
+2023-08-11 18:36:46.077000+00:00 - Deadwood: "Flight Software Freebies"  is the web server itself. It gives you the flight software for free, but there is also a flag to be gained.
+2023-08-11 18:41:59.329000+00:00 - Cydonia: If you arent seeing your commands go through to the API make sure you are strictly following the examples on the openapi doc page
+2023-08-11 18:48:10.601000+00:00 - Deadwood: Clarification about the qemu image. It is NOT intended to be a full system emulation. It is meant to be instructive about the toolchain used to build the flight software and could be useful running some binaries in user mode.
+2023-08-11 18:53:03.454000+00:00 - Deadwood: Another clarification about Regatta. Silver Medal and Halide Medal are the same as Shutterbug and Unintended Bug.
+2023-08-11 19:14:38.188000+00:00 - Vito: they're not
+2023-08-11 19:14:47.238000+00:00 - Vito: shutterbug and unintended bug are firing the shutter at a target in the target deck
+2023-08-11 19:15:05.349000+00:00 - Vito: silver medal is pulling an image down, halide medal is pulling an out-of-bounds image down
+2023-08-11 19:16:45.554000+00:00 - Vito: @finals-2023 ^^
+2023-08-11 19:17:39.762000+00:00 - Deadwood: Clarifications to Silver Medal and Halide Medal were added to the challenge descriptions.
+2023-08-11 19:18:51.042000+00:00 - jchristman: Which challenges are scored every round vs. once? Is that documented somewhere?
+2023-08-11 19:19:31.566000+00:00 - Patrycja: the ones scored once are marked 'turnstile' in regatta
+2023-08-11 19:26:06.761000+00:00 - Cydonia: Quick api clarification if you schedule  a task at the same time as another task it should overwrite that task
+Also please remember that we said during the captains meeting that image download can take between 1-4 minutes
+2023-08-11 19:32:56.286000+00:00 - mkow: > Deadline -251
+2023-08-11 19:33:02.706000+00:00 - SafeMode: yes
+2023-08-11 19:34:22.490000+00:00 - SafeMode: that means deadline has passed. deadline will roll over to new positive number after this upcomming contact
+2023-08-11 19:35:28.184000+00:00 - mkow: ah, I see
+2023-08-11 19:47:16.218000+00:00 - SafeMode: @finals-2023 We are pleased to announce that this contact was successfully uploaded and executed on the spacecraft. Let the games begin.
+2023-08-11 19:47:57.629000+00:00 - -MoA- Shaun: Took only 3 windows lol
+2023-08-11 19:57:21.513000+00:00 - jchristman: Is there a reason the windows for this next round are 45 minutes long each?
+2023-08-11 20:03:27.112000+00:00 - Patrycja: is it intentional that https://hackasat.com is making browsers go OOM?
+2023-08-11 20:05:20.311000+00:00 - Vito: the next blackout is `2023-08-11 21:25:59    2023-08-12 01:31:15` utc
+2023-08-11 20:07:41.998000+00:00 - jchristman: Is it just _orbit magic_ that makes this blackout 4 hours long?
+2023-08-11 20:08:09.334000+00:00 - SafeMode: yeah
+2023-08-11 20:08:14.698000+00:00 - SafeMode: just no access to the ground stations
+2023-08-11 20:08:21.610000+00:00 - Vito: @finals-2023 password manager instances are scoped per team
+2023-08-11 20:08:26.401000+00:00 - SafeMode: physics is rough sometimes
+2023-08-11 20:08:27.941000+00:00 - Szkalom: need to invest in TDRS 😉
+2023-08-11 20:09:13.344000+00:00 - Vito: someone (not naming names) basically said that there was gonna be a several-hour blackout per day and that just our luck it would be smack dab in the middle of DEF CON
+2023-08-11 20:09:22.700000+00:00 - Vito: lathe of heaven kinda person
+2023-08-11 20:12:30.984000+00:00 - jchristman: the _obvious_ solution was to just put it in geosync over Vegas for 10x the cost
+2023-08-11 20:13:05.277000+00:00 - Vito: Just!
+2023-08-11 20:13:06.289000+00:00 - meenmachine: I’ll start a gofundme rn
+2023-08-11 20:36:41.731000+00:00 - meenmachine: No one has received tlm yet.
+2023-08-11 20:44:00.995000+00:00 - Cydonia: Just a  reminder that image request can take up to 4 minutes on orbit depending on the compression ratio of the image you ask for
+2023-08-11 20:46:58.140000+00:00 - spaceymcspaceface40: @finals-2023 telemetry definitions have been added to http://moonlighter-facts.dc31.satellitesabove.me/ in the "Moonlighter Satellite" section, TLM button
+2023-08-11 20:55:41.699000+00:00 - Cydonia: Clarification for the shutterbug challenge you only need to take an image of one of the tagets to get points. Images of additional targets wont get you more points, but we may try to downlink them later. The same is true for unintended bug, you only need to take and image of one of the geofenced targets
+2023-08-11 21:07:54.637000+00:00 - mkow: but it's not even in the turnstile category? that suggests multiple flags...
+2023-08-11 21:08:17.278000+00:00 - mkow: so, you say we wasted time calculating all the locations? :/
+2023-08-11 21:10:57.792000+00:00 - mkow: could you provide more precise description for all the challenges? it's really not clear what's part of the challenge, what exactly we have to do to score points, etc.
+2023-08-11 21:11:02.735000+00:00 - SafeMode: For the example lua script the udp object can be simulated on the ground as below:
+```
+udp = socket.udp()
+```
+2023-08-11 21:11:38.758000+00:00 - SafeMode: and print functions as normal lua print function
+2023-08-11 21:12:07.986000+00:00 - mkow: especially that we don't have your setup nor exact scoring rules, and each try takes a few hours to see the result
+2023-08-11 21:15:02.673000+00:00 - Peace-Maker: so "Flight Software Freebies" on the scoreboard == "Web Server" on the challenges page?
+2023-08-11 21:15:18.806000+00:00 - Cydonia: @mkow ill go update these now and try to clarify, especially with regard to questions lke "do i need to score this once or more than once" . Standby
+2023-08-11 21:15:27.630000+00:00 - mkow: thanks!
+2023-08-11 21:16:14.296000+00:00 - mkow: please really consider how the game looks from our perspective: we can submit something and get the feedback after 3h, without a reliable way to verify it beforehand
+2023-08-11 21:23:31.684000+00:00 - jchristman: And by 3 hours, you mean 6 hours if you're submitting a challenge for the first time in this next 4-hour-long blackout. #physicsRox
+2023-08-11 21:28:49.478000+00:00 - inukai: Yup, that's the nature of trying to exploit a box spinning quickly through the sky
+2023-08-11 21:29:25.498000+00:00 - Cydonia: these are updated on  http://moonlighter-facts.dc31.satellitesabove.me/. I did my best to be clear here with regard to if you can score a challenge more than once. if its not please let me know.
+2023-08-11 21:29:38.691000+00:00 - SafeMode: @finals-2023 the scripting output for out of view window 42 has been down linked. https://finals.2023.hackasat.com/telemetry/42/42.zip
+NOTE: We are not always able to downlink all telemtery data.
+Best efforts will be made to downlink remaining telemetry at future passes.
+2023-08-11 21:30:47.313000+00:00 - SafeMode: there will be a link added to moonlighter-facts in a couple minutes as well
+2023-08-11 21:33:03.281000+00:00 - mkow: thanks!
+2023-08-11 21:34:24.732000+00:00 - Vito: interested in the breakdown of other teams' points? in addition to the journal screens, there's also https://regatta.2023.hackasat.com/waterfall
+2023-08-11 21:35:54.538000+00:00 - jchristman: the waterfall shows the turnstile points from on earth, are the satellite-based challenges still being scored from the most recent telemetry download?
+2023-08-11 21:36:47.761000+00:00 - Vito: journal pages like https://regatta.2023.hackasat.com/journal/19 will show a list in the top-right column of challenges we're confident in the scores in, it's manually generated
+2023-08-11 21:37:58.929000+00:00 - Vito: the inside baseball: skiddie for round 7 hasn't been scored yet (i click the 🎲) button once the tlm is in my database for scoring
+2023-08-11 21:41:24.052000+00:00 - meenmachine: TLM downloads can also now be found on the website under the “Ground Systems” section.
+2023-08-11 21:42:32.668000+00:00 - Vito: We have scores for some of the on-orbit services in the most recent round. However, we don't have complete logs to know every team that has scored them. We agree it's frustrating that we won't get the complete logs we need to score the challenge for the next 4h.
+2023-08-11 22:15:54.372000+00:00 - meenmachine: Our intent for the on orbit script challenges was that the script outputs for all teams would be public. The first two passes of the contest were meant for your discovery of this game mechanic, However, those passes were dropped due to the ground station issues. Since this game mechanic was discovered later than planned, we will manually seperate out the telemety per team for **only this current pass (Blackout 43)**. In future passes the logs for all scripts outputs will be released  to all the teams.
+2023-08-11 22:56:33.117000+00:00 - SafeMode: The challenge `A Schism in Space (schism) ` is not part of the active challenges for the game. Do not spend time looking for it.
+2023-08-11 23:05:49.151000+00:00 - spaceymcspaceface40: @finals-2023 Target images for Unintended Bug, similar to Shutterbug, require camera boresight intersection with WGS84 to be within 100km of the target.
+2023-08-11 23:16:44.465000+00:00 - Vito: "a schism in space" is a dead challenge 😭  do not expect to solve it
+2023-08-11 23:17:24.561000+00:00 - carlomara: F for the chal
+2023-08-11 23:20:25.707000+00:00 - OHHHHH_KEVIN: Do you guys need a ... tool... to fix it?
+2023-08-11 23:50:06.298000+00:00 - Cydonia: We just received a question from one of the teams about our processor and wanted to share the answer : The space processor is a quad core riscv-32 bit running at 100MHz per core
+2023-08-11 23:59:12.854000+00:00 - Cydonia: we got a few questions about the over night commands so we wanted to make sure we say this again. This infoormation was also given at yesterdays meeting. If youre unclear on this please feel free to ask for further clarification
+- the overnight command window will be divided evenly into 5 windows ( 1 per team) as all the other windows have been.
+- Each of these out of view windows has 30 minute quaternion plan. During this 30 minutes moonlighter will follow the quaternions in the plan
+- If you issue a quaternion during this time moonlighter will divert from the plan to the quaternion you issued. If you dont issue a new quaternion within 10 minutes it will return to the plan. 
+- outside the 30 minute plans  moonlighter will ignore quaternion commands
+2023-08-12 00:53:56.918000+00:00 - Cydonia: got a question about running scripts: you should be able to kick off a image_request and then run a script during the time the image_requests takes.
+2023-08-12 01:06:23.128000+00:00 - Cydonia: @finals-2023  IMPORTANT: the deadline that occurs at 02:00 UTC is important for overnight ops with that in mind we want to make sure we have any scripts during overnight ops and are going to give you an opportunity to verify that you have sent the scripts you think you do :). With this in mind feel free to add a comment to the top of your script (eg "-- cydonia script 0" ). After the deadline and before you leave send one from your team up to me, tell me what team you are from and what the comment is on each script and we will make sure that we have them. I'll be coming around to your tables right now to make sure you see this.
+2023-08-12 01:22:11.942000+00:00 - SafeMode: the quaternion plan csv has the form q1 - x, q2 -y, q3-z, q4 - scalar
+2023-08-12 01:22:22.400000+00:00 - SafeMode: @finals-2023
+2023-08-12 01:51:51.338000+00:00 - Rev: will you score at least some of the on-orbit challenges today?
+2023-08-12 01:58:03.606000+00:00 - Vito: we will try
+2023-08-12 01:59:37.219000+00:00 - wyattearp: dear @krautsat - can you please add a (bigger) sleep?
+2023-08-12 02:11:41.653000+00:00 - Rev: are you planning on adding new challenges tomorrow?
+2023-08-12 02:14:35.052000+00:00 - Vito: we are not planning on adding more challenges
+2023-08-12 02:52:08.040000+00:00 - SirGoon: @finals-2023 Teams your script logs for the last pass have been posted to your team finals channel. We will be doing this for the last pass only. More telemetry will be provided soon.
+2023-08-12 02:55:47.992000+00:00 - OHHHHH_KEVIN: Thanks for the late night work admins
+2023-08-12 03:02:10.437000+00:00 - meenmachine: The script logs include all the windows up until the latest ACB upload. So windows 42 and 43.
+2023-08-12 03:04:01.020000+00:00 - meenmachine: We have scoring information, however, we also have a pass coming up in four minutes that will include more potential scoring info. So it's currently in the works.
+2023-08-12 03:06:34.086000+00:00 - SafeMode: please be courteous of the system and logs
+2023-08-12 03:31:38.467000+00:00 - dp_1: Is there any way to download telemetry? The website seems to be down
+2023-08-12 03:40:20.210000+00:00 - meenmachine: What link are you going to?
+2023-08-12 03:40:50.942000+00:00 - dp_1: http://moonlighter-facts.dc31.satellitesabove.me/
+2023-08-12 03:41:02.818000+00:00 - dp_1: or https://regatta.2023.hackasat.com/ as well
+2023-08-12 03:43:59.105000+00:00 - meenmachine: Challenges are not publicly accessible atm.
+2023-08-12 04:14:21.224000+00:00 - Cydonia: Scores have been added to the scoring page. Let us know if you have trouble accessing
+2023-08-12 04:14:41.860000+00:00 - Cydonia: We have a some more telemetry to download this evening on our next contacts with moonlighter
+2023-08-12 04:17:24.602000+00:00 - rain: the 20 block on script kiddie is also pure black, unsure if that was intended to be attributed to a team (seems to be because of `round-score__cell--empty`)
+2023-08-12 04:23:30.766000+00:00 - SafeMode: do you mean here? https://hackasat.com/
+2023-08-12 04:23:58.545000+00:00 - rain: yes
+2023-08-12 04:24:08.049000+00:00 - SafeMode: ok we are checking into it
+2023-08-12 04:46:24.267000+00:00 - Peace-Maker: Just to confirm: the game starts at 10 am tomorrow?
+2023-08-12 04:56:25.899000+00:00 - dp_1: another confirmation, the first pass of tomorrow is at 1pm right?
+2023-08-12 04:57:05.778000+00:00 - dp_1: (roughly, I just want to know if I need an early alarm tomorrow morning)
+2023-08-12 15:38:40.335000+00:00 - SallySatellite: Reminder: we are unable to allow teams into our contest area until 9 am
+2023-08-12 15:41:44.912000+00:00 - SallySatellite: Game start is 10 am
+2023-08-12 16:08:18.379000+00:00 - wyattearp: We're getting some different directions on where to go in, we're over by the garage door of the main entrance of the contest, is that where you'd like us?
+2023-08-12 16:09:31.013000+00:00 - SafeMode: @finals-2023 the windows currently open on the window viewer between 19:48 and 20:17 do not coincide with a real contact upload to Moonlighter. Teams do NOT need to submit tasks for this window. The first valid window today will start at around 20:33 UTC. These windows will open for reservations at approximately 19:45 UTC (12:45 PDT) for the Moonlighter contact at 20:22 UTC. Deadline for this window will be roughly 20:12 UTC. If there are any questions about this please ask @mission control
+2023-08-12 16:11:35.886000+00:00 - SafeMode: @finals-2023 sorry bad at typing. the deadline is 12:45 PDT for the next available out of view window.
+2023-08-12 16:12:01.716000+00:00 - Cydonia: we can do spacemath on limited sleep.....but not basic time zone translation 😅
+2023-08-12 16:12:27.895000+00:00 - Vito: TLAs are hard, let's go shopping
+2023-08-12 16:22:47.852000+00:00 - Vito: wish the store had cinestill 800t tuesday 😢
+2023-08-12 16:26:47.661000+00:00 - SafeMode: @finals-2023 The script output logs for window 44 are ready for distribution. More tlm will be posted in a few minutes. https://finals.2023.hackasat.com/telemetry/44/44.zip
+2023-08-12 16:34:19.932000+00:00 - (HAS4) OB1: @finals-2023 In reply to the tiebreaker question, the following is being added to the FAQ document and emailed to team leads:
+
+Q28:  What are the tiebreaker rules for final scoring? 
+A28:  If two teams have the same score once all scoring data has been downloaded from Moonlighter and processed, the following tiebreaker rules will be applied in order:
+1.    The team that reached their final score in the earliest operations window (out of view window for all teams) is declared the winner.  
+2.    If two teams reach their final score in the same operations window, the teams are considered tied and the prize money for that slot is evenly divided as follows:
+•    If two teams have the top score, the original $50K first and $30K second prize is evenly split $40k each 
+•    If teams are tied for the second place score, the original $30K second and $20K third prizes are evenly split $25K each
+•    If teams are tied for the third place score, the original $20K third prize is evenly split $10K each
+2023-08-12 16:37:19.659000+00:00 - lockbox: are the pictures from the screen on the floor going to be uploaded anywhere? (the rainbow cat laser picture is pretty nice)
+2023-08-12 16:40:06.721000+00:00 - SirGoon: @finals-2023 All, to get the flag for IronBank you must generate a .ib_flag file with your user
+2023-08-12 16:54:57.427000+00:00 - SafeMode: @finals-2023 The remaining TLM being provided for window 44 is available. https://finals.2023.hackasat.com/telemetry/44/TLM.zip
+2023-08-12 16:56:03.812000+00:00 - jchristman: When will scoring for overnight windows be applied (probably)?
+2023-08-12 17:01:23.465000+00:00 - Vito: @finals-2023 morn; access to game apis and such should be live!
+2023-08-12 17:02:51.844000+00:00 - Peace-Maker: regatta seems to be still down for us
+2023-08-12 17:03:44.034000+00:00 - Vito: i'm also noticing it's not working, researching
+2023-08-12 17:04:23.686000+00:00 - Rev: does that mean the points were awarded for the overnight window?
+2023-08-12 17:05:38.068000+00:00 - Vito: regatta should be restored
+2023-08-12 17:06:43.174000+00:00 - Vito: jfyi "leeroy jenkins" isn't a real contact
+2023-08-12 17:07:40.734000+00:00 - lockbox: they also played the animations on the floor -- might just be the animation catching up from yesterday
+2023-08-12 17:08:00.542000+00:00 - SafeMode: @finals-2023 please let us know if you have not been able to access or seen TLM and LOGS from window 44
+2023-08-12 17:24:52.616000+00:00 - Szkalom: "do not need to upload" or "should not, because it won't be executed"? 🙂
+2023-08-12 17:26:15.656000+00:00 - gregg: as in, why this "operation window" does even exist in reservation monitor 🙂
+2023-08-12 17:27:21.606000+00:00 - SafeMode: nothing will be uploaded
+2023-08-12 17:28:43.643000+00:00 - nsty: should we expect new challenges today?
+2023-08-12 17:30:54.611000+00:00 - SafeMode: per the team captains meeting all challenges were released at start of game
+2023-08-12 17:32:49.018000+00:00 - Cydonia: PolandCanIntoSpace and Spacebitsrus  successfully collected their cookies from santa during operation window 44. Scores on scoreboard soon.
+2023-08-12 17:34:01.359000+00:00 - SirGoon: @finals-2023 As previously stated, the processor on Moonlighter only runs at 100MHz and you are only able to run a single script at a time. Plan accordingly. This isn't your liquid cooled uber 4.5GHz superscalar monster you  game on at home.
+2023-08-12 17:34:30.332000+00:00 - Szkalom: 
+2023-08-12 17:34:44.185000+00:00 - Peace-Maker: clear plan for upgrade next year
+2023-08-12 17:34:50.417000+00:00 - meenmachine: That was an incredibly quick meme drop. Frame one
+2023-08-12 17:36:36.413000+00:00 - Cydonia: "should not" is better wording. If youre interested in how the code behind this works and why its weird in this instance I'm happy to explain after the game ends...Prioritizing scoring and preparing for next moonlighter contact at the moment.
+2023-08-12 17:40:32.173000+00:00 - meenmachine: @finals-2023 If your script is killed because it is running at the end of your window (aka long running script that does not end before your window ends), or if the script crashes, you will not receive the logs for these scripts.
+2023-08-12 17:41:25.533000+00:00 - Benbow: Getting 500 from https://regatta.2023.hackasat.com/journal
+2023-08-12 17:45:07.737000+00:00 - Vito: i too am seeing this, working it
+2023-08-12 17:46:38.549000+00:00 - wyattearp: copy - thank you!
+2023-08-12 17:54:09.825000+00:00 - Vito: journal issue should be fixed
+2023-08-12 18:00:25.446000+00:00 - mkow: why did we just _lose_ points?
+2023-08-12 18:00:33.788000+00:00 - mkow: from some past round
+2023-08-12 18:02:18.769000+00:00 - inukai: script kiddie looks like it got taken away??
+2023-08-12 18:03:13.267000+00:00 - Cydonia: We had a question about "unintended bug" to solve this challenge you need to snap a picture of **one of the targets that is geofenced**.
+2023-08-12 18:03:27.064000+00:00 - Szkalom: not from everyone though 😄
+2023-08-12 18:03:28.949000+00:00 - inukai: From everyone except mhackeroni?
+2023-08-12 18:03:35.333000+00:00 - meenmachine: Adding mhackeroni to the script kiddie solve may have broken the scores for script kiddie. We’re looking into it
+2023-08-12 18:04:59.377000+00:00 - Minei3oat: What is the difference to Halide Medal, since the description also requires a picture of a geofenced target?
+2023-08-12 18:05:41.506000+00:00 - meenmachine: Scores are fixed 😳
+2023-08-12 18:05:52.134000+00:00 - inukai: Halide medal requires downloading a geofenced image
+2023-08-12 18:06:06.831000+00:00 - Szkalom: we're guessing:
+1. snap foto (unintended)
+2. download foto (medal)
+2023-08-12 18:07:02.252000+00:00 - Cydonia: correct
+2023-08-12 18:09:28.604000+00:00 - Szkalom: any ETA for logs/scores from 45? 🙂
+2023-08-12 18:09:31.914000+00:00 - Cydonia: Clarifying again. Solving uintended bug without attitude control on is not possible.
+2023-08-12 18:09:56.688000+00:00 - Cydonia: we will download these at the next contact...moonlighter still operating rn
+2023-08-12 18:10:01.386000+00:00 - jchristman: was there some documentation that we missed that pointed to Christmas in August being worth twice as many points? Might have allocated resources differently had we known that.....
+2023-08-12 18:11:48.260000+00:00 - mkow: same here, but we were lucky 🙂
+2023-08-12 18:12:23.876000+00:00 - carlomara: Wait where did you get this from?
+2023-08-12 18:12:48.236000+00:00 - mkow: you can calculate it from https://regatta.2023.hackasat.com/waterfall
+2023-08-12 18:12:51.493000+00:00 - jchristman: Hover over the boxes and it says 20k
+2023-08-12 18:12:57.490000+00:00 - mkow: but it's not explicitly given anywhere
+2023-08-12 18:13:02.381000+00:00 - mkow: oh
+2023-08-12 18:13:17.696000+00:00 - mkow: over what boxes?
+2023-08-12 18:13:22.474000+00:00 - inukai: on hackasat.com
+2023-08-12 18:13:27.063000+00:00 - carlomara: Oh snap
+2023-08-12 18:13:39.492000+00:00 - jchristman: 
+2023-08-12 18:13:41.022000+00:00 - jchristman: That one
+2023-08-12 18:13:41.190000+00:00 - inukai: (as long as your browser doesnt OOM)
+2023-08-12 18:13:52.724000+00:00 - mkow: oh
+2023-08-12 18:14:00.612000+00:00 - msm: oh
+2023-08-12 18:14:22.268000+00:00 - mkow: ehhh, why couldn't you just specify the points next to the challenges descriptions? 😬
+2023-08-12 18:15:09.704000+00:00 - gynvael: hovering only works when a challenge was solved and when the slide-out score window is hidden btw
+2023-08-12 18:15:32.586000+00:00 - gynvael: not sure if there was a way to know before first solves were in?
+2023-08-12 18:16:18.082000+00:00 - carlomara: @Cydonia Is the above correct?
+2023-08-12 18:16:43.311000+00:00 - jchristman: Lol you can hover over the _tiny_ slice of the pie chart that is the other teams
+2023-08-12 18:17:16.601000+00:00 - carlomara: New ctf meta just dropped
+2023-08-12 18:32:25.830000+00:00 - lockbox: quick solve all the challs so we know the point value
+2023-08-12 18:32:57.597000+00:00 - gregg: already on it
+2023-08-12 18:37:14.301000+00:00 - inukai: We wont even get teh results until after we're done submitting 😂
+2023-08-12 18:37:26.311000+00:00 - lockbox: oh true
+2023-08-12 18:37:30.942000+00:00 - lockbox: can we /poll for guesses
+2023-08-12 18:37:45.891000+00:00 - jchristman: `A Schism in Space` = 9,001 points
+2023-08-12 18:39:28.644000+00:00 - Szkalom: *hold my rocket*
+2023-08-12 18:41:50.454000+00:00 - Szkalom: Just to make sure: our plan will not be executed in the closest reservation slot? (I'm asking because I can see SpaceBitsRUs are scheduling stuff :P)
+2023-08-12 18:42:03.784000+00:00 - meenmachine: Yes that is correct.
+2023-08-12 18:44:26.104000+00:00 - Cydonia: correct - the windows from 19:48-20:22 will not be executed. See our earlier msg for more details 🙂
+2023-08-12 19:19:17.859000+00:00 - Vito: # scores per chall
+* passman: 10k
+* fsw freebies: 10k
+* skiddie: 10k
+* silver: 10k
+* iron: 20k
+* shutterbug: 20k
+* santa: 20k
+* halide: 10k
+* unintended: 30k
+2023-08-12 19:19:24.717000+00:00 - Vito: #finals-2023
+2023-08-12 19:30:27.375000+00:00 - carlomara: Jokes aside, @Vito was this communicated somehow earlier? Could have we figured it out somehow by playing the game?
+2023-08-12 19:31:04.458000+00:00 - carlomara: I understand that a big part of the game is figuring out the meta, but we would have played very differently if we knew this in advance
+2023-08-12 19:33:29.270000+00:00 - inukai: I'll just say it's a really bad look to publish the scores at the end of the competition. It could be interpreted maliciously, like you are picking the winners after the fact
+2023-08-12 19:33:51.938000+00:00 - inukai: I, personally, don't believe that's what's happening. But it's understadable that someone could think that
+2023-08-12 19:34:47.545000+00:00 - carlomara: I mean, I'm mostly sad because I feel like we could have done much better - and you don't get often to play in a context like this
+2023-08-12 19:35:05.202000+00:00 - inukai: That too, our ops would have been totally different
+2023-08-12 19:35:29.036000+00:00 - carlomara: Exploit a satellite, come on how often does that happen?
+2023-08-12 19:35:53.204000+00:00 - carlomara: Getting a bit lost on something like this, that's not super technically relevant feels a bittersweet
+2023-08-12 19:35:57.885000+00:00 - inukai: It's such a cool ctf. I really want it to be great
+2023-08-12 19:36:02.652000+00:00 - Szkalom: That's up to you 😉 Unless you mean "legally..." 😉
+2023-08-12 19:36:07.923000+00:00 - carlomara: In the grand scheme of things it will not change anything
+2023-08-12 19:36:18.289000+00:00 - carlomara: Yess, it is amazing
+2023-08-12 19:36:48.445000+00:00 - carlomara: If you do you also get expense paid holiday by your local holiday in a VIP residence
+2023-08-12 19:39:59.567000+00:00 - Vito: Yeah, I agree completely that it's an annoying thing to have to deal with, the "how many points is it worth? it's a surprise ;)" is frustrating, that's why my team would always burn down the Trivia category in kenshoto quals (since it got us a ton of points in no time).
+2023-08-12 19:40:56.788000+00:00 - Bonus: quals use dynamic scoring system so "has a lot of points" isn't really a problem unlike this random static values
+2023-08-12 19:41:43.315000+00:00 - Vito: we did decide the points ahead of time, but it's something we should've communicated better
+2023-08-12 19:41:49.132000+00:00 - inukai: Then why weren't the scores published? Was it something out of your control or what?
+2023-08-12 19:44:40.017000+00:00 - carlomara: Extra question, the way we see this is that it's a key factor in how you decide the meta - but we were not aware of it
+2023-08-12 19:44:53.395000+00:00 - carlomara: We assumed that all the chals where 10k points each
+2023-08-12 19:47:34.561000+00:00 - Cydonia: We had two questions at almost the same time about this: 
+- The camera snap should take no more than 5 seconds 
+- that being said please dont DOS the camera a lot
+2023-08-12 19:48:02.550000+00:00 - Cydonia: Clarifying from the captians meeting: The overnight acb plans that we ran last night were NADIR pointing. The satellite is currnetly uncontrolled.
+2023-08-12 19:49:00.999000+00:00 - SafeMode: uncontrolled = tumbling
+2023-08-12 19:49:27.107000+00:00 - Cydonia: Your windows for the next operation window have opened for submission - glhf!
+2023-08-12 19:49:44.133000+00:00 - Cydonia: lol you all beat me to it already
+2023-08-12 19:58:27.794000+00:00 - jchristman: https://tenor.com/view/dumb-and-dumber-lloyd-theres-a-chance-jim-carrey-gif-11098164
+2023-08-12 20:11:30.799000+00:00 - Cydonia: Quick announcement. After the next contact with moonlighter we need to take a few minutes to fix the final operation window this evening. I'll do this as quick as I can and we will let you all know both in chat and in person when the final windows have reopened for reservation. Sorry for the inconvenience - it shouldnt  take us too long to resolve this once the contact ends.
+2023-08-12 20:39:31.073000+00:00 - Bonus: 
+2023-08-12 20:39:39.410000+00:00 - Bonus: 
+2023-08-12 20:57:09.675000+00:00 - Oneup: was that in one of the weekly updates
+2023-08-12 20:58:25.712000+00:00 - Cydonia: @finals-2023  Thank you for waiting. The windows for the final game period have been opened. 
+- You may need to clear your browser chache if window viewer is being weird.
+- If you have any issues come see me and I can help resolve.
+- I'll come around to each table and make sure you are ok right now
+2023-08-12 21:03:58.393000+00:00 - meenmachine: To reiterate the satellite is still in tumble. The changes made were solely related to operation windows.
+2023-08-12 21:54:45.331000+00:00 - manf: will there (possibly) be any further information (telemetry or scoring information) released before the final window's deadline?
+2023-08-12 21:56:17.615000+00:00 - rain: i would just like to point out, the germans are being misrepresented in the village
+2023-08-12 21:56:24.866000+00:00 - rain: the lasers say krausat not krautsat
+2023-08-12 21:56:28.323000+00:00 - rain: 😱
+2023-08-12 21:57:06.193000+00:00 - manf: the game was rigged against us from the start!
+2023-08-12 21:58:03.875000+00:00 - manf: but that's why we have the kraut at our table, no chance for confusion this way
+2023-08-12 21:58:26.609000+00:00 - Szkalom: Ours also had a typo 😉 but we complained
+2023-08-12 22:38:48.876000+00:00 - Cydonia: had another camera question: 
+if you wanted to take a bunch of pictures in one contact and one of those pictures scores a challenge, you should receive points assuming the challenge is completed. the pictures on the camera will over write though so you we wont be able to retrieve that image for you later.
+
+As i mentioned earlier snaps take ~5s but please do not heavily DOS the camera
+2023-08-12 22:43:37.250000+00:00 - SafeMode: @finals-2023 As the final operations windows approach. Please take this opportunity to solve any challenges you believe you team can still solve. Again if you have questions about what your team has or has NOT solved please ask @mission control. Also reminder we did not get any scoring telemetry download for the last operations windows (45 and 46).
+2023-08-12 22:44:25.140000+00:00 - manf: So to be crystal clear, the scoring happens without the request_image /"download" scheduled?
+2023-08-12 22:49:10.421000+00:00 - SafeMode: Yes scoring for Shutter Bug and Unintended Bug happen independently of request_image/"download"
+2023-08-12 22:55:40.312000+00:00 - rain: german lasers fixed
+2023-08-12 22:55:51.385000+00:00 - rain: 🤯
+2023-08-12 23:04:04.378000+00:00 - SafeMode: @finals-2023 There is no penalty for repeated solves for challenges. So if your team does not know if a challenge has been solved from current data, telemetry and scoring, please feel free to try again in the upcoming operations window if desired.
+2023-08-13 00:00:27.622000+00:00 - LevitatingLion: Do you know what caused the sat to tumble?
+2023-08-13 00:05:18.296000+00:00 - rain: kraut there's an error in your tasklist you turned the camera on this run
+2023-08-13 00:06:45.219000+00:00 - manf: ssshhh dont spoil our strats
+2023-08-13 00:33:57.274000+00:00 - nsty: jmp are you trying to kill the battery?
+2023-08-13 00:34:11.258000+00:00 - -MoA- Shaun: 🙂
+2023-08-13 00:34:12.827000+00:00 - cashmen: camera go brrrr
+2023-08-13 00:34:19.024000+00:00 - rain: 🙂
+2023-08-13 00:34:26.843000+00:00 - red_leader: 📸
+2023-08-13 00:34:59.341000+00:00 - douglett: all for the instagram content
+2023-08-13 00:35:18.511000+00:00 - manf: another good reason to just not do camera_power
+2023-08-13 00:36:42.184000+00:00 - jchristman: Our script was named all_in.sh
+2023-08-13 00:37:53.128000+00:00 - jchristman: I’d like to credit our victory tomorrow to the satellites tumbling being more accurate than our ability to calculate quaternions
+2023-08-13 00:38:18.783000+00:00 - Benbow: embrace entropy; let the lord of chaos rule
+2023-08-13 00:39:47.680000+00:00 - Cydonia: Quick note: max tasks per operation window is 50/team
+2023-08-13 00:40:22.420000+00:00 - cashmen: We're glad we could help find the boundaries 🙂
+2023-08-13 00:40:40.418000+00:00 - wyattearp: is that 0 based 50 or 1 based 50 - asking for a friend....
+2023-08-13 00:41:07.351000+00:00 - rain: its quinary
+2023-08-13 00:41:09.421000+00:00 - ChrisCrisis: 0x50
+2023-08-13 00:41:24.724000+00:00 - Benbow: dodecanary?
+2023-08-13 00:49:52.108000+00:00 - Rev: gg
+2023-08-13 00:50:18.748000+00:00 - -MoA- Shaun: we went so all in we did it twice!
+2023-08-13 01:01:35.462000+00:00 - jchristman: Gg!
+2023-08-13 01:01:44.155000+00:00 - Oneup: gg
+2023-08-13 01:01:46.781000+00:00 - Cydonia: gg folks
+2023-08-13 01:01:50.845000+00:00 - Peace-Maker: gg
+2023-08-13 01:02:30.257000+00:00 - inukai: gg!
+2023-08-13 01:03:49.318000+00:00 - HoneyScammer: gg
+2023-08-13 01:04:49.736000+00:00 - cashmen: Gg
+2023-08-13 01:05:35.090000+00:00 - nsty: 🫡
+2023-08-13 01:12:32.563000+00:00 - wyattearp: GG!
+2023-08-13 01:13:14.683000+00:00 - Ninja3047: gg
+2023-08-13 01:13:19.920000+00:00 - rain: GG
+2023-08-13 01:16:42.286000+00:00 - sheriffsparks: Gg
+2023-08-13 01:22:13.058000+00:00 - jchristman: Shout out to @mission control - game was very fun! Unique experience, grateful we got to participate 🙏
+2023-08-13 01:23:45.707000+00:00 - RootLocus: Tumble is the power positive state of this vehicle. Designed to operate while tumbling.
+2023-08-13 01:35:08.339000+00:00 - spaceymcspaceface40: gg!!
+2023-08-13 01:35:37.831000+00:00 - LevitatingLion: gg!
+2023-08-13 01:49:46.233000+00:00 - fatalbit: gg
+2023-08-13 01:50:24.873000+00:00 - lockbox: gg
+2023-08-13 01:56:44.690000+00:00 - des0x41: ggs
+2023-08-13 02:01:10.950000+00:00 - manf: gg
+2023-08-13 02:25:51.659000+00:00 - peter_: gg!
+2023-08-13 02:55:27.236000+00:00 - wyattearp: Dear krautsat - thank you for the deliciousness - it's no pineapple pizza, but what is?
+2023-08-13 03:06:51.686000+00:00 - dp_1: gg!
+2023-08-13 03:50:08.050000+00:00 - HoneyScammer: Well, we were hungry and the pizza didn't make it to you 🤷‍♂️
+2023-08-13 05:17:44.740000+00:00 - Cydonia: we just got evacuated from ceasars forum,  but we are dedicated and getting scoring tlm from outside
+2023-08-13 05:24:48.971000+00:00 - Szkalom: @mhackeroni we still have a few pieces left...
+2023-08-13 05:25:30.074000+00:00 - carlomara: Where U at? Giv suite number
+2023-08-13 05:25:34.776000+00:00 - mebeim: I see you want to turn this into a war
+2023-08-13 05:25:37.342000+00:00 - carlomara: I'm coming with beers
+2023-08-13 05:26:04.612000+00:00 - rain: Bless u all.
+2023-08-13 05:26:18.365000+00:00 - mebeim: We've been craving decent pizza you may be invaded if you post that pic 😂
+2023-08-13 05:26:55.291000+00:00 - rain: we all just had good burgers at gordon ramsay burger
+2023-08-13 05:27:02.401000+00:00 - rain: stick to the pizza tho.
+2023-08-13 05:27:04.817000+00:00 - Bonus: If you have coke/pepsi or any alcohol (>10%) it's a done deal
+2023-08-13 05:27:10.781000+00:00 - rain: 🫡
+2023-08-13 05:27:40.597000+00:00 - Bonus: We still have some
+2023-08-13 05:30:38.626000+00:00 - Bonus: @mebeim 
+2062a, horseshoe resort tower (come via pool level, security checks cards / ping us when you need help / git gud at social engineering)
+2023-08-13 05:30:59.873000+00:00 - Bonus: @mission control if you need any help with sat, place to seat or alcohol feel free to come as well
+2023-08-13 05:32:13.837000+00:00 - rain: GREATER THAN 10% ONLY?? THE POLISH ARE SELECTIVE
+2023-08-13 05:33:49.755000+00:00 - Bonus: Anything below is too weak to have any effect
+2023-08-13 05:44:48.276000+00:00 - mebeim: ETA 20m
+2023-08-13 05:47:52.097000+00:00 - des0x41: Bring softs (coke) if possible <:xok:1078383428552118333>
+2023-08-13 05:51:39.804000+00:00 - mebeim: U changed your mind on that 10+%? lol
+2023-08-13 06:07:18.907000+00:00 - mkow: no.
+2023-08-13 06:12:24.655000+00:00 - mebeim: u better have some cool stickers for me
+2023-08-13 06:12:58.453000+00:00 - rain: @mission control can we get one last confirmation that the ceremony tomorrow is at 12 pm (noon) PDT? 🙂
+2023-08-13 06:13:32.504000+00:00 - SallySatellite: 12 pm, noon at aerospace village stage
+2023-08-13 06:14:01.966000+00:00 - SallySatellite: We plan to start right at noon, please plan on being there at least a couple minutes before noon
+2023-08-13 06:17:47.670000+00:00 - mebeim: well i'm here but i'm not good at social engineering
+2023-08-13 06:18:09.163000+00:00 - Bonus: skill issue
+2023-08-13 06:18:24.548000+00:00 - Bonus: ground floor level?
+2023-08-13 06:18:31.515000+00:00 - mebeim: yep casino, security guy is looking at me like 🧐🧐🧐🤨🤨🤨
+2023-08-13 06:18:34.632000+00:00 - Bonus: Coming
+2023-08-13 08:40:24.356000+00:00 - wyattearp: Stop trying to bet with flags
+2023-08-13 18:25:47.717000+00:00 - jchristman: Is there a live stream for the awards ceremony?
+2023-08-13 18:51:08.307000+00:00 - Bonus: We have some memes left so here they come
+2023-08-13 18:51:33.462000+00:00 - Bonus: 
+2023-08-13 18:53:37.480000+00:00 - Bonus: 
+2023-08-13 18:53:59.742000+00:00 - Benbow: Quick work guys
+2023-08-13 18:54:03.022000+00:00 - Benbow: I'm impressed
+2023-08-13 18:54:21.503000+00:00 - Bonus: Fastest meme in the west
+2023-08-13 18:55:29.925000+00:00 - Bonus: @mission control at least give us dancing aliens instead of blue screen while we wait
+2023-08-13 18:59:36.823000+00:00 - gynvael: 
+2023-08-13 19:01:32.276000+00:00 - Rodbert: 
+2023-08-13 19:27:50.159000+00:00 - lockbox: @mission control are we going to get the pictures we took and/telemetry from last night? We also implemented backtracking for ironbank :p
+2023-08-13 19:31:45.736000+00:00 - inukai: @mission control  might want to disable discord notifications
+2023-08-13 19:32:22.813000+00:00 - mkow: will we get the missing telemetry?
+2023-08-13 19:32:25.159000+00:00 - rain: @mission control jmp fs did backtracking
+2023-08-13 19:32:34.258000+00:00 - rain: FUG HE QUIT OUT
+2023-08-13 19:32:37.858000+00:00 - msm: I belive our algo for ironbank was also pretty robust 🙃
+2023-08-13 19:33:02.101000+00:00 - des0x41: 🎲
+2023-08-13 19:33:03.334000+00:00 - msm: would love to see the telemetry
+2023-08-13 19:33:42.951000+00:00 - rain: same
+2023-08-13 19:34:10.997000+00:00 - cashmen: 
+2023-08-13 19:34:41.847000+00:00 - meenmachine: So we have all tlm atm. Just no images. This pass is where we hopefully download some images.
+2023-08-13 19:35:00.670000+00:00 - meenmachine: Gameplan is to hopefully get each team an image
+2023-08-13 19:35:29.593000+00:00 - cashmen: That'll be sick
+2023-08-13 19:36:32.722000+00:00 - meenmachine: That looks like one image per team. We’ll see if they’re there or not
+2023-08-13 19:45:02.018000+00:00 - wyattearp: Love to see the full TLM when you have it!
+2023-08-13 19:57:37.698000+00:00 - SafeMode: 
+2023-08-13 20:02:39.487000+00:00 - Bonus: https://tenor.com/view/italian-nightmare-webpac-spaghetti-pasta-break-gif-17845120
+2023-08-13 20:03:04.218000+00:00 - wyattearp: For those can we get the GPS coordinates and the attitude TLM? We'd really love to know what part of empty we were looking at 😂
+2023-08-13 20:03:29.642000+00:00 - fatalbit: lmao ty for the memes
+2023-08-13 20:06:46.954000+00:00 - wyattearp: Aww no SpaceBitsRUs photo? 🥲
+2023-08-13 20:10:08.203000+00:00 - Rev: don't you have enough of satellites of your own :)?
+2023-08-13 20:12:21.857000+00:00 - SafeMode: 
+2023-08-13 20:12:31.202000+00:00 - SafeMode: see below
+2023-08-13 20:24:18.233000+00:00 - Minei3oat: Are all the images pictures we staged for downlink?
+2023-08-13 20:29:14.803000+00:00 - cashmen: You can literally see the edge, flat earth proven
+2023-08-13 20:30:38.730000+00:00 - SafeMode: No we had redownload after a reboot
+2023-08-13 20:34:45.482000+00:00 - inukai: I think you're missing some of our pictures
+2023-08-13 20:36:58.589000+00:00 - Minei3oat: From my understanding: No downlink -> Picture will be overwriten
+https://discord.com/channels/1073311445128851496/1121158557321138237/1140051794202988626
+2023-08-13 20:37:45.910000+00:00 - cashmen: We just wanted to see if yall were telling the truth when you said the sensor memory had gigabytes ;P
+2023-08-13 20:41:37.630000+00:00 - Minei3oat: Thats the reason for my question: One of the Krautsat images clearly shows clouds over the entire image. Since the image is here, it should? have been marked for downlink, raising the question, why we haven't scored Silver Medal.
+2023-08-13 20:51:28.419000+00:00 - inukai: Didn't the orgs just downlink it for you during the ceremony? Or did you issue a downlink command?
+2023-08-13 20:55:59.720000+00:00 - Cydonia: The images we showed today were downloaded by mission control
+2023-08-13 20:56:08.846000+00:00 - SafeMode: Just a few, we saw we maxed out the count we allowed in camera  file list lol
+2023-08-13 20:56:34.037000+00:00 - Cydonia: We did a big image ftp session after scoring was complete
+2023-08-13 21:53:03.498000+00:00 - Patrycja: @mission control can we have some telemetry? 👉👈
+2023-08-13 21:53:32.056000+00:00 - Rev: especially logs from the scripts, we'd like to know what didn't work in our ironbank exploit since we have ran it against our digitaltwin and it worked
+2023-08-13 22:02:22.255000+00:00 - lockbox: s a m e
+2023-08-13 22:03:42.278000+00:00 - Vito: 
+2023-08-13 22:03:49.404000+00:00 - Vito: maybe later
+2023-08-13 22:04:30.475000+00:00 - carlomara: @Cydonia can you add `_daniele.`
+2023-08-13 22:05:34.051000+00:00 - Rev: what
+2023-08-13 22:05:52.972000+00:00 - meenmachine: Anyone you want to add to team channels please @ them in your team channel
+2023-08-13 22:39:52.900000+00:00 - Clif: Same
+2023-08-13 22:43:17.729000+00:00 - carlomara: Folks important stuff, who is at the ctf party later today?
+2023-08-13 22:44:22.723000+00:00 - carlomara: Afterparty room 50736 @Palazzo, 8pm
+2023-08-13 22:44:34.252000+00:00 - douglett: We can take pictures
+2023-08-13 22:47:31.659000+00:00 - inukai: Just repeat that image 25 times for jmp
+2023-08-13 22:48:42.192000+00:00 - cashmen: Ask again when everyone has had naptime 😛
+2023-08-13 22:49:26.215000+00:00 - mkow: do you have a grand piano, sauna and a gym, like other teams?
+2023-08-13 22:49:46.092000+00:00 - carlomara: Ye but mind you this is not our suite
+2023-08-13 22:49:59.605000+00:00 - carlomara: Ours is on the other side of the hallway😂😂
+2023-08-13 22:50:12.498000+00:00 - mkow: 😄
+2023-08-13 22:51:07.002000+00:00 - carlomara: Noooo sleep now, you miss the party
+2023-08-13 22:51:17.796000+00:00 - carlomara: Drink redbull until 3 am
+2023-08-13 22:52:02.480000+00:00 - cashmen: Bruh it's in 4 hours, unless I'm getting a red bull iv drip i need a few hours of Z's 😂
+2023-08-13 22:52:20.896000+00:00 - carlomara: Noooooo
+2023-08-13 22:52:33.610000+00:00 - carlomara: Noooooooo don’t
+2023-08-13 22:52:54.564000+00:00 - carlomara: You are not going to wake up 😂
+2023-08-13 22:55:17.709000+00:00 - cashmen: Ever? 😰
+2023-08-13 22:58:54.994000+00:00 - carlomara: No but you miss the party
+2023-08-13 22:58:58.609000+00:00 - carlomara: For sure
+2023-08-14 01:36:19.627000+00:00 - cashmen: If it makes you feel any better @carlomara i couldn't fall asleep anyway lol. Maybe some booze will wake me up, that's a stimulant right?
+2023-08-14 02:27:46.558000+00:00 - inukai: It's later
+2023-08-14 02:30:02.344000+00:00 - Ninja3047: 
+2023-08-14 02:31:34.459000+00:00 - mkow: @mhackeroni would you be willing to share your Iron Bank script?
+2023-08-14 02:33:10.963000+00:00 - keidii🕱: XD
+2023-08-14 02:33:12.108000+00:00 - SafeMode: We will be posting everything in the next few days including our solver
+2023-08-14 02:33:39.872000+00:00 - pietroborrello: Sure let me find it!
+2023-08-14 02:35:33.889000+00:00 - SafeMode: But 🍺
+2023-08-14 02:38:25.731000+00:00 - pietroborrello: 
+2023-08-14 02:38:30.665000+00:00 - pietroborrello: and now 🍺
+2023-08-14 02:44:20.830000+00:00 - lockbox: 🍻
+2023-08-14 02:45:37.517000+00:00 - fatalbit: this is the rawest script ever
+2023-08-14 02:45:53.190000+00:00 - fatalbit: i wrote error checking and everything lol
+2023-08-14 02:46:12.958000+00:00 - mkow: thx!
+2023-08-14 02:46:36.785000+00:00 - lockbox: Don’t need fancy stuff just need flag
+2023-08-14 02:49:06.873000+00:00 - wparks: Lol, that looks like extreme backtracking to me
+2023-08-14 02:54:23.797000+00:00 - wyattearp: Weirdness - we ran 7000 🥲
+2023-08-14 02:54:56.416000+00:00 - wyattearp: Ours did not include a `pls_work` - we should have asked more nicely clearly 😂
+2023-08-14 02:55:24.606000+00:00 - pietroborrello: Lol no 7000 would never terminate, the cpu was like 100MHz
+2023-08-14 02:56:32.849000+00:00 - jchristman: And by “I”, you mean ChatGPT wrote error checking? Who tf knows Lua these days (aside from Minecraft folks who use the computer mod, I forget the name)
+2023-08-14 02:57:01.314000+00:00 - fatalbit: chatgpt did all the lua for sure
+2023-08-14 02:59:05.005000+00:00 - Ninja3047: Computercraft lmao
+2023-08-14 02:59:54.494000+00:00 - jchristman: Found the modded Minecraft player (full disclosure Minecraft has more hours for me than any other game)
+2023-08-14 03:51:53.564000+00:00 - wyattearp: @carlomara - party well all - you earned the heck out of  it!!! sadly must go fly but cheers and can't wait to see what's next!
+2023-08-14 03:52:38.498000+00:00 - carlomara: Yes same, thanks for being here. Have a safe flight
+2023-08-14 04:46:29.564000+00:00 - cashmen: Thank you @carlomara I'll cherish them forever
+2023-08-14 04:54:43.388000+00:00 - Bonus: bathtub.jpg
+2023-08-14 04:55:11.908000+00:00 - Bonus: posting for everyone who decided not to join the party to know what they're missing
+2023-08-14 05:52:32.505000+00:00 - Vito: I got COVID at that party last year
+2023-08-14 05:57:55.557000+00:00 - cashmen: Sharing is caring ❤️
+2023-08-14 06:08:03.808000+00:00 - implr: skill issue
+2023-08-14 15:44:25.089000+00:00 - msm: forwarding a question: did anyone find a defcon bag with a stripped beige-black woman's shirt and a defcon badge inside? the owner believes it was left inside 50736
+2023-08-14 18:58:23.159000+00:00 - inukai: It's later
+2023-08-14 18:59:16.775000+00:00 - Vito: i'm on vacation now
+2023-08-14 19:33:54.164000+00:00 - SafeMode: Yeah we have been grinding for weeks to make this happen. Later is like next week at the earliest
+2023-08-14 23:15:57.770000+00:00 - Szkalom: Have fun on your vacation, you earned it! 🙂
+2023-08-15 00:07:50.233000+00:00 - cashmen: Does moonlighter get a vacation too?
+2023-08-15 00:14:58.988000+00:00 - Szkalom: Well since the orgs are on vacation, we can now activate all those APT backdoors we left behind... 🦆
+2023-08-15 00:30:41.797000+00:00 - cashmen: https://tenor.com/view/f-bi-raid-swat-gif-11500735
+2023-08-15 00:33:09.515000+00:00 - wyattearp: Live action shot of the teams solving the GPS challenge wrong? 😂
+2023-08-15 00:37:18.387000+00:00 - Szkalom: There are no wrong solutions, flag is a flag! 😉
+2023-08-15 01:26:18.595000+00:00 - implr: i forgot to post this
+2023-08-15 01:26:40.212000+00:00 - implr: polish_can_in_space.jpg
+2023-08-15 01:27:54.309000+00:00 - manf: Opencomputers is better though imho
+2023-08-15 01:32:12.005000+00:00 - Ninja3047: Yeah would not be surprised, but when I played I think open computers didn't exist yet
+2023-08-15 03:44:32.429000+00:00 - RootLocus: Moonlighter will reset, bitstream uploaded again and it’s vacation is not taking anymore jmp fs pics
+2023-08-15 17:54:10.010000+00:00 - Cydonia: https://tenor.com/view/lisa-simpson-waiting-for-an-answer-no-reply-phone-call-simpsons-gif-15164884
+
+Moonlighter waiting for us to call
+2023-08-15 17:57:43.061000+00:00 - wyattearp: Given the contest is over ... and there's these big RF things sitting on the roof.... (Kidding! 😂)
+2023-08-15 18:05:16.852000+00:00 - -MoA- Shaun: Did our picture from friday night/saturday morning when we had acs get overwritten btw?
+2023-08-15 18:06:44.306000+00:00 - SafeMode: Most likely, we will be pulling more images next week once we are back at work

@@ -1,0 +1,15 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY PING PONG <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "PING" ,  Moonlighter::MsgId::PING_PONG_TLM_ID) %>
+  APPEND_ITEM TIME 2048 STRING  "TODO: FILL ME IN"
+  APPEND_ITEM DATA 2048 STRING  "TODO: FILL ME IN"
+TELEMETRY PING SMOL_PONG <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "PING" ,  Moonlighter::MsgId::PING_SMOL_PONG_TLM_ID) %>
+  APPEND_ITEM TIME 256 STRING  "TODO: FILL ME IN"
+TELEMETRY PING SPAM <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "PING" ,  Moonlighter::MsgId::PING_SPAM_TLM_ID) %>
+  APPEND_ARRAY_ITEM KB 8 UINT 8096 "TODO: FILL ME IN"

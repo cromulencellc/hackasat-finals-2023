@@ -1,0 +1,212 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+header {
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* Separate container for Challenges section */
+.challenges-container {
+    margin-bottom: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Additional Styling */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Display sections in a row */
+.other-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*
+
+/* Set width for each section */
+section {
+    width: 30%;
+}
+
+/* Adjust About Us section width */
+section#challenges {
+    width: 100%;
+}
+
+/* Add some geometry and styling for sections */
+section {
+    position: relative;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Darken the section background color */
+section:nth-child(odd) {
+    background-color: #333;
+}
+
+/* Add some widgets */
+blockquote {
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+blockquote p {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #bbb;
+}
+
+/* Add some buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the satellite image */
+.satellite-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/** parallax background **/
+.wrapper{
+	background: urL("/hasback-1-scaled.jpeg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+  min-height: 1500px;
+}
+
+.adminlink {
+
+  text-align: right;
+  
+}
+
+.wrapper::before {
+	content: ' ';
+	background: url("/hasbackstars-1.svg");
+	background-position: top center;
+	background-size: cover;
+	background-attachment: scroll;
+	/* top: var(--mouse-y);
+	left: var(--mouse-x); */
+  top: 0;
+	left: 0;
+
+	bottom: 0;
+	right: 0;
+	position: absolute;
+  z-index: -1;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+/* Primary button style */
+.button.primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.button.primary:hover {
+    background-color: #0056b3;
+}
+
+/* Secondary button style */
+.button.secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.button.secondary:hover {
+    background-color: #545b62;
+}
+
+.logo {
+
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Status</title>
+    <link rel="stylesheet" href="admin.css">
+
+</head>
+<body>
+    <!-- <script type="module"> import { setsystemstatus, setsystemconfig} from "./src/admin.js"</script> -->
+
+    <h1>Server Status</h1>
+
+    <button id="systemstat">System Status</button>
+    <button id="config">System Config</button>
+
+    <hr>
+    <div id="response"></div>
+
+    <script type="module">
+        import { setsystemstatus, setsystemconfig } from "../src/admin.js";
+
+        document.querySelector('#systemstat').addEventListener('click', setsystemstatus);
+        document.querySelector('#config').addEventListener('click', setsystemconfig)
+
+        
+    </script>
+
+</body>
+</html>

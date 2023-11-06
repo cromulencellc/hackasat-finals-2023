@@ -1,0 +1,14 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY ATTITUDE HOUSEKEEPING <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "ATTITUDE" ,  Moonlighter::MsgId::ATTITUDE_HOUSEKEEPING_TLM_ID) %>
+  APPEND_ITEM ACCEPTED 32 UINT  "TODO: FILL ME IN"
+  APPEND_ITEM REJECTED 32 UINT  "TODO: FILL ME IN"
+  APPEND_ITEM BLIND_SEC 32 UINT  "TODO: FILL ME IN"
+TELEMETRY ATTITUDE ATTITUDE_COMMAND <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "ATTITUDE" ,  Moonlighter::MsgId::ATTITUDE_ATTITUDE_COMMAND_TLM_ID) %>
+  APPEND_ARRAY_ITEM Q_AXIS 64 FLOAT 192 "quaternion axis x-y-z"
+  APPEND_ITEM Q_SCALAR 64 FLOAT  "quaternion scalar"

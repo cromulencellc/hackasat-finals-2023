@@ -1,0 +1,37 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY FILEZ RESPONSE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "FILEZ" ,  Moonlighter::MsgId::FILEZ_RESPONSE_TLM_ID) %>
+  APPEND_ITEM PATH 512 STRING  "file name"
+  APPEND_ITEM TOTAL_FILE_SIZE 32 UINT  "files size in bytes"
+  APPEND_ITEM CURRENT_SHA 256 STRING  "file SHA256"
+TELEMETRY FILEZ RESPONSE_SHORT <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "FILEZ" ,  Moonlighter::MsgId::FILEZ_RESPONSE_SHORT_TLM_ID) %>
+  APPEND_ITEM PATH 512 STRING  "file name"
+  APPEND_ITEM TOTAL_FILE_SIZE 32 UINT  "files size in bytes"
+  APPEND_ITEM CRC32 32 UINT  "CRC32 of just this snippet packet data"
+TELEMETRY FILEZ FILE_LIST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "FILEZ" ,  Moonlighter::MsgId::FILEZ_FILE_LIST_TLM_ID) %>
+  APPEND_ITEM PATH_0 512 STRING  "File path"
+  APPEND_ITEM SIZE_0 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_1 512 STRING  "File path"
+  APPEND_ITEM SIZE_1 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_2 512 STRING  "File path"
+  APPEND_ITEM SIZE_2 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_3 512 STRING  "File path"
+  APPEND_ITEM SIZE_3 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_4 512 STRING  "File path"
+  APPEND_ITEM SIZE_4 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_5 512 STRING  "File path"
+  APPEND_ITEM SIZE_5 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_6 512 STRING  "File path"
+  APPEND_ITEM SIZE_6 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_7 512 STRING  "File path"
+  APPEND_ITEM SIZE_7 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_8 512 STRING  "File path"
+  APPEND_ITEM SIZE_8 32 UINT  "file size in bytes"
+  APPEND_ITEM PATH_9 512 STRING  "File path"
+  APPEND_ITEM SIZE_9 32 UINT  "file size in bytes"

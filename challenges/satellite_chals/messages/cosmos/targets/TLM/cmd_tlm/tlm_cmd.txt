@@ -1,0 +1,32 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND TLM NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 0, 0) %>
+COMMAND TLM RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 1, 0) %>
+COMMAND TLM CLEAR <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 2, 0) %>
+COMMAND TLM DEFAULT_FILTERS <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 3, 0) %>
+COMMAND TLM MODIFY_FILTER <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 4, 7) %>
+  APPEND_PARAMETER APID 16 UINT  0 2048 0 "filter message apid"
+  APPEND_PARAMETER DEPTH 16 UINT  0 512 0 "filter message depth"
+  APPEND_PARAMETER DECIMATION 8 UINT  0 255 0 "filter message decimation"
+  APPEND_PARAMETER ALLOWED 8 UINT  0 1 0 "filter message allowed"
+  APPEND_PARAMETER QUEUE 8 UINT  0 255 0 "filter message destination queue"
+COMMAND TLM FILTER_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 5, 2) %>
+  APPEND_PARAMETER APID 16 UINT  0 2048 0 "TODO: FILL ME IN"
+COMMAND TLM SAVE_BUFFER <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 6, 1) %>
+  APPEND_PARAMETER BUFFER_ID 8 UINT  0 10 0 "filter request message apid"
+COMMAND TLM RESTORE_BUFFER <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 7, 1) %>
+  APPEND_PARAMETER BUFFER_ID 8 UINT  0 10 0 "filter request message apid"
+COMMAND TLM BUFFER_REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("TLM", Moonlighter::MsgId::TLM_CMD_ID, 8, 1) %>
+  APPEND_PARAMETER BUFFER_ID 8 UINT  0 10 0 "filter request message apid"

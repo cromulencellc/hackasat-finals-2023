@@ -1,0 +1,149 @@
+2023-06-29 20:31:43.621000+00:00 - Vito: # Welcome to Hack-A-Sat Finals chat!
+
+1. These guidelines do not supersede the official rules; they’re here to make chatting in Slack useful and productive for all of us.
+2. The goals of these channels are to address hardware, infrastructure, and other gameplay issues.
+3. You should have access to both #finals-2023 and #finals-2023-TEAMNAME . Please let Mission Control know if you don’t! Do that now!
+4. All #finals-2023 and #finals-2023-TEAMNAME conversations will be made public after the game ends. Don’t chat anything you wish to keep private. Don’t chat personally identifiable information.
+5. Please be thoughtful with which team members engage in communication with organizers. While we don’t want your team to miss important details due to someone taking a break or being busy, we also don’t want to spend a bunch of time getting confused or de-conflicting what more people want. 
+6. That said, it’s totally okay to have your whole team in both the #finals-2023 and #finals-2023-TEAMNAME rooms reading.
+7. Sending private or direct messages to a game operator will make it more difficult for operators and other members of your team to know what’s going on. Please don’t. 
+8. Both #finals-2023 and #finals-2023-TEAMNAME can be used for official communication through the end of Hack-A-Sat finals. shout@hackasat.com is also still available for official communication. 
+9. Please review the contest rules and keep an eye out for updates at https://www.hackasat.com/
+2023-06-29 20:33:19.447000+00:00 - Vito: @krautsat
+2023-06-30 09:37:04.473000+00:00 - intrigus: @Vito please add @2<3 to the channels.
+Also, @mission control does not appear to be pingable.
+2023-06-30 11:03:44.015000+00:00 - intrigus: Same for @spq
+2023-06-30 14:48:15.912000+00:00 - Vito: done
+2023-07-01 13:44:12.310000+00:00 - intrigus: Please add @s1nn105 @mission control
+2023-07-03 16:52:59.126000+00:00 - intrigus: Please add @newton @mission control
+2023-07-28 15:31:13.813000+00:00 - Vito: @manf got your public key, have time to get it checked out?
+2023-07-28 15:31:36.209000+00:00 - Vito: <t:1690574400:f> would work for me
+2023-07-28 15:57:09.124000+00:00 - manf: Could you please add @JinaJita to the channel? She will do the network testing, so please coordinate the details with her. The time should be fine
+2023-07-28 15:57:29.517000+00:00 - Vito: done
+2023-07-28 16:00:10.154000+00:00 - JinaJita: I will be then one with responsible for the wire guard. Today at 10 pm Berlin time works for me as well.
+2023-08-11 01:39:21.291000+00:00 - manf: Question: Will the satellite start in a defined rotation state on each time slot? (It seems like this would be needed to guarantee no Z-axis rotation) @mission control
+2023-08-11 15:30:37.649000+00:00 - Diƒƒ-fusion: Please add @p4ck3t0 @mission control
+2023-08-11 15:33:40.539000+00:00 - Vito: done
+2023-08-11 16:00:18.698000+00:00 - Cydonia: Good morning.
+Your api key is fox-bastion-nerdy-xilinx
+2023-08-11 16:10:18.512000+00:00 - manf: @mission control is the goal for "script kiddie" to execute example.lua ?
+2023-08-11 16:15:17.896000+00:00 - SirGoon: See finals-2023 channel
+2023-08-11 16:19:33.596000+00:00 - Sebastien B: Can you confirm if Christmas In August is solved by getting the sat's GPS to provide a latitude over 80deg in telemetry? @mission control
+2023-08-11 16:20:18.573000+00:00 - Vito: seen
+2023-08-11 16:25:47.522000+00:00 - JinaJita: I am trying to reset my regatta passowrd for hackasat@updownup.de , but it says bad request
+2023-08-11 16:32:04.098000+00:00 - PistonMiner: For shutterbug, do we need to take a picture of any target once and get points once and that's it, or can we get repeat points for taking multiple images of different targets?
+2023-08-11 16:32:13.422000+00:00 - PistonMiner: Further, is there a minimum elevation requirement for shutterbug?
+2023-08-11 16:32:38.410000+00:00 - Sebastien B: @mission control
+2023-08-11 16:35:25.844000+00:00 - p4ck3t0: When we start the provided Docker container `registry.jato.satellitesabove.us/has4/finals/hackasat-riscv/riscv-qemu`, we get the following error:
+
+```
+Start Emulation with images at: /images
+Could not find bios elf file: /images/bios.elf
+```
+
+Is this intended? @mission control
+2023-08-11 16:55:02.411000+00:00 - PistonMiner: Are any pointing operations possible outside of the ACB window of 1am-11am Saturday morning?
+2023-08-11 16:57:55.759000+00:00 - JinaJita: Are network scans on the http://challenges.dc31.satellitesabove.me host in scope?
+2023-08-11 17:01:53.906000+00:00 - intrigus: **Remember that everything posted here, will be made public afterwards.**
+> All ⁠finals-2023 and ⁠finals-2023-TEAMNAME conversations will be made public after the game ends. Don’t chat anything you wish to keep private. Don’t chat personally identifiable information.
+2023-08-11 17:07:17.488000+00:00 - Vito: is this regarding anything?
+2023-08-11 17:08:20.367000+00:00 - meenmachine: Intended. See finals-2023. Sorry for the late response
+2023-08-11 17:13:13.598000+00:00 - intrigus: No, just that people that joined later maybe did not read your message in detail 🙂
+2023-08-11 17:27:29.570000+00:00 - JinaJita: Are the images for the docker container provided somewhere or do we have to make them up?
+2023-08-11 17:30:14.449000+00:00 - meenmachine: My bad, by images do you mean rootfs etc?
+2023-08-11 17:33:18.227000+00:00 - JinaJita: I mean the bios.elf, the flash image and the fram image referneced in the run_qemu script
+2023-08-11 17:39:56.369000+00:00 - meenmachine: Gotcha. My bad for the late response. I posted the answer in finals @JinaJita
+2023-08-11 17:40:14.387000+00:00 - JinaJita: thx
+2023-08-11 18:27:25.441000+00:00 - Cydonia: Feedback on your scripts this script would have generated an extra gps telemetry packet at the time it was triggered and would have completed running. the print statements would go to the log that we would have provided to you after the next contact
+2023-08-11 18:30:38.988000+00:00 - Peace-Maker: internal server error when trying to submit flags 😦
+2023-08-11 18:31:01.908000+00:00 - Deadwood: Waiting on Vito to get back.
+2023-08-11 18:32:21.822000+00:00 - Vito: dm me the flag
+2023-08-11 18:32:31.719000+00:00 - manf: would we have gotten points for "Silver Medal" (or "Halide Medal" - whichever one that doesnt require breaking gps fencing)?
+2023-08-11 18:36:04.566000+00:00 - Cydonia: We will double check
+2023-08-11 19:11:12.180000+00:00 - Peace-Maker: We solved the password manager challenge and submitted the flag, but don't see the points on the scoreboard
+2023-08-11 19:11:20.474000+00:00 - Peace-Maker: should they show up somewhere?
+2023-08-11 19:11:38.603000+00:00 - SafeMode: message @Vito
+2023-08-11 19:13:18.500000+00:00 - Vito: that's intended; rounds only start/end when a blackout starts
+2023-08-11 19:24:40.878000+00:00 - meenmachine: @Peace-Maker Can you give me a dump of what you see when you solve it as well please?
+2023-08-11 19:31:50.459000+00:00 - Peace-Maker: running the exploit or after submitting the flag?
+2023-08-11 19:46:12.191000+00:00 - meenmachine: Running the exploit please
+2023-08-11 19:55:37.412000+00:00 - Peace-Maker: ```
+$ while true; do python passwordmanager.py DEBUG 2>/dev/null | grep flag; done
+    b'1: flag\n'
+    b'1: flag\n'
+    b'flag: flag{JRJLUim7NCAcflVj}\n'
+    b'1: flag\n'
+    b'1: flag\n'
+    b'1: flag\n'
+    b'1: flag\n'
+    b'1: flag\n'
+    b'1: flag\n'
+    b'1: flag\n'
+    b'1: flag\n'
+^C
+```
+2023-08-11 20:05:00.831000+00:00 - meenmachine: Awesome. Thank you
+2023-08-11 20:28:39.893000+00:00 - JinaJita: Does the example.lua script run on the sat as is?
+2023-08-11 20:28:47.684000+00:00 - JinaJita: @mission control
+2023-08-11 20:32:49.402000+00:00 - Peace-Maker: can you give an answer for this please? should we take multiple pictures over multiple sessions or is a single one enough?
+2023-08-11 20:34:29.643000+00:00 - Peace-Maker: since pointing the satellite should be done during the night, can you confirm that we cannot solve any challenges involving pointing of satellite right now?
+2023-08-11 20:35:03.592000+00:00 - Peace-Maker: or more specific, which challenges cannot be solved until the night?
+2023-08-11 20:36:24.398000+00:00 - SafeMode: the two imaging challenges can only be solved overnight
+2023-08-11 20:36:46.286000+00:00 - SafeMode: these both require satellite pointing so can only be solved then
+2023-08-11 20:37:00.349000+00:00 - SafeMode: yes
+2023-08-11 20:44:37.683000+00:00 - Peace-Maker: for the ironbank challenge, is it ok to try to use the `load_script` and `download_script` endpoints to access scripts of other teams? or is it scoped per team too?
+2023-08-11 20:45:49.082000+00:00 - SafeMode: yes
+2023-08-11 20:48:47.394000+00:00 - Peace-Maker: ah, sorry, is it scoped or ok to access other team's scripts?
+2023-08-11 20:50:49.958000+00:00 - Cydonia: You may use load_script or download_script if you want to
+2023-08-11 20:50:52.447000+00:00 - PistonMiner: Can you confirm that intent for "unintended bug" is to find issue in geofence.so?
+2023-08-11 20:51:53.547000+00:00 - PistonMiner: Also can you please confirm whether for the imaging challenge we get more points for more targets or just one shot points for imaging any target
+2023-08-11 20:54:00.691000+00:00 - Cydonia: figuring out how to beat the geofence is part of the challenge and we cant give you any more info
+2023-08-11 20:54:19.988000+00:00 - Cydonia: we will clarify this in finals-2023
+2023-08-11 20:56:01.639000+00:00 - JinaJita: How is the lua script executed on the sat? With what arguments, like how is the lib passed to the script?
+2023-08-11 20:56:15.157000+00:00 - SafeMode: which lib?
+2023-08-11 20:58:39.178000+00:00 - SafeMode: we need some clarification to answer this
+2023-08-11 20:59:15.072000+00:00 - JinaJita: The udp library and the print library which should be passed as argument
+2023-08-11 21:03:38.870000+00:00 - SafeMode: You may use those as lua calls as shown in example. Past that is out of scope for your scripts being executed
+2023-08-11 21:04:53.076000+00:00 - SafeMode: I can come by and clarify more if needed
+2023-08-11 21:05:23.799000+00:00 - JinaJita: That would be great
+2023-08-11 21:13:20.324000+00:00 - SafeMode: @JinaJita did you see my messages in @finals-2023
+2023-08-11 21:16:10.099000+00:00 - JinaJita: Yes and thanks again!
+2023-08-11 21:33:02.115000+00:00 - manf: is it intended that other teams can view the whole script output? we have some prints in there that are pretty large hints to the solution..
+2023-08-11 21:41:05.678000+00:00 - manf: @mission control
+2023-08-11 21:42:11.826000+00:00 - meenmachine: Yes
+2023-08-11 21:42:56.769000+00:00 - manf: was this communicated? the example message is "This will now go to a log that admin can download" which lead me to the assumption that this isn't public
+2023-08-11 21:47:59.576000+00:00 - manf: if I dropped the ball here and it was communicated e.g. during captain's meeting, our bad. but if not I'd kindly request not to distribute the telemetry for the currently running tick to other teams, as it basically contains a list of commands for our attempt at "Christmas In August". we assumed that the output would stay private due to above example message plus the communication that "command metadata" (like the script content) would not be given to other teams
+2023-08-11 21:57:01.076000+00:00 - meenmachine: Hey we’re currently discussing this.
+2023-08-11 22:16:50.095000+00:00 - manf: Thank you very much!
+2023-08-11 22:23:46.400000+00:00 - PistonMiner: What FOV does the camera have?
+2023-08-11 22:24:02.074000+00:00 - PistonMiner: And what exactly counts as a photo of a geofenced area for purposes of unintended bug?
+2023-08-11 22:25:18.491000+00:00 - PistonMiner: (as in, what exact conditions does the photo have to fulfill to score)
+2023-08-11 23:06:22.740000+00:00 - spaceymcspaceface40: Posted in @finals-2023
+2023-08-11 23:06:26.583000+00:00 - PistonMiner: ty
+2023-08-12 01:19:14.548000+00:00 - manf: @mission control are the quaternions in the quaternion plan x-y-z-s or s-x-y-z (if a quaternion has the form `s+x*i+y*j+z*k`)?
+2023-08-12 02:50:11.003000+00:00 - meenmachine: Here are your script logs
+2023-08-12 02:55:22.967000+00:00 - manf: any chance for infos on if some challenge was scored during that run? (the network is down for us - but understandable if that info's only available in the morning)
+2023-08-12 04:15:17.547000+00:00 - Cydonia: Scores are on the scoring page? are you able not able to access?
+2023-08-12 04:20:34.797000+00:00 - manf: regatta.2023.hackasat.com seems down to us right now
+2023-08-12 04:20:54.033000+00:00 - manf: (or do you mean another scoring page?)
+2023-08-12 04:22:58.606000+00:00 - SafeMode: does this give you the information you are looking for https://hackasat.com/
+2023-08-12 04:23:55.932000+00:00 - manf: ah thanks, never thought to look at the public one
+2023-08-12 04:30:12.745000+00:00 - manf: quick clarification question if you still have time: does " This challenge can be scored once." actually mean in the whole game (not per round/window)?
+2023-08-12 04:32:41.479000+00:00 - SafeMode: the whole game
+2023-08-12 16:34:23.648000+00:00 - manf: hey could you quickly confirm that there's no telemetry for us in #44 and none to come?
+2023-08-12 17:06:28.239000+00:00 - SafeMode: @manf what is your question sorry?
+2023-08-12 17:06:40.114000+00:00 - SafeMode: which TLM are you asking about?
+2023-08-12 17:07:19.056000+00:00 - manf: the script output, just wanted to check that that was complete
+2023-08-12 17:08:14.142000+00:00 - Sebastien B: We encrypted this one so in case you have a "strings" somewhere, we would need raw data
+2023-08-12 17:09:04.215000+00:00 - manf: should be all ASCII
+2023-08-12 17:09:49.964000+00:00 - SafeMode: was this for window 44 or window 46
+2023-08-12 17:11:01.794000+00:00 - manf: 44, the one that got posted 15 mins back - it doesn't have any output from us, but it's definitely possible that that's a problem with our scripts
+2023-08-12 17:13:54.889000+00:00 - SafeMode: ok we are looking it it to make sure we have no error on our side, standby
+2023-08-12 19:31:54.058000+00:00 - manf: @mission control  is there a timeout for the script except for end-of-window?
+2023-08-12 19:32:29.707000+00:00 - SafeMode: no just end of window
+2023-08-12 21:18:51.030000+00:00 - manf: does taking a picture interfere with downloading one to the flight computer?
+2023-08-12 21:35:58.198000+00:00 - manf: @mission control
+2023-08-12 21:41:56.776000+00:00 - SafeMode: They are serial actions. One occurs after the other.
+2023-08-12 23:48:50.583000+00:00 - manf: do you have some exact values for the image downlink duration? we're wondering how large the chance of successful transfer is for, e.g.,  4 minutes 40 seconds instead of the given 5 minutes @mission control
+2023-08-12 23:53:57.055000+00:00 - manf: and a final clarification question, does "halide medal" need a geofenced point *from the target list* or just any point in the geofence (i.e., is it unsolvable without attitude control like "unintended bug")?
+2023-08-13 00:06:50.818000+00:00 - Cydonia: its a picture of a geofenced target - not anywhere in the geofence

@@ -1,0 +1,40 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY GEOFENCE GEOFENCE_ZONE <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "GEOFENCE" ,  Moonlighter::MsgId::GEOFENCE_GEOFENCE_ZONE_TLM_ID) %>
+  APPEND_ITEM NAME 256 STRING  "TODO: FILL ME IN"
+  APPEND_ITEM N_ZONES 8 UINT  "TODO: FILL ME IN"
+  APPEND_ITEM LAT_0 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_0 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_1 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_1 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_2 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_2 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_3 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_3 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_4 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_4 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_5 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_5 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_6 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_6 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_7 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_7 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_8 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_8 64 FLOAT  "longitude of point"
+  APPEND_ITEM LAT_9 64 FLOAT  "latitude of point"
+  APPEND_ITEM LON_9 64 FLOAT  "longitude of point"
+TELEMETRY GEOFENCE REJECTED <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "GEOFENCE" ,  Moonlighter::MsgId::GEOFENCE_REJECTED_TLM_ID) %>
+  APPEND_ITEM TAI 64 FLOAT  "TODO: FILL ME IN"
+  APPEND_ITEM NAME 256 STRING  "TODO: FILL ME IN"
+TELEMETRY GEOFENCE SNAP_META <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "GEOFENCE" ,  Moonlighter::MsgId::GEOFENCE_SNAP_META_TLM_ID) %>
+  APPEND_ITEM TIME_JD 64 FLOAT  "TODO: FILL ME IN"
+  APPEND_ARRAY_ITEM GPS_POSITION 32 FLOAT 96 "TODO: FILL ME IN"
+  APPEND_ARRAY_ITEM Q_AXIS 32 FLOAT 96 "TODO: FILL ME IN"
+  APPEND_ITEM Q_SCALAR 32 FLOAT  "TODO: FILL ME IN"
+  APPEND_ITEM TEAM 128 STRING  "TODO: FILL ME IN"

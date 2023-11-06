@@ -1,0 +1,18 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND ATTITUDE NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("ATTITUDE", Moonlighter::MsgId::ATTITUDE_CMD_ID, 0, 0) %>
+COMMAND ATTITUDE RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("ATTITUDE", Moonlighter::MsgId::ATTITUDE_CMD_ID, 1, 0) %>
+COMMAND ATTITUDE CONFIG <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("ATTITUDE", Moonlighter::MsgId::ATTITUDE_CMD_ID, 2, 11) %>
+  APPEND_PARAMETER MAX_BLIND 64 FLOAT  60 1200 600 "seconds"
+  APPEND_PARAMETER FRAME_COUNT 16 UINT  0 120 10 "pps frames per attitude request"
+  APPEND_PARAMETER ENABLED 8 UINT  0 1 0 "1 is enabled"
+COMMAND ATTITUDE REQUEST <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("ATTITUDE", Moonlighter::MsgId::ATTITUDE_CMD_ID, 3, 32) %>
+  APPEND_ARRAY_PARAMETER Q_AXIS 64 FLOAT 192   "quaternion axis x-y-z"
+  APPEND_PARAMETER Q_SCALAR 64 FLOAT  -1.0 1.0 1.0 "quaternion scalar"

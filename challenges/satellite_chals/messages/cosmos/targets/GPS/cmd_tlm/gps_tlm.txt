@@ -1,0 +1,21 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+TELEMETRY GPS ECEF <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "GPS" ,  Moonlighter::MsgId::GPS_ECEF_TLM_ID) %>
+  APPEND_ARRAY_ITEM POSITION 64 FLOAT 192 "TODO: FILL ME IN"
+TELEMETRY GPS GEODETIC <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.tlm_hdr( "GPS" ,  Moonlighter::MsgId::GPS_GEODETIC_TLM_ID) %>
+  APPEND_ITEM LONGITUDE 32 FLOAT  "TODO: FILL ME IN"
+  APPEND_ITEM LATITUDE 32 FLOAT  "TODO: FILL ME IN"
+  APPEND_ITEM ALTITUDE 32 FLOAT  "km"
+  APPEND_ITEM DEV_LAT 32 FLOAT  "km"
+  APPEND_ITEM DEV_LON 32 FLOAT  "km"
+  APPEND_ITEM DEV_ALT 32 FLOAT  "km"
+  APPEND_ITEM SOLN_AGE 32 FLOAT  "age of soln in seconds"
+  APPEND_ITEM SATS_TRACKED 8 UINT  "Satellites tracked by receiver"
+  APPEND_ITEM SATS_SOLN 8 UINT  "TODO: FILL ME IN"
+  APPEND_ITEM SOLUTION_INFO 256 STRING  "State of solution info"
+  APPEND_ITEM DATUM 128 STRING  "coordinate transformation"

@@ -1,0 +1,17 @@
+<%
+  require 'osk_config'
+  require 'osk_global'
+  require 'app_msg_ids'
+%>
+COMMAND PING NO_OP <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("PING", Moonlighter::MsgId::PING_CMD_ID, 0, 0) %>
+COMMAND PING RESET <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("PING", Moonlighter::MsgId::PING_CMD_ID, 1, 0) %>
+COMMAND PING SMOL_PING <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("PING", Moonlighter::MsgId::PING_CMD_ID, 2, 0) %>
+COMMAND PING PING <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("PING", Moonlighter::MsgId::PING_CMD_ID, 3, 256) %>
+  APPEND_PARAMETER DATA 2048 STRING   "default" "TODO: FILL ME IN"
+COMMAND PING SPAM_REQ <%= Osk::Cfg.processor_endian %> "TODO: FILL ME IN"
+  <%= Osk::Cfg.cmd_hdr("PING", Moonlighter::MsgId::PING_CMD_ID, 4, 2) %>
+  APPEND_PARAMETER N_TO_SPAM 16 UINT  MIN_UINT16 MAX_UINT16 0 "TODO: FILL ME IN"
